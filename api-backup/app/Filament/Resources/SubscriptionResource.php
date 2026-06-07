@@ -51,8 +51,7 @@ class SubscriptionResource extends Resource
                 Tables\Columns\TextColumn::make('plan'),
                 Tables\Columns\TextColumn::make('start_date')->date()->sortable(),
                 Tables\Columns\TextColumn::make('end_date')->date()->sortable(),
-                Tables\Columns\TextColumn::make('status')
-                    ->badge()
+                Tables\Columns\BadgeColumn::make('status')
                     ->colors([
                         'success' => 'active',
                         'danger'  => 'expired',
@@ -75,24 +74,6 @@ class SubscriptionResource extends Resource
                     ->color('danger')
                     ->requiresConfirmation()
                     ->action(fn ($record) => $record->update(['status' => 'expired', 'end_date' => now()])),
-                Action::make('changePlan')
-                    ->label('Change Plan')
-                    ->icon('heroicon-o-pencil')
-                    ->form([
-                        Forms\Components\Select::make('plan')
-                            ->options([
-                                'trial'      => 'Trial',
-                                'monthly'    => 'Monthly',
-                                'quarterly'  => 'Quarterly',
-                                'semiannual' => 'Semi-Annual',
-                                'annual'     => 'Annual',
-                                'lifetime'   => 'Lifetime',
-                            ])->required()
-                    ])
-                    ->action(function ($record, array $data) {
-                        $record->update(['plan' => $data['plan']]);
-                        $record->activationCode->update(['plan' => $data['plan']]);
-                    }),
             ]);
     }
 

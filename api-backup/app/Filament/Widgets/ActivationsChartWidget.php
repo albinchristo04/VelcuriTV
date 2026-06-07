@@ -2,7 +2,7 @@
 
 namespace App\Filament\Widgets;
 
-use App\Models\Subscription;
+use App\Models\ActivationCode;
 use Filament\Widgets\ChartWidget;
 use Illuminate\Support\Carbon;
 
@@ -16,7 +16,8 @@ class ActivationsChartWidget extends ChartWidget
             $date = Carbon::today()->subDays($daysAgo);
             return [
                 'date'  => $date->format('M j'),
-                'count' => Subscription::whereDate('created_at', $date)
+                'count' => ActivationCode::whereDate('updated_at', $date)
+                    ->where('status', 'active')
                     ->count(),
             ];
         });

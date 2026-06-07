@@ -56,8 +56,7 @@ class ActivationCodeResource extends Resource
                     ->copyable()
                     ->badge()
                     ->searchable(),
-                Tables\Columns\TextColumn::make('plan')
-                    ->badge()
+                Tables\Columns\BadgeColumn::make('plan')
                     ->colors([
                         'gray'    => 'trial',
                         'primary' => 'monthly',
@@ -66,8 +65,7 @@ class ActivationCodeResource extends Resource
                         'success' => 'annual',
                         'warning' => 'lifetime',
                     ]),
-                Tables\Columns\TextColumn::make('status')
-                    ->badge()
+                Tables\Columns\BadgeColumn::make('status')
                     ->colors([
                         'gray'    => 'unused',
                         'success' => 'active',

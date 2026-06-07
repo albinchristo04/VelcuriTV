@@ -35,7 +35,7 @@ class AnalyticsController extends Controller
             'extension_name' => $request->extension_name,
             'country'        => $request->country,
             'app_version'    => $request->app_version,
-            'meta'           => $request->meta,
+            'meta'           => $request->meta ? json_encode($request->meta) : null,
         ]);
 
         return response()->json(['success' => true]);
