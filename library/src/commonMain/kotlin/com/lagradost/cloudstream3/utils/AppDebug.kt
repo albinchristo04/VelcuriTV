@@ -1,6 +1,6 @@
-package com.lagradost.cloudstream3.utils
+package io.velcuri.tv.utils
 
-import com.lagradost.cloudstream3.InternalAPI
+import io.velcuri.tv.InternalAPI
 import kotlin.concurrent.Volatile
 
 @InternalAPI

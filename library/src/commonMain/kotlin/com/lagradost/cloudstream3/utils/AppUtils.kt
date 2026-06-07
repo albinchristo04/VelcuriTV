@@ -1,10 +1,10 @@
-package com.lagradost.cloudstream3.utils
+package io.velcuri.tv.utils
 
 import com.fasterxml.jackson.module.kotlin.readValue
-import com.lagradost.cloudstream3.InternalAPI
-import com.lagradost.cloudstream3.json
-import com.lagradost.cloudstream3.mapper
-import com.lagradost.cloudstream3.mvvm.logError
+import io.velcuri.tv.InternalAPI
+import io.velcuri.tv.json
+import io.velcuri.tv.mapper
+import io.velcuri.tv.mvvm.logError
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.InternalSerializationApi
 import kotlinx.serialization.KSerializer

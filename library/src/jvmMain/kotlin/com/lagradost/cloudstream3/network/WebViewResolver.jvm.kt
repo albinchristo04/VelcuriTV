@@ -1,7 +1,7 @@
-package com.lagradost.cloudstream3.network
+package io.velcuri.tv.network
 
-import com.lagradost.cloudstream3.mvvm.debugException
-import com.lagradost.cloudstream3.mvvm.logError
+import io.velcuri.tv.mvvm.debugException
+import io.velcuri.tv.mvvm.logError
 import com.lagradost.nicehttp.requestCreator
 import okhttp3.Interceptor
 import okhttp3.Request

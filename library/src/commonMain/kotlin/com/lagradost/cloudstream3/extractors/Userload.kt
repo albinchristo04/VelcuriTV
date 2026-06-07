@@ -1,8 +1,8 @@
-package com.lagradost.cloudstream3.extractors
+package io.velcuri.tv.extractors
 
-import com.lagradost.cloudstream3.utils.ExtractorLink
-import com.lagradost.cloudstream3.app
-import com.lagradost.cloudstream3.utils.*
+import io.velcuri.tv.utils.ExtractorLink
+import io.velcuri.tv.app
+import io.velcuri.tv.utils.*
 import org.mozilla.javascript.Context
 import org.mozilla.javascript.EvaluatorException
 import org.mozilla.javascript.Scriptable

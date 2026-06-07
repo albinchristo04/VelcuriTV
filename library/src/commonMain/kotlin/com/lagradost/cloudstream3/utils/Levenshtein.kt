@@ -22,9 +22,9 @@
  * SOFTWARE.
  */
 
-package com.lagradost.cloudstream3.utils
+package io.velcuri.tv.utils
 
-import com.lagradost.cloudstream3.Prerelease
+import io.velcuri.tv.Prerelease
 import kotlin.math.round
 
 // Taken from https://github.com/terrakok/FuzzyKot/blob/f794d43/fuzzykot/src/commonMain/kotlin/com/github/terrakok/fuzzykot/Levenshtein.kt

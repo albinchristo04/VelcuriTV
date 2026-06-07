@@ -1,13 +1,13 @@
-package com.lagradost.cloudstream3.extractors
+package io.velcuri.tv.extractors
 
 import com.google.gson.JsonParser
 import com.lagradost.api.Log
-import com.lagradost.cloudstream3.SubtitleFile
-import com.lagradost.cloudstream3.app
-import com.lagradost.cloudstream3.base64Decode
-import com.lagradost.cloudstream3.utils.ExtractorApi
-import com.lagradost.cloudstream3.utils.ExtractorLink
-import com.lagradost.cloudstream3.utils.loadExtractor
+import io.velcuri.tv.SubtitleFile
+import io.velcuri.tv.app
+import io.velcuri.tv.base64Decode
+import io.velcuri.tv.utils.ExtractorApi
+import io.velcuri.tv.utils.ExtractorLink
+import io.velcuri.tv.utils.loadExtractor
 import java.net.URI
 
 class Techinmind: GDMirrorbot() {

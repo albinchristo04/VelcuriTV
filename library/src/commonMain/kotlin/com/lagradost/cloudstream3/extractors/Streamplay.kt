@@ -1,12 +1,12 @@
-package com.lagradost.cloudstream3.extractors
+package io.velcuri.tv.extractors
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.lagradost.cloudstream3.APIHolder.getCaptchaToken
-import com.lagradost.cloudstream3.ErrorLoadingException
-import com.lagradost.cloudstream3.SubtitleFile
-import com.lagradost.cloudstream3.app
-import com.lagradost.cloudstream3.utils.*
-import com.lagradost.cloudstream3.utils.AppUtils.tryParseJson
+import io.velcuri.tv.APIHolder.getCaptchaToken
+import io.velcuri.tv.ErrorLoadingException
+import io.velcuri.tv.SubtitleFile
+import io.velcuri.tv.app
+import io.velcuri.tv.utils.*
+import io.velcuri.tv.utils.AppUtils.tryParseJson
 import java.net.URI
 
 open class Streamplay : ExtractorApi() {

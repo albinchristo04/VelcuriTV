@@ -1,7 +1,7 @@
-package com.lagradost.cloudstream3.extractors
+package io.velcuri.tv.extractors
 
-import com.lagradost.cloudstream3.utils.*
-import com.lagradost.cloudstream3.app
+import io.velcuri.tv.utils.*
+import io.velcuri.tv.app
 
 class Evoload1 : Evoload() {
     override var mainUrl = "https://evoload.io"

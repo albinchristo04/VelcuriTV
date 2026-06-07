@@ -1,9 +1,9 @@
-package com.lagradost.cloudstream3.extractors
+package io.velcuri.tv.extractors
 
-import com.lagradost.cloudstream3.SubtitleFile
-import com.lagradost.cloudstream3.utils.ExtractorApi
-import com.lagradost.cloudstream3.utils.ExtractorLink
-import com.lagradost.cloudstream3.utils.loadExtractor
+import io.velcuri.tv.SubtitleFile
+import io.velcuri.tv.utils.ExtractorApi
+import io.velcuri.tv.utils.ExtractorLink
+import io.velcuri.tv.utils.loadExtractor
 import okhttp3.HttpUrl.Companion.toHttpUrl
 
 // deobfuscated from https://hglink.to/main.js?v=1.1.3 using https://deobfuscate.io/

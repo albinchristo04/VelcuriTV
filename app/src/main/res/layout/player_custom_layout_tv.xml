@@ -67,7 +67,7 @@
                 android:maxLines="2"
                 android:textColor="#B3FFFFFF"
                 android:textSize="14sp"
-                tools:text="Animation • Action • Adventure • 2025 • ⭐ 7.6" />
+                tools:text="Animation â€¢ Action â€¢ Adventure â€¢ 2025 â€¢ â­ 7.6" />
 
             <!-- SYNOPSIS -->
             <TextView
@@ -404,7 +404,7 @@
                         android:textColor="#B3FFFFFF"
                         android:textSize="16sp"
                         android:visibility="gone"
-                        tools:text="HEVC • English • 5.1 • E-AC3" />
+                        tools:text="HEVC â€¢ English â€¢ 5.1 â€¢ E-AC3" />
 
 
                     <FrameLayout
@@ -924,7 +924,7 @@
                             android:scaleType="centerCrop" />
                     </FrameLayout>
 
-                    <com.lagradost.cloudstream3.ui.player.live.LivePreviewTimeBar
+                    <io.velcuri.tv.ui.player.live.LivePreviewTimeBar
                         android:id="@id/exo_progress"
                         android:layout_width="0dp"
                         android:layout_height="30dp"

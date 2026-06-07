@@ -1,14 +1,14 @@
-package com.lagradost.cloudstream3.extractors.helper
+package io.velcuri.tv.extractors.helper
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.lagradost.api.Log
-import com.lagradost.cloudstream3.Prerelease
-import com.lagradost.cloudstream3.SubtitleFile
-import com.lagradost.cloudstream3.newSubtitleFile
-import com.lagradost.cloudstream3.utils.AppUtils.tryParseJson
-import com.lagradost.cloudstream3.utils.ExtractorLink
-import com.lagradost.cloudstream3.utils.M3u8Helper
-import com.lagradost.cloudstream3.utils.newExtractorLink
+import io.velcuri.tv.Prerelease
+import io.velcuri.tv.SubtitleFile
+import io.velcuri.tv.newSubtitleFile
+import io.velcuri.tv.utils.AppUtils.tryParseJson
+import io.velcuri.tv.utils.ExtractorLink
+import io.velcuri.tv.utils.M3u8Helper
+import io.velcuri.tv.utils.newExtractorLink
 import kotlin.collections.orEmpty
 
 @Prerelease

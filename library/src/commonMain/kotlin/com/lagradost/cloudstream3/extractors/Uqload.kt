@@ -1,11 +1,11 @@
-package com.lagradost.cloudstream3.extractors
+package io.velcuri.tv.extractors
 
-import com.lagradost.cloudstream3.utils.*
-import com.lagradost.cloudstream3.app
-import com.lagradost.cloudstream3.SubtitleFile
-import com.lagradost.cloudstream3.USER_AGENT
-import com.lagradost.cloudstream3.newSubtitleFile
-import com.lagradost.cloudstream3.utils.*
+import io.velcuri.tv.utils.*
+import io.velcuri.tv.app
+import io.velcuri.tv.SubtitleFile
+import io.velcuri.tv.USER_AGENT
+import io.velcuri.tv.newSubtitleFile
+import io.velcuri.tv.utils.*
 
 // import android.util.Log
 

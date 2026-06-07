@@ -1,15 +1,15 @@
 // ! Bu araç @Kraptor123 tarafından | @kekikanime için yazılmıştır.
-package com.lagradost.cloudstream3.extractors
+package io.velcuri.tv.extractors
 
-import com.lagradost.cloudstream3.SubtitleFile
-import com.lagradost.cloudstream3.USER_AGENT
-import com.lagradost.cloudstream3.app
-import com.lagradost.cloudstream3.base64Encode
-import com.lagradost.cloudstream3.utils.ExtractorApi
-import com.lagradost.cloudstream3.utils.ExtractorLink
-import com.lagradost.cloudstream3.utils.INFER_TYPE
-import com.lagradost.cloudstream3.utils.Qualities
-import com.lagradost.cloudstream3.utils.newExtractorLink
+import io.velcuri.tv.SubtitleFile
+import io.velcuri.tv.USER_AGENT
+import io.velcuri.tv.app
+import io.velcuri.tv.base64Encode
+import io.velcuri.tv.utils.ExtractorApi
+import io.velcuri.tv.utils.ExtractorLink
+import io.velcuri.tv.utils.INFER_TYPE
+import io.velcuri.tv.utils.Qualities
+import io.velcuri.tv.utils.newExtractorLink
 
 open class CloudMailRu : ExtractorApi() {
     override val name            = "CloudMailRu"

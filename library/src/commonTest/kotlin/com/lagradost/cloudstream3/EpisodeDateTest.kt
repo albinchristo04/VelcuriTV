@@ -1,4 +1,4 @@
-package com.lagradost.cloudstream3
+package io.velcuri.tv
 
 import kotlinx.datetime.LocalDate
 import kotlinx.datetime.LocalDateTime

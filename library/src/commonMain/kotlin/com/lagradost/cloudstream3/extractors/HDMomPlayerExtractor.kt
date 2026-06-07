@@ -1,13 +1,13 @@
 // ! Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
 
-package com.lagradost.cloudstream3.extractors
+package io.velcuri.tv.extractors
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.lagradost.api.Log
-import com.lagradost.cloudstream3.*
-import com.lagradost.cloudstream3.extractors.helper.AesHelper
-import com.lagradost.cloudstream3.utils.*
-import com.lagradost.cloudstream3.utils.AppUtils.parseJson
+import io.velcuri.tv.*
+import io.velcuri.tv.extractors.helper.AesHelper
+import io.velcuri.tv.utils.*
+import io.velcuri.tv.utils.AppUtils.parseJson
 
 open class HDMomPlayer : ExtractorApi() {
     override val name            = "HDMomPlayer"

@@ -1,11 +1,11 @@
-package com.lagradost.cloudstream3.utils
+package io.velcuri.tv.utils
 
 import androidx.annotation.AnyThread
 import androidx.annotation.MainThread
 import androidx.annotation.WorkerThread
-import com.lagradost.cloudstream3.Prerelease
-import com.lagradost.cloudstream3.mvvm.launchSafe
-import com.lagradost.cloudstream3.mvvm.logError
+import io.velcuri.tv.Prerelease
+import io.velcuri.tv.mvvm.launchSafe
+import io.velcuri.tv.mvvm.logError
 import kotlinx.coroutines.*
 
 @AnyThread

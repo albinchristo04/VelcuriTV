@@ -1,21 +1,21 @@
-package com.lagradost.cloudstream3.metaproviders
+package io.velcuri.tv.metaproviders
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.lagradost.cloudstream3.APIHolder.apis
-import com.lagradost.cloudstream3.APIHolder.getApiFromNameNull
-import com.lagradost.cloudstream3.ErrorLoadingException
-import com.lagradost.cloudstream3.LoadResponse
-import com.lagradost.cloudstream3.MovieLoadResponse
-import com.lagradost.cloudstream3.MovieSearchResponse
-import com.lagradost.cloudstream3.SearchResponseList
-import com.lagradost.cloudstream3.SubtitleFile
-import com.lagradost.cloudstream3.TvType
-import com.lagradost.cloudstream3.amap
-import com.lagradost.cloudstream3.mvvm.logError
-import com.lagradost.cloudstream3.toNewSearchResponseList
-import com.lagradost.cloudstream3.utils.AppUtils.toJson
-import com.lagradost.cloudstream3.utils.AppUtils.tryParseJson
-import com.lagradost.cloudstream3.utils.ExtractorLink
+import io.velcuri.tv.APIHolder.apis
+import io.velcuri.tv.APIHolder.getApiFromNameNull
+import io.velcuri.tv.ErrorLoadingException
+import io.velcuri.tv.LoadResponse
+import io.velcuri.tv.MovieLoadResponse
+import io.velcuri.tv.MovieSearchResponse
+import io.velcuri.tv.SearchResponseList
+import io.velcuri.tv.SubtitleFile
+import io.velcuri.tv.TvType
+import io.velcuri.tv.amap
+import io.velcuri.tv.mvvm.logError
+import io.velcuri.tv.toNewSearchResponseList
+import io.velcuri.tv.utils.AppUtils.toJson
+import io.velcuri.tv.utils.AppUtils.tryParseJson
+import io.velcuri.tv.utils.ExtractorLink
 
 class CrossTmdbProvider : TmdbProvider() {
     override var name = "MultiMovie"

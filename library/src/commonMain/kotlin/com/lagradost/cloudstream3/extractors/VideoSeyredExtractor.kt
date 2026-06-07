@@ -1,12 +1,12 @@
 // ! Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
 
-package com.lagradost.cloudstream3.extractors
+package io.velcuri.tv.extractors
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.lagradost.api.Log
-import com.lagradost.cloudstream3.*
-import com.lagradost.cloudstream3.utils.*
-import com.lagradost.cloudstream3.utils.AppUtils.tryParseJson
+import io.velcuri.tv.*
+import io.velcuri.tv.utils.*
+import io.velcuri.tv.utils.AppUtils.tryParseJson
 
 open class VideoSeyred : ExtractorApi() {
     override val name            = "VideoSeyred"

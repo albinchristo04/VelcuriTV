@@ -1,4 +1,4 @@
-package com.lagradost.cloudstream3.syncproviders
+package io.velcuri.tv.syncproviders
 
 enum class SyncIdName {
     Anilist,

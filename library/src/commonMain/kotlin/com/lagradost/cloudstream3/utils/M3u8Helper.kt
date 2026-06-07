@@ -1,8 +1,8 @@
-package com.lagradost.cloudstream3.utils
+package io.velcuri.tv.utils
 
 import com.lagradost.api.Log
-import com.lagradost.cloudstream3.ErrorLoadingException
-import com.lagradost.cloudstream3.app
+import io.velcuri.tv.ErrorLoadingException
+import io.velcuri.tv.app
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.delay
 import javax.crypto.Cipher

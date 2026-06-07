@@ -1,10 +1,10 @@
-package com.lagradost.cloudstream3.extractors
+package io.velcuri.tv.extractors
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.lagradost.cloudstream3.*
-import com.lagradost.cloudstream3.extractors.helper.AesHelper.cryptoAESHandler
-import com.lagradost.cloudstream3.utils.*
-import com.lagradost.cloudstream3.utils.AppUtils.tryParseJson
+import io.velcuri.tv.*
+import io.velcuri.tv.extractors.helper.AesHelper.cryptoAESHandler
+import io.velcuri.tv.utils.*
+import io.velcuri.tv.utils.AppUtils.tryParseJson
 import org.jsoup.nodes.Element
 
 class DatabaseGdrive2 : Gdriveplayer() {

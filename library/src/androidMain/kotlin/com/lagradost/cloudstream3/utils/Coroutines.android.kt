@@ -1,4 +1,4 @@
-package com.lagradost.cloudstream3.utils
+package io.velcuri.tv.utils
 
 import android.os.Handler
 import android.os.Looper

@@ -1,6 +1,6 @@
-package com.lagradost.cloudstream3.utils.serializers
+package io.velcuri.tv.utils.serializers
 
-import com.lagradost.cloudstream3.Prerelease
+import io.velcuri.tv.Prerelease
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.json.JsonElement
 import kotlinx.serialization.json.JsonObject

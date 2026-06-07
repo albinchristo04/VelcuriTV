@@ -1,0 +1,9 @@
+{
+  "name": "Velcuri Repository",
+  "description": "Official Velcuri TV extensions",
+  "manifestVersion": 1,
+  "iconUrl": "https://velcuri.io/assets/logo.png",
+  "pluginLists": [
+    "https://repo.velcuri.io/velcuri/plugins.json"
+  ]
+}

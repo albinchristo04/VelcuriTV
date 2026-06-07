@@ -27,17 +27,17 @@
     <string name="new_update_format" formatted="true">New update found!\n%1$s -&gt; %2$s</string>
     <string name="filler" formatted="true">Filler</string>
     <string name="duration_format" formatted="true">%d min</string>
-    <string name="app_name">CloudStream</string>
-    <string name="play_with_app_name">Play with CloudStream</string>
+    <string name="app_name">Velcuri TV</string>
+    <string name="play_with_app_name">Play with Velcuri TV</string>
     <string name="title_home">Home</string>
     <string name="title_search">Search</string>
     <string name="title_downloads">Downloads</string>
     <string name="download_queue">Download queue</string>
     <string name="title_settings">Settings</string>
-    <string name="search_hint">Search…</string>
-    <string name="search_hint_site" formatted="true">Search %s…</string>
+    <string name="search_hint">Searchâ€¦</string>
+    <string name="search_hint_site" formatted="true">Search %sâ€¦</string>
     <string name="speech_recognition_unavailable">Speech recognition is not available</string>
-    <string name="begin_speaking">Begin Speaking…</string>
+    <string name="begin_speaking">Begin Speakingâ€¦</string>
     <string name="no_data">No Data</string>
     <string name="episode_more_options_des">More Options</string>
     <string name="next_episode">Next episode</string>
@@ -46,7 +46,7 @@
     <string name="result_open_in_browser">Open In Browser</string>
     <string name="browser">Browser</string>
     <string name="skip_loading">Skip Loading</string>
-    <string name="loading">Loading…</string>
+    <string name="loading">Loadingâ€¦</string>
     <string name="type_watching">Watching</string>
     <string name="type_on_hold">On-Hold</string>
     <string name="type_completed">Completed</string>
@@ -61,7 +61,7 @@
     <string name="torrent_info">This video is a Torrent, this means that your video activity can be tracked.\nMake sure you understand Torrenting before continuing.</string>
     <string name="pick_source">Sources</string>
     <string name="pick_subtitle">Subtitles</string>
-    <string name="reload_error">Retry connection…</string>
+    <string name="reload_error">Retry connectionâ€¦</string>
     <string name="go_back">Go Back</string>
     <string name="play_episode">Play Episode</string>
     <!--<string name="need_storage">Allow to download episodes</string>-->
@@ -138,7 +138,7 @@
     <string name="torrent_plot">Description</string>
     <string name="normal_no_plot">No Plot Found</string>
     <string name="torrent_no_plot">No Description Found</string>
-    <string name="show_log_cat">Show Logcat 🐈</string>
+    <string name="show_log_cat">Show Logcat ðŸˆ</string>
     <string name="test_log">Log</string>
     <string name="picture_in_picture">Picture-in-picture</string>
     <string name="picture_in_picture_des">Continues playback in a miniature player on top of other apps</string>
@@ -344,7 +344,7 @@
     <string name="dns_pref">DNS over HTTPS</string>
     <string name="dns_pref_summary">Useful for bypassing ISP blocks</string>
     <string name="jsdelivr_proxy">GitHub Proxy</string>
-    <string name="jsdelivr_enabled">Could not reach GitHub. Turning on jsDelivr proxy…</string>
+    <string name="jsdelivr_enabled">Could not reach GitHub. Turning on jsDelivr proxyâ€¦</string>
     <string name="jsdelivr_proxy_summary">Bypass blocking of raw github URLs using jsDelivr. May cause updates to be delayed by few days.</string>
     <string name="add_site_pref">Clone site</string>
     <string name="remove_site_pref">Remove site</string>
@@ -454,7 +454,7 @@
     <string name="actor_background">Background</string>
     <string name="home_source">Source</string>
     <string name="home_random">Random</string>
-    <string name="coming_soon">Coming soon…</string>
+    <string name="coming_soon">Coming soonâ€¦</string>
     <string name="quality_cam">Cam</string>
     <string name="quality_cam_rip">Cam</string>
     <string name="quality_cam_hd">Cam</string>
@@ -505,7 +505,7 @@
     <string name="plugin_deleted">Plugin Deleted</string>
     <string name="plugin_load_fail" formatted="true">Could not load %s</string>
     <string name="is_adult">18+</string>
-    <string name="batch_download_start_format" formatted="true">Started downloading %1$d %2$s…</string>
+    <string name="batch_download_start_format" formatted="true">Started downloading %1$d %2$sâ€¦</string>
     <string name="batch_download_finish_format" formatted="true">Downloaded %1$d %2$s</string>
     <string name="batch_download_nothing_to_download_format" formatted="true">All %s already downloaded</string>
     <string name="no_plugins_found_error">No plugins found in repository</string>
@@ -521,13 +521,13 @@
     <string name="plugins_disabled" formatted="true">Disabled: %d</string>
     <string name="plugins_not_downloaded" formatted="true">Not downloaded: %d</string>
     <string name="plugins_updated" formatted="true">Updated %d plugins</string>
-    <string name="blank_repo_message">CloudStream has no sites installed by default. You need to install the sites from repositories.
+    <string name="blank_repo_message">Velcuri TV has no sites installed by default. You need to install the sites from repositories.
 \n
 \nJoin our Discord or search online.</string>
     <string name="view_public_repositories_button">View community repositories</string>
     <string name="view_public_repositories_button_short">Public list</string>
     <string name="uppercase_all_subtitles">Uppercase all subtitles</string>
-    <string name="download_all_plugins_from_repo">Warning: CloudStream does not take any responsibility for using third-party extensions and does not provide any support for them!</string>
+    <string name="download_all_plugins_from_repo">Warning: Velcuri TV does not take any responsibility for using third-party extensions and does not provide any support for them!</string>
     <string name="single_plugin_disabled" formatted="true">%s (Disabled)</string>
     <string name="tracks">Tracks</string>
     <string name="audio_tracks">Audio tracks</string>
@@ -579,13 +579,13 @@
     <string name="open_downloaded_repo">Open repository</string>
     <string name="battery_dialog_title">Disable Battery optimization</string>
     <string name="battery_dialog_message">To ensure uninterrupted downloads and notifications for subscribed
-        TV shows, CloudStream needs permission to run in background. By pressing "OK", you\'ll be shown a request dialog.
+        TV shows, Velcuri TV needs permission to run in background. By pressing "OK", you\'ll be shown a request dialog.
         Please press \'Allow\'.\n\nPlease note, this permission does not mean CS3 will drain your battery. It will only operate in the background when necessary, such as
         when receiving notifications or downloading videos from official extensions.</string>
     <string name="app_unrestricted_toast">App battery usage is already set to unrestricted</string>
-    <string name="app_info_intent_error">Unable to open CloudStream\'s App info.</string>
-    <string name="update_notification_downloading">Downloading app update…</string>
-    <string name="update_notification_installing">Installing app update…</string>
+    <string name="app_info_intent_error">Unable to open Velcuri TV\'s App info.</string>
+    <string name="update_notification_downloading">Downloading app updateâ€¦</string>
+    <string name="update_notification_installing">Installing app updateâ€¦</string>
     <string name="update_notification_failed">Could not install the new version of the app</string>
     <string name="apk_installer_legacy">Legacy</string>
     <string name="apk_installer_package_installer">PackageInstaller</string>
@@ -686,15 +686,15 @@
     <string name="favorite">Favorite</string>
     <string name="unfavorite">Unfavorite</string>
     <!-- For Biometrics -->
-    <string name="biometric_authentication_title">Unlock CloudStream</string>
+    <string name="biometric_authentication_title">Unlock Velcuri TV</string>
     <string name="biometric_setting">Lock with Biometrics</string>
     <string name="password_pin_authentication_title">Password/PIN Authentication</string>
     <string name="biometric_unsupported">Biometric authentication is not supported on this device</string>
     <string name="biometric_setting_summary">Unlock the app with Fingerprint, Face ID, PIN, Pattern and Password.</string>
     <string name="biometric_prompt_description">After a few failed attempts, the prompt will close. Simply restart the app to try again.</string>
-    <string name="biometric_warning">Your CloudStream data has been backed up now. Although the possibility of this is very low, all devices can behave differently. In the rare case, that you get locked out from accessing the app, clear the app data completely and restore from a backup. We are very sorry for any inconvenience arising from this.</string>
+    <string name="biometric_warning">Your Velcuri TV data has been backed up now. Although the possibility of this is very low, all devices can behave differently. In the rare case, that you get locked out from accessing the app, clear the app data completely and restore from a backup. We are very sorry for any inconvenience arising from this.</string>
     <string name="reset_btn">Reset</string>
-    <string name="cs3wiki">CloudStream Wiki</string>
+    <string name="cs3wiki">Velcuri TV Help</string>
     <string name="device_pin_url_message">Visit <b>%s</b> on your smartphone or computer and enter the above code</string>
     <string name="device_pin_error_message">Can\'t get the device PIN code, try local authentication</string>
     <string name="device_pin_expired_message">PIN code is now expired !</string>

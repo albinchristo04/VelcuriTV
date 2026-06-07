@@ -1,8 +1,8 @@
-package com.lagradost.cloudstream3.extractors
+package io.velcuri.tv.extractors
 
-import com.lagradost.cloudstream3.SubtitleFile
-import com.lagradost.cloudstream3.app
-import com.lagradost.cloudstream3.utils.*
+import io.velcuri.tv.SubtitleFile
+import io.velcuri.tv.app
+import io.velcuri.tv.utils.*
 
 open class Acefile : ExtractorApi() {
     override val name = "Acefile"

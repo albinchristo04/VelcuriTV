@@ -1,8 +1,8 @@
-package com.lagradost.cloudstream3.mvvm
+package io.velcuri.tv.mvvm
 
 import com.lagradost.api.Log
-import com.lagradost.cloudstream3.ErrorLoadingException
-import com.lagradost.cloudstream3.utils.AppDebug
+import io.velcuri.tv.ErrorLoadingException
+import io.velcuri.tv.utils.AppDebug
 import kotlinx.coroutines.*
 import java.io.InterruptedIOException
 import java.net.SocketTimeoutException

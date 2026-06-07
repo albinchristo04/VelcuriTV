@@ -1,7 +1,7 @@
-package com.lagradost.cloudstream3
+package io.velcuri.tv
 
-import com.lagradost.cloudstream3.utils.AppUtils.parseJson
-import com.lagradost.cloudstream3.utils.AppUtils.toJson
+import io.velcuri.tv.utils.AppUtils.parseJson
+import io.velcuri.tv.utils.AppUtils.toJson
 import com.lagradost.nicehttp.Requests
 import com.lagradost.nicehttp.ResponseParser
 import kotlin.reflect.KClass

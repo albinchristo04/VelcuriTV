@@ -1,4 +1,4 @@
-package com.lagradost.cloudstream3.utils
+package io.velcuri.tv.utils
 
 import java.net.URLDecoder
 import java.net.URLEncoder

@@ -1,4 +1,4 @@
-package com.lagradost.cloudstream3.network
+package io.velcuri.tv.network
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -6,14 +6,14 @@ import android.net.http.SslError
 import android.webkit.*
 import com.lagradost.api.Log
 import com.lagradost.api.getContext
-import com.lagradost.cloudstream3.app
-import com.lagradost.cloudstream3.mvvm.debugException
-import com.lagradost.cloudstream3.mvvm.logError
-import com.lagradost.cloudstream3.mvvm.safe
-import com.lagradost.cloudstream3.utils.Coroutines.atomicListOf
-import com.lagradost.cloudstream3.utils.Coroutines.main
-import com.lagradost.cloudstream3.utils.Coroutines.mainWork
-import com.lagradost.cloudstream3.utils.Coroutines.runOnMainThread
+import io.velcuri.tv.app
+import io.velcuri.tv.mvvm.debugException
+import io.velcuri.tv.mvvm.logError
+import io.velcuri.tv.mvvm.safe
+import io.velcuri.tv.utils.Coroutines.atomicListOf
+import io.velcuri.tv.utils.Coroutines.main
+import io.velcuri.tv.utils.Coroutines.mainWork
+import io.velcuri.tv.utils.Coroutines.runOnMainThread
 import com.lagradost.nicehttp.requestCreator
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking

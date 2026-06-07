@@ -1,12 +1,12 @@
-package com.lagradost.cloudstream3.extractors
+package io.velcuri.tv.extractors
 
 import com.lagradost.api.Log
-import com.lagradost.cloudstream3.SubtitleFile
-import com.lagradost.cloudstream3.app
-import com.lagradost.cloudstream3.utils.ExtractorApi
-import com.lagradost.cloudstream3.utils.ExtractorLink
-import com.lagradost.cloudstream3.utils.ExtractorLinkType
-import com.lagradost.cloudstream3.utils.newExtractorLink
+import io.velcuri.tv.SubtitleFile
+import io.velcuri.tv.app
+import io.velcuri.tv.utils.ExtractorApi
+import io.velcuri.tv.utils.ExtractorLink
+import io.velcuri.tv.utils.ExtractorLinkType
+import io.velcuri.tv.utils.newExtractorLink
 
 class Vidsonic() : ExtractorApi() {
     override val name: String = "Vidsonic"

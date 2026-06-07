@@ -1,8 +1,8 @@
-package com.lagradost.cloudstream3.metaproviders
+package io.velcuri.tv.metaproviders
 
-import com.lagradost.cloudstream3.MainAPI
-import com.lagradost.cloudstream3.mvvm.safeAsync
-import com.lagradost.cloudstream3.syncproviders.SyncIdName
+import io.velcuri.tv.MainAPI
+import io.velcuri.tv.mvvm.safeAsync
+import io.velcuri.tv.syncproviders.SyncIdName
 
 object SyncRedirector {
     private val syncIds =

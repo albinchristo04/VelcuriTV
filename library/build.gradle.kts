@@ -21,7 +21,7 @@ kotlin {
     version = "1.0.1"
 
     android {
-        // If this is the same com.lagradost.cloudstream3.R stops working
+        // If this is the same io.velcuri.tv.R stops working
         namespace = "com.lagradost.api"
 
         compileSdk = libs.versions.compileSdk.get().toInt()
@@ -48,8 +48,8 @@ kotlin {
     sourceSets {
         all {
             languageSettings {
-                optIn("com.lagradost.cloudstream3.InternalAPI")
-                optIn("com.lagradost.cloudstream3.Prerelease")
+                optIn("io.velcuri.tv.InternalAPI")
+                optIn("io.velcuri.tv.Prerelease")
             }
         }
 

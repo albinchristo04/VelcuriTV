@@ -1,0 +1,9 @@
+{
+  "name": "Mega Repository",
+  "description": "Mega extensions collection for Velcuri TV",
+  "manifestVersion": 1,
+  "iconUrl": "https://velcuri.io/assets/logo.png",
+  "pluginLists": [
+    "https://repo.velcuri.io/mega/plugins.json"
+  ]
+}

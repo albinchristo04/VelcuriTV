@@ -62,7 +62,7 @@
                 android:textColor="#B3FFFFFF"
                 android:textSize="14sp"
                 android:maxLines="2"
-                tools:text="Animation • Action • Adventure • 2025 • ⭐ 7.6"/>
+                tools:text="Animation â€¢ Action â€¢ Adventure â€¢ 2025 â€¢ â­ 7.6"/>
 
             <!-- SYNOPSIS -->
             <TextView
@@ -759,7 +759,7 @@
                             android:scaleType="centerCrop" />
                     </FrameLayout>
 
-                    <com.lagradost.cloudstream3.ui.player.live.LivePreviewTimeBar
+                    <io.velcuri.tv.ui.player.live.LivePreviewTimeBar
                         android:id="@id/exo_progress"
                         android:layout_width="0dp"
                         android:layout_height="30dp"

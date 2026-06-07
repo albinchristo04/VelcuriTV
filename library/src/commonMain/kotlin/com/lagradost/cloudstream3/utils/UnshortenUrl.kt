@@ -1,8 +1,8 @@
-package com.lagradost.cloudstream3.utils
+package io.velcuri.tv.utils
 
-import com.lagradost.cloudstream3.app
-import com.lagradost.cloudstream3.base64Decode
-import com.lagradost.cloudstream3.utils.StringUtils.decodeUri
+import io.velcuri.tv.app
+import io.velcuri.tv.base64Decode
+import io.velcuri.tv.utils.StringUtils.decodeUri
 import com.lagradost.nicehttp.NiceResponse
 import java.net.URI
 

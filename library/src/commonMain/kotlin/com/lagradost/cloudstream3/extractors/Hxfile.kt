@@ -1,9 +1,9 @@
-package com.lagradost.cloudstream3.extractors
+package io.velcuri.tv.extractors
 
-import com.lagradost.cloudstream3.SubtitleFile
-import com.lagradost.cloudstream3.app
-import com.lagradost.cloudstream3.extractors.helper.JwPlayerHelper
-import com.lagradost.cloudstream3.utils.*
+import io.velcuri.tv.SubtitleFile
+import io.velcuri.tv.app
+import io.velcuri.tv.extractors.helper.JwPlayerHelper
+import io.velcuri.tv.utils.*
 
 class Neonime7n : Hxfile() {
     override val name = "Neonime7n"

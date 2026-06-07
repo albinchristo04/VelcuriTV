@@ -1,12 +1,12 @@
-package com.lagradost.cloudstream3.extractors
+package io.velcuri.tv.extractors
 
 import com.google.gson.Gson
-import com.lagradost.cloudstream3.SubtitleFile
-import com.lagradost.cloudstream3.app
-import com.lagradost.cloudstream3.newSubtitleFile
-import com.lagradost.cloudstream3.utils.ExtractorApi
-import com.lagradost.cloudstream3.utils.ExtractorLink
-import com.lagradost.cloudstream3.utils.M3u8Helper.Companion.generateM3u8
+import io.velcuri.tv.SubtitleFile
+import io.velcuri.tv.app
+import io.velcuri.tv.newSubtitleFile
+import io.velcuri.tv.utils.ExtractorApi
+import io.velcuri.tv.utils.ExtractorLink
+import io.velcuri.tv.utils.M3u8Helper.Companion.generateM3u8
 import java.net.URI
 
 

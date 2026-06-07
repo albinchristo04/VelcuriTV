@@ -1,9 +1,9 @@
-package com.lagradost.cloudstream3.extractors
+package io.velcuri.tv.extractors
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.lagradost.cloudstream3.app
-import com.lagradost.cloudstream3.utils.*
-import com.lagradost.cloudstream3.utils.AppUtils.tryParseJson
+import io.velcuri.tv.app
+import io.velcuri.tv.utils.*
+import io.velcuri.tv.utils.AppUtils.tryParseJson
 
 open class Blogger : ExtractorApi() {
     override val name = "Blogger"

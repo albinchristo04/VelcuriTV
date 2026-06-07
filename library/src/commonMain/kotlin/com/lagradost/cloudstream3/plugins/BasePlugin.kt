@@ -1,11 +1,11 @@
-package com.lagradost.cloudstream3.plugins
+package io.velcuri.tv.plugins
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.lagradost.cloudstream3.APIHolder
-import com.lagradost.cloudstream3.MainAPI
-import com.lagradost.cloudstream3.utils.ExtractorApi
+import io.velcuri.tv.APIHolder
+import io.velcuri.tv.MainAPI
+import io.velcuri.tv.utils.ExtractorApi
 import com.lagradost.api.Log
-import com.lagradost.cloudstream3.utils.extractorApis
+import io.velcuri.tv.utils.extractorApis
 
 const val PLUGIN_TAG = "PluginInstance"
 

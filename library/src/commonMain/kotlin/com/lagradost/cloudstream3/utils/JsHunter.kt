@@ -1,6 +1,6 @@
-package com.lagradost.cloudstream3.utils
+package io.velcuri.tv.utils
 
-import com.lagradost.cloudstream3.mvvm.logError
+import io.velcuri.tv.mvvm.logError
 import kotlin.math.pow
 
 // author: https://github.com/daarkdemon

@@ -1,11 +1,11 @@
-package com.lagradost.cloudstream3.extractors
+package io.velcuri.tv.extractors
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.lagradost.cloudstream3.app
-import com.lagradost.cloudstream3.utils.ExtractorApi
-import com.lagradost.cloudstream3.utils.AppUtils.parseJson
-import com.lagradost.cloudstream3.utils.ExtractorLink
-import com.lagradost.cloudstream3.utils.newExtractorLink
+import io.velcuri.tv.app
+import io.velcuri.tv.utils.ExtractorApi
+import io.velcuri.tv.utils.AppUtils.parseJson
+import io.velcuri.tv.utils.ExtractorLink
+import io.velcuri.tv.utils.newExtractorLink
 
 open class Tantifilm : ExtractorApi() {
     override var name = "Tantifilm"

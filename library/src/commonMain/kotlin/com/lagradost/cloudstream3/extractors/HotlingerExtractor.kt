@@ -1,6 +1,6 @@
 // ! Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
 
-package com.lagradost.cloudstream3.extractors
+package io.velcuri.tv.extractors
 
 class Hotlinger : ContentX() {
     override var name    = "Hotlinger"

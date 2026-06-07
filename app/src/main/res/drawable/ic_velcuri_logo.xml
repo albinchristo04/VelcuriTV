@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Purple background circle -->
+    <path
+        android:fillColor="#6C3FE8"
+        android:pathData="M0,0 L108,0 L108,108 L0,108 Z" />
+
+    <!-- White "V" letterform -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M22,28 L42,28 L54,68 L66,28 L86,28 L62,82 L46,82 Z" />
+
+</vector>

@@ -1,4 +1,4 @@
-package com.lagradost.cloudstream3.extractors
+package io.velcuri.tv.extractors
 
 open class VidhideExtractor : VidHidePro() {
     override var name = "VidHide"

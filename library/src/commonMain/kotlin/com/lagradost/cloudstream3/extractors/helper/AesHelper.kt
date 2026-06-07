@@ -1,9 +1,9 @@
-package com.lagradost.cloudstream3.extractors.helper
+package io.velcuri.tv.extractors.helper
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.lagradost.cloudstream3.base64DecodeArray
-import com.lagradost.cloudstream3.base64Encode
-import com.lagradost.cloudstream3.utils.AppUtils
+import io.velcuri.tv.base64DecodeArray
+import io.velcuri.tv.base64Encode
+import io.velcuri.tv.utils.AppUtils
 import java.security.DigestException
 import java.security.MessageDigest
 import javax.crypto.Cipher

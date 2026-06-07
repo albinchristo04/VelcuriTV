@@ -1,13 +1,13 @@
-package com.lagradost.cloudstream3.extractors
+package io.velcuri.tv.extractors
 
-import com.lagradost.cloudstream3.APIHolder.unixTimeMS
-import com.lagradost.cloudstream3.app
-import com.lagradost.cloudstream3.mvvm.logError
-import com.lagradost.cloudstream3.utils.ExtractorApi
-import com.lagradost.cloudstream3.utils.ExtractorLink
-import com.lagradost.cloudstream3.utils.Qualities
-import com.lagradost.cloudstream3.utils.getPostForm
-import com.lagradost.cloudstream3.utils.newExtractorLink
+import io.velcuri.tv.APIHolder.unixTimeMS
+import io.velcuri.tv.app
+import io.velcuri.tv.mvvm.logError
+import io.velcuri.tv.utils.ExtractorApi
+import io.velcuri.tv.utils.ExtractorLink
+import io.velcuri.tv.utils.Qualities
+import io.velcuri.tv.utils.getPostForm
+import io.velcuri.tv.utils.newExtractorLink
 import org.jsoup.Jsoup
 
 //class SBPlay1 : SBPlay() {

@@ -1,10 +1,10 @@
 // ! Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
 
-package com.lagradost.cloudstream3.extractors
+package io.velcuri.tv.extractors
 
 import com.lagradost.api.Log
-import com.lagradost.cloudstream3.*
-import com.lagradost.cloudstream3.utils.*
+import io.velcuri.tv.*
+import io.velcuri.tv.utils.*
 
 open class RapidVid : ExtractorApi() {
     override val name            = "RapidVid"

@@ -1,7 +1,7 @@
-package com.lagradost.cloudstream3.extractors.helper
+package io.velcuri.tv.extractors.helper
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.lagradost.cloudstream3.app
+import io.velcuri.tv.app
 
 class WcoHelper {
     companion object {

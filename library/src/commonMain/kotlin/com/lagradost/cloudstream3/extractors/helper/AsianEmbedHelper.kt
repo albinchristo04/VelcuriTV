@@ -1,11 +1,11 @@
-package com.lagradost.cloudstream3.extractors.helper
+package io.velcuri.tv.extractors.helper
 
 import com.lagradost.api.Log
-import com.lagradost.cloudstream3.SubtitleFile
-import com.lagradost.cloudstream3.amap
-import com.lagradost.cloudstream3.app
-import com.lagradost.cloudstream3.utils.ExtractorLink
-import com.lagradost.cloudstream3.utils.loadExtractor
+import io.velcuri.tv.SubtitleFile
+import io.velcuri.tv.amap
+import io.velcuri.tv.app
+import io.velcuri.tv.utils.ExtractorLink
+import io.velcuri.tv.utils.loadExtractor
 
 class AsianEmbedHelper {
     companion object {

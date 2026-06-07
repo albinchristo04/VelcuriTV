@@ -1,7 +1,7 @@
-package com.lagradost.cloudstream3.extractors.helper
+package io.velcuri.tv.extractors.helper
 
-import com.lagradost.cloudstream3.base64DecodeArray
-import com.lagradost.cloudstream3.base64Encode
+import io.velcuri.tv.base64DecodeArray
+import io.velcuri.tv.base64Encode
 import java.security.MessageDigest
 import java.security.SecureRandom
 import javax.crypto.Cipher
