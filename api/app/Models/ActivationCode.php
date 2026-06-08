@@ -6,13 +6,14 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Laravel\Sanctum\HasApiTokens;
 use Carbon\Carbon;
 use Illuminate\Support\Str;
 
 class ActivationCode extends Model
 {
-    use HasApiTokens;
+    use HasApiTokens, HasFactory;
 
     protected $fillable = [
         'code', 'plan', 'status', 'expiry_date', 'devices_allowed', 'devices_used', 'notes', 'created_by'
