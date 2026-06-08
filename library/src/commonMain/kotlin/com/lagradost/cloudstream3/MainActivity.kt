@@ -1,7 +1,7 @@
-package com.velcuri.cricketapp
+package com.velcuri.cobaltvpn
 
-import com.velcuri.cricketapp.utils.AppUtils.parseJson
-import com.velcuri.cricketapp.utils.AppUtils.toJson
+import com.velcuri.cobaltvpn.utils.AppUtils.parseJson
+import com.velcuri.cobaltvpn.utils.AppUtils.toJson
 import com.lagradost.nicehttp.Requests
 import com.lagradost.nicehttp.ResponseParser
 import kotlin.reflect.KClass

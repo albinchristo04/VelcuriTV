@@ -1,11 +1,11 @@
-package com.velcuri.cricketapp.utils
+package com.velcuri.cobaltvpn.utils
 
 import androidx.annotation.AnyThread
 import androidx.annotation.MainThread
 import androidx.annotation.WorkerThread
-import com.velcuri.cricketapp.Prerelease
-import com.velcuri.cricketapp.mvvm.launchSafe
-import com.velcuri.cricketapp.mvvm.logError
+import com.velcuri.cobaltvpn.Prerelease
+import com.velcuri.cobaltvpn.mvvm.launchSafe
+import com.velcuri.cobaltvpn.mvvm.logError
 import kotlinx.coroutines.*
 
 @AnyThread

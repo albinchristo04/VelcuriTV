@@ -1,12 +1,12 @@
-package com.velcuri.cricketapp.extractors
+package com.velcuri.cobaltvpn.extractors
 
 import com.lagradost.api.Log
-import com.velcuri.cricketapp.SubtitleFile
-import com.velcuri.cricketapp.app
-import com.velcuri.cricketapp.utils.ExtractorApi
-import com.velcuri.cricketapp.utils.ExtractorLink
-import com.velcuri.cricketapp.utils.ExtractorLinkType
-import com.velcuri.cricketapp.utils.newExtractorLink
+import com.velcuri.cobaltvpn.SubtitleFile
+import com.velcuri.cobaltvpn.app
+import com.velcuri.cobaltvpn.utils.ExtractorApi
+import com.velcuri.cobaltvpn.utils.ExtractorLink
+import com.velcuri.cobaltvpn.utils.ExtractorLinkType
+import com.velcuri.cobaltvpn.utils.newExtractorLink
 
 class Vidsonic() : ExtractorApi() {
     override val name: String = "Vidsonic"

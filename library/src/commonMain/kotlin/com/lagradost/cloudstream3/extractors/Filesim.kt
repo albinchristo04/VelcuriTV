@@ -1,11 +1,11 @@
-package com.velcuri.cricketapp.extractors
+package com.velcuri.cobaltvpn.extractors
 
-import com.velcuri.cricketapp.SubtitleFile
-import com.velcuri.cricketapp.app
-import com.velcuri.cricketapp.utils.*
+import com.velcuri.cobaltvpn.SubtitleFile
+import com.velcuri.cobaltvpn.app
+import com.velcuri.cobaltvpn.utils.*
 import com.lagradost.api.Log
-import com.velcuri.cricketapp.extractors.helper.JwPlayerHelper
-import com.velcuri.cricketapp.network.WebViewResolver
+import com.velcuri.cobaltvpn.extractors.helper.JwPlayerHelper
+import com.velcuri.cobaltvpn.network.WebViewResolver
 
 class Multimoviesshg : Filesim() {
     override var mainUrl = "https://multimoviesshg.com"

@@ -1,6 +1,6 @@
-package com.velcuri.cricketapp.network
+package com.velcuri.cobaltvpn.network
 
-import com.velcuri.cricketapp.USER_AGENT
+import com.velcuri.cobaltvpn.USER_AGENT
 import okhttp3.Interceptor
 import okhttp3.Request
 

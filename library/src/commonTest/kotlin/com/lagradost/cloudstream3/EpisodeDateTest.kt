@@ -1,4 +1,4 @@
-package com.velcuri.cricketapp
+package com.velcuri.cobaltvpn
 
 import kotlinx.datetime.LocalDate
 import kotlinx.datetime.LocalDateTime

@@ -1,4 +1,4 @@
-package com.velcuri.cricketapp.network
+package com.velcuri.cobaltvpn.network
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -6,14 +6,14 @@ import android.net.http.SslError
 import android.webkit.*
 import com.lagradost.api.Log
 import com.lagradost.api.getContext
-import com.velcuri.cricketapp.app
-import com.velcuri.cricketapp.mvvm.debugException
-import com.velcuri.cricketapp.mvvm.logError
-import com.velcuri.cricketapp.mvvm.safe
-import com.velcuri.cricketapp.utils.Coroutines.atomicListOf
-import com.velcuri.cricketapp.utils.Coroutines.main
-import com.velcuri.cricketapp.utils.Coroutines.mainWork
-import com.velcuri.cricketapp.utils.Coroutines.runOnMainThread
+import com.velcuri.cobaltvpn.app
+import com.velcuri.cobaltvpn.mvvm.debugException
+import com.velcuri.cobaltvpn.mvvm.logError
+import com.velcuri.cobaltvpn.mvvm.safe
+import com.velcuri.cobaltvpn.utils.Coroutines.atomicListOf
+import com.velcuri.cobaltvpn.utils.Coroutines.main
+import com.velcuri.cobaltvpn.utils.Coroutines.mainWork
+import com.velcuri.cobaltvpn.utils.Coroutines.runOnMainThread
 import com.lagradost.nicehttp.requestCreator
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking

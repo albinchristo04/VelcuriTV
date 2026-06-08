@@ -1,8 +1,8 @@
-package com.velcuri.cricketapp.mvvm
+package com.velcuri.cobaltvpn.mvvm
 
 import com.lagradost.api.Log
-import com.velcuri.cricketapp.ErrorLoadingException
-import com.velcuri.cricketapp.utils.AppDebug
+import com.velcuri.cobaltvpn.ErrorLoadingException
+import com.velcuri.cobaltvpn.utils.AppDebug
 import kotlinx.coroutines.*
 import java.io.InterruptedIOException
 import java.net.SocketTimeoutException

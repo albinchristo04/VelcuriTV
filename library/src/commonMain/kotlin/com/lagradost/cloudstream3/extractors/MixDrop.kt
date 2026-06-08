@@ -1,7 +1,7 @@
-package com.velcuri.cricketapp.extractors
+package com.velcuri.cobaltvpn.extractors
 
-import com.velcuri.cricketapp.app
-import com.velcuri.cricketapp.utils.*
+import com.velcuri.cobaltvpn.app
+import com.velcuri.cobaltvpn.utils.*
 
 class MixDropPs : MixDrop() {
     override var mainUrl = "https://mixdrop.ps"

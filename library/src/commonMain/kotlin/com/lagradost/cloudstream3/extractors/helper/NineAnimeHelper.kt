@@ -1,7 +1,7 @@
-package com.velcuri.cricketapp.extractors.helper
+package com.velcuri.cobaltvpn.extractors.helper
 
-import com.velcuri.cricketapp.utils.StringUtils.decodeUri
-import com.velcuri.cricketapp.utils.StringUtils.encodeUri
+import com.velcuri.cobaltvpn.utils.StringUtils.decodeUri
+import com.velcuri.cobaltvpn.utils.StringUtils.encodeUri
 
 // Taken from https://github.com/saikou-app/saikou/blob/b35364c8c2a00364178a472fccf1ab72f09815b4/app/src/main/java/ani/saikou/parsers/anime/NineAnime.kt
 // GNU General Public License v3.0 https://github.com/saikou-app/saikou/blob/main/LICENSE.md

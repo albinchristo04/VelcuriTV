@@ -1,16 +1,16 @@
-package com.velcuri.cricketapp.extractors
+package com.velcuri.cobaltvpn.extractors
 
 import com.google.gson.JsonObject
 import com.google.gson.JsonParser
-import com.velcuri.cricketapp.SubtitleFile
-import com.velcuri.cricketapp.app
-import com.velcuri.cricketapp.base64Decode
-import com.velcuri.cricketapp.utils.ExtractorApi
-import com.velcuri.cricketapp.utils.ExtractorLink
-import com.velcuri.cricketapp.utils.INFER_TYPE
-import com.velcuri.cricketapp.utils.M3u8Helper
-import com.velcuri.cricketapp.utils.Qualities
-import com.velcuri.cricketapp.utils.newExtractorLink
+import com.velcuri.cobaltvpn.SubtitleFile
+import com.velcuri.cobaltvpn.app
+import com.velcuri.cobaltvpn.base64Decode
+import com.velcuri.cobaltvpn.utils.ExtractorApi
+import com.velcuri.cobaltvpn.utils.ExtractorLink
+import com.velcuri.cobaltvpn.utils.INFER_TYPE
+import com.velcuri.cobaltvpn.utils.M3u8Helper
+import com.velcuri.cobaltvpn.utils.Qualities
+import com.velcuri.cobaltvpn.utils.newExtractorLink
 
 class Tubeless : Voe() {
     override val name = "Tubeless"

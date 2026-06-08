@@ -1,4 +1,4 @@
-package com.velcuri.cricketapp.extractors
+package com.velcuri.cobaltvpn.extractors
 
 open class VidhideExtractor : VidHidePro() {
     override var name = "VidHide"

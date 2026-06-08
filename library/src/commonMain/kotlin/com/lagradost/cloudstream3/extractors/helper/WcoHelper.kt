@@ -1,7 +1,7 @@
-package com.velcuri.cricketapp.extractors.helper
+package com.velcuri.cobaltvpn.extractors.helper
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.velcuri.cricketapp.app
+import com.velcuri.cobaltvpn.app
 
 class WcoHelper {
     companion object {

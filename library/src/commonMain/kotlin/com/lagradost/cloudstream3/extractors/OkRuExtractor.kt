@@ -1,6 +1,6 @@
 // ! Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
 
-package com.velcuri.cricketapp.extractors
+package com.velcuri.cobaltvpn.extractors
 
 open class OkRuSSL : Odnoklassniki() {
     override var name    = "OkRuSSL"

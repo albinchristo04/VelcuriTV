@@ -4,23 +4,23 @@
     "MemberVisibilityCanBePrivate"
 )
 
-package com.velcuri.cricketapp
+package com.velcuri.cobaltvpn
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.databind.DeserializationFeature
 import com.fasterxml.jackson.databind.json.JsonMapper
 import com.fasterxml.jackson.module.kotlin.kotlinModule
-import com.velcuri.cricketapp.mvvm.logError
-import com.velcuri.cricketapp.mvvm.safe
-import com.velcuri.cricketapp.syncproviders.SyncIdName
-import com.velcuri.cricketapp.utils.*
-import com.velcuri.cricketapp.utils.AppUtils.toJson
-import com.velcuri.cricketapp.utils.AppUtils.tryParseJson
-import com.velcuri.cricketapp.utils.Coroutines.atomicListOf
-import com.velcuri.cricketapp.utils.Coroutines.mainWork
-import com.velcuri.cricketapp.utils.SubtitleHelper.fromCodeToLangTagIETF
-import com.velcuri.cricketapp.utils.SubtitleHelper.fromLanguageToTagIETF
+import com.velcuri.cobaltvpn.mvvm.logError
+import com.velcuri.cobaltvpn.mvvm.safe
+import com.velcuri.cobaltvpn.syncproviders.SyncIdName
+import com.velcuri.cobaltvpn.utils.*
+import com.velcuri.cobaltvpn.utils.AppUtils.toJson
+import com.velcuri.cobaltvpn.utils.AppUtils.tryParseJson
+import com.velcuri.cobaltvpn.utils.Coroutines.atomicListOf
+import com.velcuri.cobaltvpn.utils.Coroutines.mainWork
+import com.velcuri.cobaltvpn.utils.SubtitleHelper.fromCodeToLangTagIETF
+import com.velcuri.cobaltvpn.utils.SubtitleHelper.fromLanguageToTagIETF
 import com.lagradost.nicehttp.RequestBodyTypes
 import okhttp3.Interceptor
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
@@ -524,7 +524,7 @@ abstract class MainAPI {
 
     /**
      * The language as an IETF BCP 47 conformant tag.
-     * Check [com.velcuri.cricketapp.utils.SubtitleHelper].
+     * Check [com.velcuri.cobaltvpn.utils.SubtitleHelper].
      *
      * See locales on:
      * https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-core/availableLocales.json

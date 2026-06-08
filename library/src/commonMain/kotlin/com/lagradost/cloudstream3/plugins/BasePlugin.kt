@@ -1,11 +1,11 @@
-package com.velcuri.cricketapp.plugins
+package com.velcuri.cobaltvpn.plugins
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.velcuri.cricketapp.APIHolder
-import com.velcuri.cricketapp.MainAPI
-import com.velcuri.cricketapp.utils.ExtractorApi
+import com.velcuri.cobaltvpn.APIHolder
+import com.velcuri.cobaltvpn.MainAPI
+import com.velcuri.cobaltvpn.utils.ExtractorApi
 import com.lagradost.api.Log
-import com.velcuri.cricketapp.utils.extractorApis
+import com.velcuri.cobaltvpn.utils.extractorApis
 
 const val PLUGIN_TAG = "PluginInstance"
 

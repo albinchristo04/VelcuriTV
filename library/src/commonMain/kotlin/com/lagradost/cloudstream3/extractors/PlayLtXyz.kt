@@ -1,10 +1,10 @@
-package com.velcuri.cricketapp.extractors
+package com.velcuri.cobaltvpn.extractors
 
 import com.lagradost.api.Log
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.velcuri.cricketapp.app
-import com.velcuri.cricketapp.utils.*
-import com.velcuri.cricketapp.utils.AppUtils.tryParseJson
+import com.velcuri.cobaltvpn.app
+import com.velcuri.cobaltvpn.utils.*
+import com.velcuri.cobaltvpn.utils.AppUtils.tryParseJson
 
 open class PlayLtXyz: ExtractorApi() {
     override val name: String = "PlayLt"

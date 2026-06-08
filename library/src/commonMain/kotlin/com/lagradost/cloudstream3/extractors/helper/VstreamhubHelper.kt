@@ -1,12 +1,12 @@
-package com.velcuri.cricketapp.extractors.helper
+package com.velcuri.cobaltvpn.extractors.helper
 
-import com.velcuri.cricketapp.SubtitleFile
-import com.velcuri.cricketapp.app
-import com.velcuri.cricketapp.utils.ExtractorLink
-import com.velcuri.cricketapp.utils.ExtractorLinkType
-import com.velcuri.cricketapp.utils.Qualities
-import com.velcuri.cricketapp.utils.loadExtractor
-import com.velcuri.cricketapp.utils.newExtractorLink
+import com.velcuri.cobaltvpn.SubtitleFile
+import com.velcuri.cobaltvpn.app
+import com.velcuri.cobaltvpn.utils.ExtractorLink
+import com.velcuri.cobaltvpn.utils.ExtractorLinkType
+import com.velcuri.cobaltvpn.utils.Qualities
+import com.velcuri.cobaltvpn.utils.loadExtractor
+import com.velcuri.cobaltvpn.utils.newExtractorLink
 
 class VstreamhubHelper {
     companion object {

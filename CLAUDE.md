@@ -8,7 +8,7 @@ Velcuri TV is a subscription-gated Android streaming app forked from CloudStream
 
 The codebase is split into three independently buildable pieces that share a single Git repo:
 
-- **`app/`** — Android app (Gradle, Kotlin, Android Application plugin). Module name in `settings.gradle.kts` is `:app`. Application ID `com.velcuri.cricketapp`. Namespace `com.velcuri.cricketapp`. Older source still uses `com.lagradost.cloudstream3` imports — both packages coexist because `library/` publishes under `com.lagradost.api`.
+- **`app/`** — Android app (Gradle, Kotlin, Android Application plugin). Module name in `settings.gradle.kts` is `:app`. Application ID `com.velcuri.cobaltvpn`. Namespace `com.velcuri.cobaltvpn`. Older source still uses `com.lagradost.cloudstream3` imports — both packages coexist because `library/` publishes under `com.lagradost.api`.
 - **`library/`** — Kotlin Multiplatform module (`:library`, JVM + Android targets) that contains plugin-facing APIs (extractors, plugin loaders, `MainAPI`, shared utils). This is the API surface that CloudStream extensions are compiled against. It uses `buildkonfig` to inject `MDL_API_KEY` and `TRAKT_CLIENT_ID` into a generated `com.lagradost.api.BuildConfig`. Published as a Maven artifact (`com.lagradost.api`).
 - **`api/`** — Laravel 12 + Filament v3 backend (PHP 8.3). Issues activation codes, registers devices via Sanctum tokens, serves update manifests, accepts analytics events. Deployed to `api.velcuri.io`.
 
@@ -26,7 +26,7 @@ Common flavors: `stable` and `prerelease` (CI builds `prerelease` for PRs and ta
 ./gradlew assemblePrereleaseDebug        # default PR build (matches CI)
 ./gradlew assembleStableRelease          # production APK (signing config required)
 ./gradlew lint check                     # full lint + unit tests (matches CI)
-./gradlew :app:testPrereleaseDebugUnitTest --tests "com.velcuri.cricketapp.MyTest.method"   # single test
+./gradlew :app:testPrereleaseDebugUnitTest --tests "com.velcuri.cobaltvpn.MyTest.method"   # single test
 ./gradlew :library:jvmTest               # multiplatform JVM tests
 ./gradlew :app:makeJar                   # produces classes.jar used by extension authors
 ./gradlew :library:publishToMavenLocal   # publish library to ~/.m2 for local extension dev
@@ -80,7 +80,7 @@ Android queries `GET https://api.velcuri.io/update` (Laravel `UpdateController@c
 
 ### Branding / namespace caveat
 
-Application ID is `com.velcuri.cricketapp` but a significant portion of the Kotlin source still uses `com.lagradost.cloudstream3.*` imports (especially in `:library`). The library namespace is intentionally `com.lagradost.api` so that `com.velcuri.cricketapp.R` does not collide with library resources (see comment in `library/build.gradle.kts`). When renaming things, leave the `com.lagradost.api` namespace alone unless you also update every consuming extension. The repo previously used `io.velcuri.tv` — historical references to that name in `velcuri_tv_claude_code_prompt.md` are left as-is for traceability.
+Application ID is `com.velcuri.cobaltvpn` but a significant portion of the Kotlin source still uses `com.lagradost.cloudstream3.*` imports (especially in `:library`). The library namespace is intentionally `com.lagradost.api` so that `com.velcuri.cobaltvpn.R` does not collide with library resources (see comment in `library/build.gradle.kts`). When renaming things, leave the `com.lagradost.api` namespace alone unless you also update every consuming extension. The repo previously used `io.velcuri.tv` — historical references to that name in `velcuri_tv_claude_code_prompt.md` are left as-is for traceability.
 
 The fork is a **rename + additive features**, not a rewrite. Do not refactor CloudStream subsystems unless the task explicitly requires it.
 

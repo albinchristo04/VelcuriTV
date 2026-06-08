@@ -1,12 +1,12 @@
-package com.velcuri.cricketapp.extractors
+package com.velcuri.cobaltvpn.extractors
 
 import com.google.gson.Gson
-import com.velcuri.cricketapp.SubtitleFile
-import com.velcuri.cricketapp.app
-import com.velcuri.cricketapp.newSubtitleFile
-import com.velcuri.cricketapp.utils.ExtractorApi
-import com.velcuri.cricketapp.utils.ExtractorLink
-import com.velcuri.cricketapp.utils.M3u8Helper.Companion.generateM3u8
+import com.velcuri.cobaltvpn.SubtitleFile
+import com.velcuri.cobaltvpn.app
+import com.velcuri.cobaltvpn.newSubtitleFile
+import com.velcuri.cobaltvpn.utils.ExtractorApi
+import com.velcuri.cobaltvpn.utils.ExtractorLink
+import com.velcuri.cobaltvpn.utils.M3u8Helper.Companion.generateM3u8
 import java.net.URI
 
 

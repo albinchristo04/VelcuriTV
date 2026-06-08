@@ -1,18 +1,18 @@
 // ! Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
 
-package com.velcuri.cricketapp.extractors
+package com.velcuri.cobaltvpn.extractors
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.velcuri.cricketapp.ErrorLoadingException
-import com.velcuri.cricketapp.SubtitleFile
-import com.velcuri.cricketapp.USER_AGENT
-import com.velcuri.cricketapp.app
-import com.velcuri.cricketapp.utils.AppUtils
-import com.velcuri.cricketapp.utils.ExtractorApi
-import com.velcuri.cricketapp.utils.ExtractorLink
-import com.velcuri.cricketapp.utils.INFER_TYPE
-import com.velcuri.cricketapp.utils.getQualityFromName
-import com.velcuri.cricketapp.utils.newExtractorLink
+import com.velcuri.cobaltvpn.ErrorLoadingException
+import com.velcuri.cobaltvpn.SubtitleFile
+import com.velcuri.cobaltvpn.USER_AGENT
+import com.velcuri.cobaltvpn.app
+import com.velcuri.cobaltvpn.utils.AppUtils
+import com.velcuri.cobaltvpn.utils.ExtractorApi
+import com.velcuri.cobaltvpn.utils.ExtractorLink
+import com.velcuri.cobaltvpn.utils.INFER_TYPE
+import com.velcuri.cobaltvpn.utils.getQualityFromName
+import com.velcuri.cobaltvpn.utils.newExtractorLink
 
 open class Odnoklassniki : ExtractorApi() {
     override val name            = "Odnoklassniki"

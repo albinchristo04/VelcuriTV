@@ -1,8 +1,8 @@
-package com.velcuri.cricketapp.metaproviders
+package com.velcuri.cobaltvpn.metaproviders
 
-import com.velcuri.cricketapp.MainAPI
-import com.velcuri.cricketapp.mvvm.safeAsync
-import com.velcuri.cricketapp.syncproviders.SyncIdName
+import com.velcuri.cobaltvpn.MainAPI
+import com.velcuri.cobaltvpn.mvvm.safeAsync
+import com.velcuri.cobaltvpn.syncproviders.SyncIdName
 
 object SyncRedirector {
     private val syncIds =

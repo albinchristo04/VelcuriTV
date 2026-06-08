@@ -1,4 +1,4 @@
-package com.velcuri.cricketapp.syncproviders
+package com.velcuri.cobaltvpn.syncproviders
 
 enum class SyncIdName {
     Anilist,

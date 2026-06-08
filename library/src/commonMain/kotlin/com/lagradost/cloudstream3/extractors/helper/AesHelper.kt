@@ -1,9 +1,9 @@
-package com.velcuri.cricketapp.extractors.helper
+package com.velcuri.cobaltvpn.extractors.helper
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.velcuri.cricketapp.base64DecodeArray
-import com.velcuri.cricketapp.base64Encode
-import com.velcuri.cricketapp.utils.AppUtils
+import com.velcuri.cobaltvpn.base64DecodeArray
+import com.velcuri.cobaltvpn.base64Encode
+import com.velcuri.cobaltvpn.utils.AppUtils
 import java.security.DigestException
 import java.security.MessageDigest
 import javax.crypto.Cipher

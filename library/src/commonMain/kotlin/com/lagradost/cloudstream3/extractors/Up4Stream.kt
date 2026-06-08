@@ -1,13 +1,13 @@
-package com.velcuri.cricketapp.extractors
+package com.velcuri.cobaltvpn.extractors
 
 import com.lagradost.api.Log
-import com.velcuri.cricketapp.SubtitleFile
-import com.velcuri.cricketapp.app
-import com.velcuri.cricketapp.extractors.helper.JwPlayerHelper
-import com.velcuri.cricketapp.utils.ExtractorApi
-import com.velcuri.cricketapp.utils.ExtractorLink
-import com.velcuri.cricketapp.utils.JsUnpacker
-import com.velcuri.cricketapp.utils.fixUrl
+import com.velcuri.cobaltvpn.SubtitleFile
+import com.velcuri.cobaltvpn.app
+import com.velcuri.cobaltvpn.extractors.helper.JwPlayerHelper
+import com.velcuri.cobaltvpn.utils.ExtractorApi
+import com.velcuri.cobaltvpn.utils.ExtractorLink
+import com.velcuri.cobaltvpn.utils.JsUnpacker
+import com.velcuri.cobaltvpn.utils.fixUrl
 import kotlinx.coroutines.delay
 
 class Up4FunTop : Up4Stream() {

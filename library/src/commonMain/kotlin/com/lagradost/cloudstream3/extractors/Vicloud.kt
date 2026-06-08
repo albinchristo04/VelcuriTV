@@ -1,13 +1,13 @@
-package com.velcuri.cricketapp.extractors
+package com.velcuri.cobaltvpn.extractors
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.velcuri.cricketapp.APIHolder.unixTimeMS
-import com.velcuri.cricketapp.SubtitleFile
-import com.velcuri.cricketapp.app
-import com.velcuri.cricketapp.utils.ExtractorApi
-import com.velcuri.cricketapp.utils.ExtractorLink
-import com.velcuri.cricketapp.utils.getQualityFromName
-import com.velcuri.cricketapp.utils.newExtractorLink
+import com.velcuri.cobaltvpn.APIHolder.unixTimeMS
+import com.velcuri.cobaltvpn.SubtitleFile
+import com.velcuri.cobaltvpn.app
+import com.velcuri.cobaltvpn.utils.ExtractorApi
+import com.velcuri.cobaltvpn.utils.ExtractorLink
+import com.velcuri.cobaltvpn.utils.getQualityFromName
+import com.velcuri.cobaltvpn.utils.newExtractorLink
 
 open class Vicloud : ExtractorApi() {
     override val name: String = "Vicloud"

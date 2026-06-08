@@ -1,13 +1,13 @@
-package com.velcuri.cricketapp.extractors
+package com.velcuri.cobaltvpn.extractors
 
-import com.velcuri.cricketapp.APIHolder.unixTimeMS
-import com.velcuri.cricketapp.app
-import com.velcuri.cricketapp.mvvm.logError
-import com.velcuri.cricketapp.utils.ExtractorApi
-import com.velcuri.cricketapp.utils.ExtractorLink
-import com.velcuri.cricketapp.utils.Qualities
-import com.velcuri.cricketapp.utils.getPostForm
-import com.velcuri.cricketapp.utils.newExtractorLink
+import com.velcuri.cobaltvpn.APIHolder.unixTimeMS
+import com.velcuri.cobaltvpn.app
+import com.velcuri.cobaltvpn.mvvm.logError
+import com.velcuri.cobaltvpn.utils.ExtractorApi
+import com.velcuri.cobaltvpn.utils.ExtractorLink
+import com.velcuri.cobaltvpn.utils.Qualities
+import com.velcuri.cobaltvpn.utils.getPostForm
+import com.velcuri.cobaltvpn.utils.newExtractorLink
 import org.jsoup.Jsoup
 
 //class SBPlay1 : SBPlay() {

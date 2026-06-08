@@ -1,4 +1,4 @@
-package com.velcuri.cricketapp.utils
+package com.velcuri.cobaltvpn.utils
 
 import kotlinx.atomicfu.locks.SynchronizedObject
 import kotlinx.atomicfu.locks.synchronized

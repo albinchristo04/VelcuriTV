@@ -1,4 +1,4 @@
-package com.velcuri.cricketapp.utils
+package com.velcuri.cobaltvpn.utils
 
 import android.os.Handler
 import android.os.Looper

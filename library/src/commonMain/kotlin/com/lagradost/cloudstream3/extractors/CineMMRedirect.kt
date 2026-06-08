@@ -1,9 +1,9 @@
-package com.velcuri.cricketapp.extractors
+package com.velcuri.cobaltvpn.extractors
 
-import com.velcuri.cricketapp.SubtitleFile
-import com.velcuri.cricketapp.utils.ExtractorApi
-import com.velcuri.cricketapp.utils.ExtractorLink
-import com.velcuri.cricketapp.utils.loadExtractor
+import com.velcuri.cobaltvpn.SubtitleFile
+import com.velcuri.cobaltvpn.utils.ExtractorApi
+import com.velcuri.cobaltvpn.utils.ExtractorLink
+import com.velcuri.cobaltvpn.utils.loadExtractor
 import okhttp3.HttpUrl.Companion.toHttpUrl
 
 // deobfuscated from https://hglink.to/main.js?v=1.1.3 using https://deobfuscate.io/

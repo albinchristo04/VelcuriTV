@@ -1,10 +1,10 @@
-package com.velcuri.cricketapp.utils
+package com.velcuri.cobaltvpn.utils
 
 import com.fasterxml.jackson.module.kotlin.readValue
-import com.velcuri.cricketapp.InternalAPI
-import com.velcuri.cricketapp.json
-import com.velcuri.cricketapp.mapper
-import com.velcuri.cricketapp.mvvm.logError
+import com.velcuri.cobaltvpn.InternalAPI
+import com.velcuri.cobaltvpn.json
+import com.velcuri.cobaltvpn.mapper
+import com.velcuri.cobaltvpn.mvvm.logError
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.InternalSerializationApi
 import kotlinx.serialization.KSerializer

@@ -1,9 +1,9 @@
-package com.velcuri.cricketapp.extractors
+package com.velcuri.cobaltvpn.extractors
 
-import com.velcuri.cricketapp.SubtitleFile
-import com.velcuri.cricketapp.utils.*
-import com.velcuri.cricketapp.app
-import com.velcuri.cricketapp.utils.M3u8Helper.Companion.generateM3u8
+import com.velcuri.cobaltvpn.SubtitleFile
+import com.velcuri.cobaltvpn.utils.*
+import com.velcuri.cobaltvpn.app
+import com.velcuri.cobaltvpn.utils.M3u8Helper.Companion.generateM3u8
 
 open class Sendvid : ExtractorApi() {
     override var name = "Sendvid"

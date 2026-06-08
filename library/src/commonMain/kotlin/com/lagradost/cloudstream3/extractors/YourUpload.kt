@@ -1,12 +1,12 @@
-package com.velcuri.cricketapp.extractors
+package com.velcuri.cobaltvpn.extractors
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.velcuri.cricketapp.app
-import com.velcuri.cricketapp.utils.AppUtils.tryParseJson
-import com.velcuri.cricketapp.utils.ExtractorApi
-import com.velcuri.cricketapp.utils.ExtractorLink
-import com.velcuri.cricketapp.utils.getQualityFromName
-import com.velcuri.cricketapp.utils.newExtractorLink
+import com.velcuri.cobaltvpn.app
+import com.velcuri.cobaltvpn.utils.AppUtils.tryParseJson
+import com.velcuri.cobaltvpn.utils.ExtractorApi
+import com.velcuri.cobaltvpn.utils.ExtractorLink
+import com.velcuri.cobaltvpn.utils.getQualityFromName
+import com.velcuri.cobaltvpn.utils.newExtractorLink
 
 open class YourUpload: ExtractorApi() {
     override val name = "Yourupload"

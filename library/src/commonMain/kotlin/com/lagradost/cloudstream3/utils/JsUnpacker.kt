@@ -1,6 +1,6 @@
-package com.velcuri.cricketapp.utils
+package com.velcuri.cobaltvpn.utils
 
-import com.velcuri.cricketapp.mvvm.logError
+import com.velcuri.cobaltvpn.mvvm.logError
 import kotlin.math.pow
 
 // https://github.com/cylonu87/JsUnpacker

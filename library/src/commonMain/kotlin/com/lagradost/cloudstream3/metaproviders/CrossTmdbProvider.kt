@@ -1,21 +1,21 @@
-package com.velcuri.cricketapp.metaproviders
+package com.velcuri.cobaltvpn.metaproviders
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.velcuri.cricketapp.APIHolder.apis
-import com.velcuri.cricketapp.APIHolder.getApiFromNameNull
-import com.velcuri.cricketapp.ErrorLoadingException
-import com.velcuri.cricketapp.LoadResponse
-import com.velcuri.cricketapp.MovieLoadResponse
-import com.velcuri.cricketapp.MovieSearchResponse
-import com.velcuri.cricketapp.SearchResponseList
-import com.velcuri.cricketapp.SubtitleFile
-import com.velcuri.cricketapp.TvType
-import com.velcuri.cricketapp.amap
-import com.velcuri.cricketapp.mvvm.logError
-import com.velcuri.cricketapp.toNewSearchResponseList
-import com.velcuri.cricketapp.utils.AppUtils.toJson
-import com.velcuri.cricketapp.utils.AppUtils.tryParseJson
-import com.velcuri.cricketapp.utils.ExtractorLink
+import com.velcuri.cobaltvpn.APIHolder.apis
+import com.velcuri.cobaltvpn.APIHolder.getApiFromNameNull
+import com.velcuri.cobaltvpn.ErrorLoadingException
+import com.velcuri.cobaltvpn.LoadResponse
+import com.velcuri.cobaltvpn.MovieLoadResponse
+import com.velcuri.cobaltvpn.MovieSearchResponse
+import com.velcuri.cobaltvpn.SearchResponseList
+import com.velcuri.cobaltvpn.SubtitleFile
+import com.velcuri.cobaltvpn.TvType
+import com.velcuri.cobaltvpn.amap
+import com.velcuri.cobaltvpn.mvvm.logError
+import com.velcuri.cobaltvpn.toNewSearchResponseList
+import com.velcuri.cobaltvpn.utils.AppUtils.toJson
+import com.velcuri.cobaltvpn.utils.AppUtils.tryParseJson
+import com.velcuri.cobaltvpn.utils.ExtractorLink
 
 class CrossTmdbProvider : TmdbProvider() {
     override var name = "MultiMovie"

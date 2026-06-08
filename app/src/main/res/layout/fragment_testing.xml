@@ -25,7 +25,7 @@
 
         </com.google.android.material.appbar.MaterialToolbar>
 
-        <com.velcuri.cricketapp.ui.settings.testing.TestView
+        <com.velcuri.cobaltvpn.ui.settings.testing.TestView
             android:id="@+id/provider_test"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

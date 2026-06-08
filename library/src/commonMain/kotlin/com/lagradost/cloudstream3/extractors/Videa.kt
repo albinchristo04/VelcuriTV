@@ -1,10 +1,10 @@
 // Adapted for CloudStream - taken from https://github.com/vargalex/ResolveURL/blob/fix/videa-resolver-add-cookie/script.module.resolveurl/lib/resolveurl/plugins/videa.py
-package com.velcuri.cricketapp.extractors
+package com.velcuri.cobaltvpn.extractors
 
-import com.velcuri.cricketapp.app
-import com.velcuri.cricketapp.SubtitleFile
-import com.velcuri.cricketapp.utils.*
-import com.velcuri.cricketapp.base64DecodeArray
+import com.velcuri.cobaltvpn.app
+import com.velcuri.cobaltvpn.SubtitleFile
+import com.velcuri.cobaltvpn.utils.*
+import com.velcuri.cobaltvpn.base64DecodeArray
 
 /**
  * Extractor for Videa.hu video hosting service

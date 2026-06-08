@@ -1,4 +1,4 @@
-package com.velcuri.cricketapp.utils
+package com.velcuri.cobaltvpn.utils
 
 import java.util.Locale
 

@@ -1,7 +1,7 @@
-package com.velcuri.cricketapp.network
+package com.velcuri.cobaltvpn.network
 
-import com.velcuri.cricketapp.mvvm.debugException
-import com.velcuri.cricketapp.mvvm.logError
+import com.velcuri.cobaltvpn.mvvm.debugException
+import com.velcuri.cobaltvpn.mvvm.logError
 import com.lagradost.nicehttp.requestCreator
 import okhttp3.Interceptor
 import okhttp3.Request

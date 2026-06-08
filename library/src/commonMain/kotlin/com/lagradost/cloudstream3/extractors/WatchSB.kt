@@ -1,10 +1,10 @@
-package com.velcuri.cricketapp.extractors
+package com.velcuri.cobaltvpn.extractors
 
-import com.velcuri.cricketapp.app
-import com.velcuri.cricketapp.network.WebViewResolver
-import com.velcuri.cricketapp.utils.ExtractorApi
-import com.velcuri.cricketapp.utils.ExtractorLink
-import com.velcuri.cricketapp.utils.M3u8Helper.Companion.generateM3u8
+import com.velcuri.cobaltvpn.app
+import com.velcuri.cobaltvpn.network.WebViewResolver
+import com.velcuri.cobaltvpn.utils.ExtractorApi
+import com.velcuri.cobaltvpn.utils.ExtractorLink
+import com.velcuri.cobaltvpn.utils.M3u8Helper.Companion.generateM3u8
 
 open class WatchSB : ExtractorApi() {
     override var name = "WatchSB"

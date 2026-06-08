@@ -1,7 +1,7 @@
-package com.velcuri.cricketapp.extractors
+package com.velcuri.cobaltvpn.extractors
 
-import com.velcuri.cricketapp.utils.*
-import com.velcuri.cricketapp.app
+import com.velcuri.cobaltvpn.utils.*
+import com.velcuri.cobaltvpn.app
 
 class Evoload1 : Evoload() {
     override var mainUrl = "https://evoload.io"

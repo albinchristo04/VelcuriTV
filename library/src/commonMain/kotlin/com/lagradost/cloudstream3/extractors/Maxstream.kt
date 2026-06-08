@@ -1,8 +1,8 @@
-package com.velcuri.cricketapp.extractors
+package com.velcuri.cobaltvpn.extractors
 
-import com.velcuri.cricketapp.utils.ExtractorLink
-import com.velcuri.cricketapp.app
-import com.velcuri.cricketapp.utils.*
+import com.velcuri.cobaltvpn.utils.ExtractorLink
+import com.velcuri.cobaltvpn.app
+import com.velcuri.cobaltvpn.utils.*
 
 open class Maxstream : ExtractorApi() {
     override var name = "Maxstream"

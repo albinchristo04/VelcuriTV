@@ -1,8 +1,8 @@
-package com.velcuri.cricketapp.utils
+package com.velcuri.cobaltvpn.utils
 
-import com.velcuri.cricketapp.app
-import com.velcuri.cricketapp.base64Decode
-import com.velcuri.cricketapp.utils.StringUtils.decodeUri
+import com.velcuri.cobaltvpn.app
+import com.velcuri.cobaltvpn.base64Decode
+import com.velcuri.cobaltvpn.utils.StringUtils.decodeUri
 import com.lagradost.nicehttp.NiceResponse
 import java.net.URI
 

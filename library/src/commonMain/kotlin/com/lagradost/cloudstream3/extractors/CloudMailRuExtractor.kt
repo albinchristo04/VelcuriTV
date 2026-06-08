@@ -1,15 +1,15 @@
 // ! Bu araç @Kraptor123 tarafından | @kekikanime için yazılmıştır.
-package com.velcuri.cricketapp.extractors
+package com.velcuri.cobaltvpn.extractors
 
-import com.velcuri.cricketapp.SubtitleFile
-import com.velcuri.cricketapp.USER_AGENT
-import com.velcuri.cricketapp.app
-import com.velcuri.cricketapp.base64Encode
-import com.velcuri.cricketapp.utils.ExtractorApi
-import com.velcuri.cricketapp.utils.ExtractorLink
-import com.velcuri.cricketapp.utils.INFER_TYPE
-import com.velcuri.cricketapp.utils.Qualities
-import com.velcuri.cricketapp.utils.newExtractorLink
+import com.velcuri.cobaltvpn.SubtitleFile
+import com.velcuri.cobaltvpn.USER_AGENT
+import com.velcuri.cobaltvpn.app
+import com.velcuri.cobaltvpn.base64Encode
+import com.velcuri.cobaltvpn.utils.ExtractorApi
+import com.velcuri.cobaltvpn.utils.ExtractorLink
+import com.velcuri.cobaltvpn.utils.INFER_TYPE
+import com.velcuri.cobaltvpn.utils.Qualities
+import com.velcuri.cobaltvpn.utils.newExtractorLink
 
 open class CloudMailRu : ExtractorApi() {
     override val name            = "CloudMailRu"

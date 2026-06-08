@@ -1,4 +1,4 @@
-package com.velcuri.cricketapp.plugins
+package com.velcuri.cobaltvpn.plugins
 
 @Suppress("unused")
 @Target(AnnotationTarget.CLASS)

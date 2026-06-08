@@ -1,9 +1,9 @@
 // ! Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
 
-package com.velcuri.cricketapp.extractors
+package com.velcuri.cobaltvpn.extractors
 
-import com.velcuri.cricketapp.*
-import com.velcuri.cricketapp.utils.*
+import com.velcuri.cobaltvpn.*
+import com.velcuri.cobaltvpn.utils.*
 import com.fasterxml.jackson.annotation.JsonProperty
 
 open class Sobreatsesuyp : ExtractorApi() {

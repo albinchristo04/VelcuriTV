@@ -1,12 +1,12 @@
 // ! Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
 
-package com.velcuri.cricketapp.extractors
+package com.velcuri.cobaltvpn.extractors
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.lagradost.api.Log
-import com.velcuri.cricketapp.*
-import com.velcuri.cricketapp.utils.*
-import com.velcuri.cricketapp.utils.AppUtils.tryParseJson
+import com.velcuri.cobaltvpn.*
+import com.velcuri.cobaltvpn.utils.*
+import com.velcuri.cobaltvpn.utils.AppUtils.tryParseJson
 
 open class VideoSeyred : ExtractorApi() {
     override val name            = "VideoSeyred"

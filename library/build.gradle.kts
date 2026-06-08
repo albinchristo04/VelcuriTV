@@ -21,7 +21,7 @@ kotlin {
     version = "1.0.1"
 
     android {
-        // If this is the same com.velcuri.cricketapp.R stops working
+        // If this is the same com.velcuri.cobaltvpn.R stops working
         namespace = "com.lagradost.api"
 
         compileSdk = libs.versions.compileSdk.get().toInt()
@@ -48,8 +48,8 @@ kotlin {
     sourceSets {
         all {
             languageSettings {
-                optIn("com.velcuri.cricketapp.InternalAPI")
-                optIn("com.velcuri.cricketapp.Prerelease")
+                optIn("com.velcuri.cobaltvpn.InternalAPI")
+                optIn("com.velcuri.cobaltvpn.Prerelease")
             }
         }
 

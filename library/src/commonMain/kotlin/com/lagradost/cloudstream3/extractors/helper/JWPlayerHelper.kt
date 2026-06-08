@@ -1,14 +1,14 @@
-package com.velcuri.cricketapp.extractors.helper
+package com.velcuri.cobaltvpn.extractors.helper
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.lagradost.api.Log
-import com.velcuri.cricketapp.Prerelease
-import com.velcuri.cricketapp.SubtitleFile
-import com.velcuri.cricketapp.newSubtitleFile
-import com.velcuri.cricketapp.utils.AppUtils.tryParseJson
-import com.velcuri.cricketapp.utils.ExtractorLink
-import com.velcuri.cricketapp.utils.M3u8Helper
-import com.velcuri.cricketapp.utils.newExtractorLink
+import com.velcuri.cobaltvpn.Prerelease
+import com.velcuri.cobaltvpn.SubtitleFile
+import com.velcuri.cobaltvpn.newSubtitleFile
+import com.velcuri.cobaltvpn.utils.AppUtils.tryParseJson
+import com.velcuri.cobaltvpn.utils.ExtractorLink
+import com.velcuri.cobaltvpn.utils.M3u8Helper
+import com.velcuri.cobaltvpn.utils.newExtractorLink
 import kotlin.collections.orEmpty
 
 @Prerelease

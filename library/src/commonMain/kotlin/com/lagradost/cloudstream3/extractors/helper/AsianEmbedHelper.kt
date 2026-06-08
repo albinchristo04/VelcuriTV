@@ -1,11 +1,11 @@
-package com.velcuri.cricketapp.extractors.helper
+package com.velcuri.cobaltvpn.extractors.helper
 
 import com.lagradost.api.Log
-import com.velcuri.cricketapp.SubtitleFile
-import com.velcuri.cricketapp.amap
-import com.velcuri.cricketapp.app
-import com.velcuri.cricketapp.utils.ExtractorLink
-import com.velcuri.cricketapp.utils.loadExtractor
+import com.velcuri.cobaltvpn.SubtitleFile
+import com.velcuri.cobaltvpn.amap
+import com.velcuri.cobaltvpn.app
+import com.velcuri.cobaltvpn.utils.ExtractorLink
+import com.velcuri.cobaltvpn.utils.loadExtractor
 
 class AsianEmbedHelper {
     companion object {
