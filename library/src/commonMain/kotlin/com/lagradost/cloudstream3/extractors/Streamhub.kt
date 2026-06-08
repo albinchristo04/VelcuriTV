@@ -1,13 +1,13 @@
-package com.velcuri.tv.extractors
+package com.velcuri.cricketapp.extractors
 
-import com.velcuri.tv.app
-import com.velcuri.tv.utils.ExtractorApi
-import com.velcuri.tv.utils.ExtractorLink
-import com.velcuri.tv.utils.ExtractorLinkType
-import com.velcuri.tv.utils.INFER_TYPE
-import com.velcuri.tv.utils.JsUnpacker
-import com.velcuri.tv.utils.Qualities
-import com.velcuri.tv.utils.newExtractorLink
+import com.velcuri.cricketapp.app
+import com.velcuri.cricketapp.utils.ExtractorApi
+import com.velcuri.cricketapp.utils.ExtractorLink
+import com.velcuri.cricketapp.utils.ExtractorLinkType
+import com.velcuri.cricketapp.utils.INFER_TYPE
+import com.velcuri.cricketapp.utils.JsUnpacker
+import com.velcuri.cricketapp.utils.Qualities
+import com.velcuri.cricketapp.utils.newExtractorLink
 
 open class Streamhub : ExtractorApi() {
     override var mainUrl = "https://streamhub.to"

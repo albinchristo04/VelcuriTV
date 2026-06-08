@@ -924,7 +924,7 @@
                             android:scaleType="centerCrop" />
                     </FrameLayout>
 
-                    <com.velcuri.tv.ui.player.live.LivePreviewTimeBar
+                    <com.velcuri.cricketapp.ui.player.live.LivePreviewTimeBar
                         android:id="@id/exo_progress"
                         android:layout_width="0dp"
                         android:layout_height="30dp"

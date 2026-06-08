@@ -1,9 +1,9 @@
 // ! Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
 
-package com.velcuri.tv.extractors
+package com.velcuri.cricketapp.extractors
 
-import com.velcuri.tv.*
-import com.velcuri.tv.utils.*
+import com.velcuri.cricketapp.*
+import com.velcuri.cricketapp.utils.*
 
 class PixelDrainDev : PixelDrain() {
     override var mainUrl = "https://pixeldrain.dev"

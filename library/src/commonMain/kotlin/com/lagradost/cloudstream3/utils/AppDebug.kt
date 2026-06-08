@@ -1,6 +1,6 @@
-package com.velcuri.tv.utils
+package com.velcuri.cricketapp.utils
 
-import com.velcuri.tv.InternalAPI
+import com.velcuri.cricketapp.InternalAPI
 import kotlin.concurrent.Volatile
 
 @InternalAPI

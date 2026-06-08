@@ -1,9 +1,9 @@
-package com.velcuri.tv.extractors.helper
+package com.velcuri.cricketapp.extractors.helper
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.velcuri.tv.base64DecodeArray
-import com.velcuri.tv.base64Encode
-import com.velcuri.tv.utils.AppUtils
+import com.velcuri.cricketapp.base64DecodeArray
+import com.velcuri.cricketapp.base64Encode
+import com.velcuri.cricketapp.utils.AppUtils
 import java.security.DigestException
 import java.security.MessageDigest
 import javax.crypto.Cipher

@@ -1,11 +1,11 @@
-package com.velcuri.tv.extractors.helper
+package com.velcuri.cricketapp.extractors.helper
 
 import com.lagradost.api.Log
-import com.velcuri.tv.SubtitleFile
-import com.velcuri.tv.amap
-import com.velcuri.tv.app
-import com.velcuri.tv.utils.ExtractorLink
-import com.velcuri.tv.utils.loadExtractor
+import com.velcuri.cricketapp.SubtitleFile
+import com.velcuri.cricketapp.amap
+import com.velcuri.cricketapp.app
+import com.velcuri.cricketapp.utils.ExtractorLink
+import com.velcuri.cricketapp.utils.loadExtractor
 
 class AsianEmbedHelper {
     companion object {

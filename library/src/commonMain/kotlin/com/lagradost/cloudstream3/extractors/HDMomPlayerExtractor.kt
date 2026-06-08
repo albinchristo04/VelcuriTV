@@ -1,13 +1,13 @@
 // ! Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
 
-package com.velcuri.tv.extractors
+package com.velcuri.cricketapp.extractors
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.lagradost.api.Log
-import com.velcuri.tv.*
-import com.velcuri.tv.extractors.helper.AesHelper
-import com.velcuri.tv.utils.*
-import com.velcuri.tv.utils.AppUtils.parseJson
+import com.velcuri.cricketapp.*
+import com.velcuri.cricketapp.extractors.helper.AesHelper
+import com.velcuri.cricketapp.utils.*
+import com.velcuri.cricketapp.utils.AppUtils.parseJson
 
 open class HDMomPlayer : ExtractorApi() {
     override val name            = "HDMomPlayer"

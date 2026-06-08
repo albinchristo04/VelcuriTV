@@ -1,8 +1,8 @@
-package com.velcuri.tv.extractors
+package com.velcuri.cricketapp.extractors
 
-import com.velcuri.tv.utils.ExtractorLink
-import com.velcuri.tv.app
-import com.velcuri.tv.utils.*
+import com.velcuri.cricketapp.utils.ExtractorLink
+import com.velcuri.cricketapp.app
+import com.velcuri.cricketapp.utils.*
 import org.mozilla.javascript.Context
 import org.mozilla.javascript.EvaluatorException
 import org.mozilla.javascript.Scriptable

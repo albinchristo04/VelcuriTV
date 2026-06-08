@@ -1,11 +1,11 @@
-package com.velcuri.tv.extractors
+package com.velcuri.cricketapp.extractors
 
-import com.velcuri.tv.utils.*
-import com.velcuri.tv.app
-import com.velcuri.tv.SubtitleFile
-import com.velcuri.tv.USER_AGENT
-import com.velcuri.tv.newSubtitleFile
-import com.velcuri.tv.utils.*
+import com.velcuri.cricketapp.utils.*
+import com.velcuri.cricketapp.app
+import com.velcuri.cricketapp.SubtitleFile
+import com.velcuri.cricketapp.USER_AGENT
+import com.velcuri.cricketapp.newSubtitleFile
+import com.velcuri.cricketapp.utils.*
 
 // import android.util.Log
 

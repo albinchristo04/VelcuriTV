@@ -1,21 +1,21 @@
-package com.velcuri.tv.metaproviders
+package com.velcuri.cricketapp.metaproviders
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.velcuri.tv.APIHolder.apis
-import com.velcuri.tv.APIHolder.getApiFromNameNull
-import com.velcuri.tv.ErrorLoadingException
-import com.velcuri.tv.LoadResponse
-import com.velcuri.tv.MovieLoadResponse
-import com.velcuri.tv.MovieSearchResponse
-import com.velcuri.tv.SearchResponseList
-import com.velcuri.tv.SubtitleFile
-import com.velcuri.tv.TvType
-import com.velcuri.tv.amap
-import com.velcuri.tv.mvvm.logError
-import com.velcuri.tv.toNewSearchResponseList
-import com.velcuri.tv.utils.AppUtils.toJson
-import com.velcuri.tv.utils.AppUtils.tryParseJson
-import com.velcuri.tv.utils.ExtractorLink
+import com.velcuri.cricketapp.APIHolder.apis
+import com.velcuri.cricketapp.APIHolder.getApiFromNameNull
+import com.velcuri.cricketapp.ErrorLoadingException
+import com.velcuri.cricketapp.LoadResponse
+import com.velcuri.cricketapp.MovieLoadResponse
+import com.velcuri.cricketapp.MovieSearchResponse
+import com.velcuri.cricketapp.SearchResponseList
+import com.velcuri.cricketapp.SubtitleFile
+import com.velcuri.cricketapp.TvType
+import com.velcuri.cricketapp.amap
+import com.velcuri.cricketapp.mvvm.logError
+import com.velcuri.cricketapp.toNewSearchResponseList
+import com.velcuri.cricketapp.utils.AppUtils.toJson
+import com.velcuri.cricketapp.utils.AppUtils.tryParseJson
+import com.velcuri.cricketapp.utils.ExtractorLink
 
 class CrossTmdbProvider : TmdbProvider() {
     override var name = "MultiMovie"

@@ -1,12 +1,12 @@
-package com.velcuri.tv.extractors
+package com.velcuri.cricketapp.extractors
 
-import com.velcuri.tv.SubtitleFile
-import com.velcuri.tv.newAudioFile
-import com.velcuri.tv.newSubtitleFile
-import com.velcuri.tv.utils.ExtractorApi
-import com.velcuri.tv.utils.ExtractorLink
-import com.velcuri.tv.utils.ExtractorLinkType
-import com.velcuri.tv.utils.newExtractorLink
+import com.velcuri.cricketapp.SubtitleFile
+import com.velcuri.cricketapp.newAudioFile
+import com.velcuri.cricketapp.newSubtitleFile
+import com.velcuri.cricketapp.utils.ExtractorApi
+import com.velcuri.cricketapp.utils.ExtractorLink
+import com.velcuri.cricketapp.utils.ExtractorLinkType
+import com.velcuri.cricketapp.utils.newExtractorLink
 import org.schabi.newpipe.extractor.stream.StreamInfo
 import org.schabi.newpipe.extractor.stream.StreamType
 

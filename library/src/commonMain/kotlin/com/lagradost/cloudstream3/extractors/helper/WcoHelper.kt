@@ -1,7 +1,7 @@
-package com.velcuri.tv.extractors.helper
+package com.velcuri.cricketapp.extractors.helper
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.velcuri.tv.app
+import com.velcuri.cricketapp.app
 
 class WcoHelper {
     companion object {

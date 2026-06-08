@@ -1,6 +1,6 @@
-package com.velcuri.tv.utils.serializers
+package com.velcuri.cricketapp.utils.serializers
 
-import com.velcuri.tv.Prerelease
+import com.velcuri.cricketapp.Prerelease
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.json.JsonArray
 import kotlinx.serialization.json.JsonElement

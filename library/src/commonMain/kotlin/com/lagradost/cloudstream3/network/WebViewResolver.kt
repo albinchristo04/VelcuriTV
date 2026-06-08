@@ -1,6 +1,6 @@
-package com.velcuri.tv.network
+package com.velcuri.cricketapp.network
 
-import com.velcuri.tv.USER_AGENT
+import com.velcuri.cricketapp.USER_AGENT
 import okhttp3.Interceptor
 import okhttp3.Request
 

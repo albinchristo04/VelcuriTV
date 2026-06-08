@@ -1,13 +1,13 @@
-package com.velcuri.tv.extractors
+package com.velcuri.cricketapp.extractors
 
-import com.velcuri.tv.USER_AGENT
-import com.velcuri.tv.app
-import com.velcuri.tv.utils.AppUtils.tryParseJson
-import com.velcuri.tv.utils.ExtractorApi
-import com.velcuri.tv.utils.ExtractorLink
-import com.velcuri.tv.utils.Qualities
-import com.velcuri.tv.utils.StringUtils.decodeUri
-import com.velcuri.tv.utils.newExtractorLink
+import com.velcuri.cricketapp.USER_AGENT
+import com.velcuri.cricketapp.app
+import com.velcuri.cricketapp.utils.AppUtils.tryParseJson
+import com.velcuri.cricketapp.utils.ExtractorApi
+import com.velcuri.cricketapp.utils.ExtractorLink
+import com.velcuri.cricketapp.utils.Qualities
+import com.velcuri.cricketapp.utils.StringUtils.decodeUri
+import com.velcuri.cricketapp.utils.newExtractorLink
 
 open class Cda : ExtractorApi() {
     override var mainUrl = "https://ebd.cda.pl"

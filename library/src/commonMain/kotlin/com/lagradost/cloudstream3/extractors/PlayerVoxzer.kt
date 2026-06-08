@@ -1,9 +1,9 @@
-package com.velcuri.tv.extractors
+package com.velcuri.cricketapp.extractors
 
-import com.velcuri.tv.app
-import com.velcuri.tv.utils.ExtractorApi
-import com.velcuri.tv.utils.ExtractorLink
-import com.velcuri.tv.utils.M3u8Helper
+import com.velcuri.cricketapp.app
+import com.velcuri.cricketapp.utils.ExtractorApi
+import com.velcuri.cricketapp.utils.ExtractorLink
+import com.velcuri.cricketapp.utils.M3u8Helper
 
 
 open class PlayerVoxzer : ExtractorApi() {

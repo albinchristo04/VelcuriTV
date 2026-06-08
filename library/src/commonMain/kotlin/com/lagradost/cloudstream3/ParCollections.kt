@@ -1,6 +1,6 @@
-package com.velcuri.tv
+package com.velcuri.cricketapp
 
-import com.velcuri.tv.mvvm.logError
+import com.velcuri.cricketapp.mvvm.logError
 import kotlinx.coroutines.*
 import kotlin.coroutines.cancellation.CancellationException
 
@@ -20,7 +20,7 @@ suspend fun <K, V, R> Map<out K, V>.amap(f: suspend (Map.Entry<K, V>) -> R): Lis
  */
 @Deprecated(
     "This blocks with runBlocking, and should not be used inside a suspended context",
-    replaceWith = ReplaceWith("amap(f)", "com.velcuri.tv.amap"),
+    replaceWith = ReplaceWith("amap(f)", "com.velcuri.cricketapp.amap"),
     level = DeprecationLevel.ERROR
 )
 @Throws(CancellationException::class)
@@ -44,7 +44,7 @@ suspend fun <A, B> List<A>.amap(f: suspend (A) -> B): List<B> =
  */
 @Deprecated(
     "This blocks with runBlocking, and should not be used inside a suspended context",
-    replaceWith = ReplaceWith("amap(f)", "com.velcuri.tv.amap"),
+    replaceWith = ReplaceWith("amap(f)", "com.velcuri.cricketapp.amap"),
     level = DeprecationLevel.ERROR
 )
 @Throws(CancellationException::class)
@@ -57,7 +57,7 @@ fun <A, B> List<A>.apmap(f: suspend (A) -> B): List<B> = runBlocking {
  */
 @Deprecated(
     "This blocks with runBlocking, and should not be used inside a suspended context",
-    replaceWith = ReplaceWith("amapIndexed(f)", "com.velcuri.tv.amapIndexed"),
+    replaceWith = ReplaceWith("amapIndexed(f)", "com.velcuri.cricketapp.amapIndexed"),
     level = DeprecationLevel.ERROR
 )
 @Throws(CancellationException::class)
@@ -84,7 +84,7 @@ suspend fun <A, B> List<A>.amapIndexed(f: suspend (index: Int, A) -> B): List<B>
  */
 @Deprecated(
     "This blocks with runBlocking, and should not be used inside a suspended context",
-    replaceWith = ReplaceWith("runAllAsync(transforms)", "com.velcuri.tv.runAllAsync"),
+    replaceWith = ReplaceWith("runAllAsync(transforms)", "com.velcuri.cricketapp.runAllAsync"),
     level = DeprecationLevel.ERROR
 )
 @Throws(CancellationException::class)

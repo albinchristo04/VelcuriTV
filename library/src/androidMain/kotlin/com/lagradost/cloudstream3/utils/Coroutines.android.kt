@@ -1,4 +1,4 @@
-package com.velcuri.tv.utils
+package com.velcuri.cricketapp.utils
 
 import android.os.Handler
 import android.os.Looper

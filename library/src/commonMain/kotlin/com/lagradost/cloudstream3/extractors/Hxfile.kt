@@ -1,9 +1,9 @@
-package com.velcuri.tv.extractors
+package com.velcuri.cricketapp.extractors
 
-import com.velcuri.tv.SubtitleFile
-import com.velcuri.tv.app
-import com.velcuri.tv.extractors.helper.JwPlayerHelper
-import com.velcuri.tv.utils.*
+import com.velcuri.cricketapp.SubtitleFile
+import com.velcuri.cricketapp.app
+import com.velcuri.cricketapp.extractors.helper.JwPlayerHelper
+import com.velcuri.cricketapp.utils.*
 
 class Neonime7n : Hxfile() {
     override val name = "Neonime7n"

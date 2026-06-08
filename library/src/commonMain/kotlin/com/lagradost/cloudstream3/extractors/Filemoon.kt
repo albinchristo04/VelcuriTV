@@ -1,14 +1,14 @@
-package com.velcuri.tv.extractors
+package com.velcuri.cricketapp.extractors
 
 import com.lagradost.api.Log
-import com.velcuri.tv.SubtitleFile
-import com.velcuri.tv.app
-import com.velcuri.tv.extractors.helper.JwPlayerHelper
-import com.velcuri.tv.network.WebViewResolver
-import com.velcuri.tv.utils.ExtractorApi
-import com.velcuri.tv.utils.ExtractorLink
-import com.velcuri.tv.utils.JsUnpacker
-import com.velcuri.tv.utils.M3u8Helper
+import com.velcuri.cricketapp.SubtitleFile
+import com.velcuri.cricketapp.app
+import com.velcuri.cricketapp.extractors.helper.JwPlayerHelper
+import com.velcuri.cricketapp.network.WebViewResolver
+import com.velcuri.cricketapp.utils.ExtractorApi
+import com.velcuri.cricketapp.utils.ExtractorLink
+import com.velcuri.cricketapp.utils.JsUnpacker
+import com.velcuri.cricketapp.utils.M3u8Helper
 
 
 class FileMoon : FilemoonV2() {

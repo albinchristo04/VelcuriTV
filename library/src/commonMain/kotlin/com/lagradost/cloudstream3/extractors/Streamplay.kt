@@ -1,12 +1,12 @@
-package com.velcuri.tv.extractors
+package com.velcuri.cricketapp.extractors
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.velcuri.tv.APIHolder.getCaptchaToken
-import com.velcuri.tv.ErrorLoadingException
-import com.velcuri.tv.SubtitleFile
-import com.velcuri.tv.app
-import com.velcuri.tv.utils.*
-import com.velcuri.tv.utils.AppUtils.tryParseJson
+import com.velcuri.cricketapp.APIHolder.getCaptchaToken
+import com.velcuri.cricketapp.ErrorLoadingException
+import com.velcuri.cricketapp.SubtitleFile
+import com.velcuri.cricketapp.app
+import com.velcuri.cricketapp.utils.*
+import com.velcuri.cricketapp.utils.AppUtils.tryParseJson
 import java.net.URI
 
 open class Streamplay : ExtractorApi() {

@@ -1,12 +1,12 @@
-package com.velcuri.tv.extractors
+package com.velcuri.cricketapp.extractors
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.velcuri.tv.SubtitleFile
-import com.velcuri.tv.app
-import com.velcuri.tv.utils.ExtractorApi
-import com.velcuri.tv.utils.ExtractorLink
-import com.velcuri.tv.utils.getQualityFromName
-import com.velcuri.tv.utils.newExtractorLink
+import com.velcuri.cricketapp.SubtitleFile
+import com.velcuri.cricketapp.app
+import com.velcuri.cricketapp.utils.ExtractorApi
+import com.velcuri.cricketapp.utils.ExtractorLink
+import com.velcuri.cricketapp.utils.getQualityFromName
+import com.velcuri.cricketapp.utils.newExtractorLink
 
 open class Linkbox : ExtractorApi() {
     override val name = "Linkbox"

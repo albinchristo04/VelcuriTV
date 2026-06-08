@@ -1,7 +1,7 @@
-package com.velcuri.tv
+package com.velcuri.cricketapp
 
-import com.velcuri.tv.utils.AppUtils.parseJson
-import com.velcuri.tv.utils.AppUtils.toJson
+import com.velcuri.cricketapp.utils.AppUtils.parseJson
+import com.velcuri.cricketapp.utils.AppUtils.toJson
 import com.lagradost.nicehttp.Requests
 import com.lagradost.nicehttp.ResponseParser
 import kotlin.reflect.KClass

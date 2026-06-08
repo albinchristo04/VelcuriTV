@@ -1,7 +1,7 @@
-package com.velcuri.tv.extractors
+package com.velcuri.cricketapp.extractors
 
-import com.velcuri.tv.utils.*
-import com.velcuri.tv.app
+import com.velcuri.cricketapp.utils.*
+import com.velcuri.cricketapp.app
 
 class Evoload1 : Evoload() {
     override var mainUrl = "https://evoload.io"

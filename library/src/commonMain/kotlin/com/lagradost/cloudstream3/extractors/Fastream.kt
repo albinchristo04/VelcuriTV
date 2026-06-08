@@ -1,13 +1,13 @@
-package com.velcuri.tv.extractors
+package com.velcuri.cricketapp.extractors
 
-import com.velcuri.tv.SubtitleFile
-import com.velcuri.tv.amap
-import com.velcuri.tv.app
-import com.velcuri.tv.extractors.helper.JwPlayerHelper
-import com.velcuri.tv.utils.ExtractorApi
-import com.velcuri.tv.utils.ExtractorLink
-import com.velcuri.tv.utils.getAndUnpack
-import com.velcuri.tv.utils.getPacked
+import com.velcuri.cricketapp.SubtitleFile
+import com.velcuri.cricketapp.amap
+import com.velcuri.cricketapp.app
+import com.velcuri.cricketapp.extractors.helper.JwPlayerHelper
+import com.velcuri.cricketapp.utils.ExtractorApi
+import com.velcuri.cricketapp.utils.ExtractorLink
+import com.velcuri.cricketapp.utils.getAndUnpack
+import com.velcuri.cricketapp.utils.getPacked
 
 open class Fastream : ExtractorApi() {
     override var mainUrl = "https://fastream.to"

@@ -1,11 +1,11 @@
-package com.velcuri.tv.extractors
+package com.velcuri.cricketapp.extractors
 
-import com.velcuri.tv.SubtitleFile
-import com.velcuri.tv.USER_AGENT
-import com.velcuri.tv.app
-import com.velcuri.tv.extractors.helper.JwPlayerHelper
-import com.velcuri.tv.utils.ExtractorApi
-import com.velcuri.tv.utils.ExtractorLink
+import com.velcuri.cricketapp.SubtitleFile
+import com.velcuri.cricketapp.USER_AGENT
+import com.velcuri.cricketapp.app
+import com.velcuri.cricketapp.extractors.helper.JwPlayerHelper
+import com.velcuri.cricketapp.utils.ExtractorApi
+import com.velcuri.cricketapp.utils.ExtractorLink
 
 class Vidmolyme : Vidmoly() {
     override val mainUrl = "https://vidmoly.me"

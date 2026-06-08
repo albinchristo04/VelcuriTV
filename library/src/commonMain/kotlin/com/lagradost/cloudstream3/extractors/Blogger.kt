@@ -1,9 +1,9 @@
-package com.velcuri.tv.extractors
+package com.velcuri.cricketapp.extractors
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.velcuri.tv.app
-import com.velcuri.tv.utils.*
-import com.velcuri.tv.utils.AppUtils.tryParseJson
+import com.velcuri.cricketapp.app
+import com.velcuri.cricketapp.utils.*
+import com.velcuri.cricketapp.utils.AppUtils.tryParseJson
 
 open class Blogger : ExtractorApi() {
     override val name = "Blogger"

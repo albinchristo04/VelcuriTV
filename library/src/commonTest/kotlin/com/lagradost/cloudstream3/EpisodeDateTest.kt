@@ -1,4 +1,4 @@
-package com.velcuri.tv
+package com.velcuri.cricketapp
 
 import kotlinx.datetime.LocalDate
 import kotlinx.datetime.LocalDateTime

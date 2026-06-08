@@ -1,14 +1,14 @@
-package com.velcuri.tv.extractors.helper
+package com.velcuri.cricketapp.extractors.helper
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.lagradost.api.Log
-import com.velcuri.tv.Prerelease
-import com.velcuri.tv.SubtitleFile
-import com.velcuri.tv.newSubtitleFile
-import com.velcuri.tv.utils.AppUtils.tryParseJson
-import com.velcuri.tv.utils.ExtractorLink
-import com.velcuri.tv.utils.M3u8Helper
-import com.velcuri.tv.utils.newExtractorLink
+import com.velcuri.cricketapp.Prerelease
+import com.velcuri.cricketapp.SubtitleFile
+import com.velcuri.cricketapp.newSubtitleFile
+import com.velcuri.cricketapp.utils.AppUtils.tryParseJson
+import com.velcuri.cricketapp.utils.ExtractorLink
+import com.velcuri.cricketapp.utils.M3u8Helper
+import com.velcuri.cricketapp.utils.newExtractorLink
 import kotlin.collections.orEmpty
 
 @Prerelease

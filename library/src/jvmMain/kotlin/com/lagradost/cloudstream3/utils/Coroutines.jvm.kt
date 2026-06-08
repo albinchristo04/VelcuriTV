@@ -1,4 +1,4 @@
-package com.velcuri.tv.utils
+package com.velcuri.cricketapp.utils
 
 import androidx.annotation.AnyThread
 import androidx.annotation.MainThread

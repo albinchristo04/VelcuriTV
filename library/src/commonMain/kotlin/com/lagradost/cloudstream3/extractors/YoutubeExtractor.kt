@@ -1,8 +1,8 @@
-package com.velcuri.tv.extractors
+package com.velcuri.cricketapp.extractors
 
-import com.velcuri.tv.SubtitleFile
-import com.velcuri.tv.utils.ExtractorApi
-import com.velcuri.tv.utils.ExtractorLink
+import com.velcuri.cricketapp.SubtitleFile
+import com.velcuri.cricketapp.utils.ExtractorApi
+import com.velcuri.cricketapp.utils.ExtractorLink
 
 expect open class YoutubeExtractor() : ExtractorApi {
     override val mainUrl: String

@@ -1,7 +1,7 @@
-package com.velcuri.tv.network
+package com.velcuri.cricketapp.network
 
-import com.velcuri.tv.mvvm.debugException
-import com.velcuri.tv.mvvm.logError
+import com.velcuri.cricketapp.mvvm.debugException
+import com.velcuri.cricketapp.mvvm.logError
 import com.lagradost.nicehttp.requestCreator
 import okhttp3.Interceptor
 import okhttp3.Request

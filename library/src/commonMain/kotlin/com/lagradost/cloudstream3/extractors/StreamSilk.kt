@@ -1,9 +1,9 @@
-package com.velcuri.tv.extractors
+package com.velcuri.cricketapp.extractors
 
-import com.velcuri.tv.SubtitleFile
-import com.velcuri.tv.USER_AGENT
-import com.velcuri.tv.app
-import com.velcuri.tv.utils.*
+import com.velcuri.cricketapp.SubtitleFile
+import com.velcuri.cricketapp.USER_AGENT
+import com.velcuri.cricketapp.app
+import com.velcuri.cricketapp.utils.*
 
 open class StreamSilk : ExtractorApi() {
     override val name = "StreamSilk"

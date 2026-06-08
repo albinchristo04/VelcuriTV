@@ -1,4 +1,4 @@
-package com.velcuri.tv.plugins
+package com.velcuri.cricketapp.plugins
 
 @Suppress("unused")
 @Target(AnnotationTarget.CLASS)

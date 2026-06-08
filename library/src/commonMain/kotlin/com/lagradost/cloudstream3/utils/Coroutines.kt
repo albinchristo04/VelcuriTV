@@ -1,11 +1,11 @@
-package com.velcuri.tv.utils
+package com.velcuri.cricketapp.utils
 
 import androidx.annotation.AnyThread
 import androidx.annotation.MainThread
 import androidx.annotation.WorkerThread
-import com.velcuri.tv.Prerelease
-import com.velcuri.tv.mvvm.launchSafe
-import com.velcuri.tv.mvvm.logError
+import com.velcuri.cricketapp.Prerelease
+import com.velcuri.cricketapp.mvvm.launchSafe
+import com.velcuri.cricketapp.mvvm.logError
 import kotlinx.coroutines.*
 
 @AnyThread

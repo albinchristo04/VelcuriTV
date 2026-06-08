@@ -17,7 +17,7 @@
 /*
  NOTE: This is a simplified and more portable kotlin media3 hls parser. 
  */
-package com.velcuri.tv.utils
+package com.velcuri.cricketapp.utils
 
 import java.io.IOException
 import java.net.URI
@@ -1445,7 +1445,7 @@ object HlsPlaylistParser {
 
         /**
          * The language as an IETF BCP 47 conformant tag, or null if unknown or not applicable.
-         * Check [com.velcuri.tv.utils.SubtitleHelper].
+         * Check [com.velcuri.cricketapp.utils.SubtitleHelper].
          *
          * See locales on:
          * https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-core/availableLocales.json

@@ -1,8 +1,8 @@
-package com.velcuri.tv.utils
+package com.velcuri.cricketapp.utils
 
-import com.velcuri.tv.app
-import com.velcuri.tv.base64Decode
-import com.velcuri.tv.utils.StringUtils.decodeUri
+import com.velcuri.cricketapp.app
+import com.velcuri.cricketapp.base64Decode
+import com.velcuri.cricketapp.utils.StringUtils.decodeUri
 import com.lagradost.nicehttp.NiceResponse
 import java.net.URI
 

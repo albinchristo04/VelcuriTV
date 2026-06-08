@@ -101,7 +101,7 @@ android {
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "com.velcuri.tv"
+        applicationId = "com.velcuri.cricketapp"
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
         versionCode = libs.versions.versionCode.get().toInt()
@@ -199,7 +199,7 @@ android {
         }
     }
 
-    namespace = "com.velcuri.tv"
+    namespace = "com.velcuri.cricketapp"
 }
 
 dependencies {
@@ -315,8 +315,8 @@ tasks.withType<KotlinJvmCompile> {
         jvmDefault.set(JvmDefaultMode.ENABLE)
         freeCompilerArgs.add("-Xannotation-default-target=param-property")
         optIn.addAll(
-            "com.velcuri.tv.InternalAPI",
-            "com.velcuri.tv.Prerelease",
+            "com.velcuri.cricketapp.InternalAPI",
+            "com.velcuri.cricketapp.Prerelease",
             "kotlin.uuid.ExperimentalUuidApi",
         )
     }

@@ -1,4 +1,4 @@
-package com.velcuri.tv.utils
+package com.velcuri.cricketapp.utils
 
 import kotlinx.atomicfu.locks.SynchronizedObject
 import kotlinx.atomicfu.locks.synchronized
