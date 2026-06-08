@@ -42,6 +42,7 @@ import com.velcuri.cobaltvpn.amap
 import com.velcuri.cobaltvpn.mvvm.debugPrint
 import com.velcuri.cobaltvpn.mvvm.logError
 import com.velcuri.cobaltvpn.mvvm.safe
+import com.velcuri.cobaltvpn.plugins.RepositoryManager.ALLOWED_PLUGIN_INTERNAL_NAMES
 import com.velcuri.cobaltvpn.plugins.RepositoryManager.ONLINE_PLUGINS_FOLDER
 import com.velcuri.cobaltvpn.plugins.RepositoryManager.PREBUILT_REPOSITORIES
 import com.velcuri.cobaltvpn.plugins.RepositoryManager.downloadPluginToFile
@@ -375,6 +376,11 @@ object PluginManager {
                 return@mapNotNull null
             }
 
+            // Only download whitelisted plugins
+            if (!ALLOWED_PLUGIN_INTERNAL_NAMES.contains(sitePlugin.internalName)) {
+                return@mapNotNull null
+            }
+
             //Omit already existing plugins
             if (getPluginPath(activity, sitePlugin.internalName, onlineData.first).exists()) {
                 Log.i(TAG, "Skip > ${sitePlugin.internalName}")
@@ -677,6 +683,46 @@ object PluginManager {
             )
             currentlyLoading = null
             false
+        }
+    }
+
+    /**
+     * Loads prebuilt .cs3 plugins bundled in assets/prebuilt_plugins/.
+     * Called on every app start so plugins like MegaProvider can register repositories
+     * before the auto-download step runs.
+     */
+    @Suppress("FunctionName")
+    @InternalAPI
+    @Throws
+    suspend fun ___DO_NOT_CALL_FROM_A_PLUGIN_loadPrebuiltPlugins(context: Context) {
+        assertNonRecursiveCallstack()
+
+        val destDir = File(context.filesDir, "$ONLINE_PLUGINS_FOLDER/prebuilt")
+        destDir.mkdirs()
+
+        val assetFiles = try {
+            context.assets.list("prebuilt_plugins") ?: emptyArray()
+        } catch (_: Throwable) {
+            emptyArray()
+        }
+
+        assetFiles.filter { it.endsWith(".cs3") || it.endsWith(".zip") }.forEach { fileName ->
+            val destFile = File(destDir, fileName)
+            // Always overwrite so bundled updates take effect on next app install
+            context.assets.open("prebuilt_plugins/$fileName").use { input ->
+                destFile.outputStream().use { output -> input.copyTo(output) }
+            }
+            loadPlugin(
+                context,
+                destFile,
+                PluginData(
+                    internalName = fileName.substringBeforeLast("."),
+                    url = null,
+                    isOnline = false,
+                    filePath = destFile.absolutePath,
+                    version = PLUGIN_VERSION_NOT_SET
+                )
+            )
         }
     }
 

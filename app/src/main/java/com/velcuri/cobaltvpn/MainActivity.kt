@@ -1366,13 +1366,17 @@ class MainActivity : AppCompatActivity(), ColorPickerDialogListener, BiometricCa
                         ___DO_NOT_CALL_FROM_A_PLUGIN_loadAllOnlinePlugins(this@MainActivity)
                     }
 
+                    // Load bundled prebuilt plugins (e.g. MegaProvider) so they can
+                    // register repositories before the auto-download step runs.
+                    PluginManager.___DO_NOT_CALL_FROM_A_PLUGIN_loadPrebuiltPlugins(this@MainActivity)
+
                     //Automatically download not existing plugins, using mode specified.
                     val autoDownloadPlugin = AutoDownloadMode.getEnum(
                         settingsManager.getInt(
                             getString(R.string.auto_download_plugins_key),
-                            0
+                            AutoDownloadMode.All.value
                         )
-                    ) ?: AutoDownloadMode.Disable
+                    ) ?: AutoDownloadMode.All
                     if (autoDownloadPlugin != AutoDownloadMode.Disable) {
                         PluginManager.___DO_NOT_CALL_FROM_A_PLUGIN_downloadNotExistingPluginsAndLoad(
                             this@MainActivity,

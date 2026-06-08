@@ -12,7 +12,6 @@ import com.velcuri.cobaltvpn.CloudStreamApp.Companion.setKey
 import com.velcuri.cobaltvpn.CommonActivity
 import com.velcuri.cobaltvpn.databinding.FragmentSetupLanguageBinding
 import com.velcuri.cobaltvpn.mvvm.safe
-import com.velcuri.cobaltvpn.plugins.PluginManager
 import com.velcuri.cobaltvpn.R
 import com.velcuri.cobaltvpn.ui.BaseFragment
 import com.velcuri.cobaltvpn.ui.settings.appLanguages
@@ -69,16 +68,9 @@ class SetupFragmentLanguage : BaseFragment<FragmentSetupLanguageBinding>(
                 }
 
                 nextBtt.setOnClickListener {
-                    // If no plugins go to plugins page
-                    val nextDestination = if (
-                        PluginManager.getPluginsOnline().isEmpty()
-                        && PluginManager.getPluginsLocal().isEmpty()
-                    //&& PREBUILT_REPOSITORIES.isNotEmpty()
-                    ) R.id.action_navigation_global_to_navigation_setup_extensions
-                    else R.id.action_navigation_setup_language_to_navigation_setup_provider_languages
-
+                    // Skip extension setup — plugins auto-download on launch from PREBUILT_REPOSITORIES
                     findNavController().navigate(
-                        nextDestination,
+                        R.id.action_navigation_setup_language_to_navigation_setup_provider_languages,
                         SetupFragmentExtensions.newInstance(true)
                     )
                 }

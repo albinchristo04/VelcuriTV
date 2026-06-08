@@ -76,6 +76,31 @@ data class SitePlugin(
 
 object RepositoryManager {
     const val ONLINE_PLUGINS_FOLDER = "Extensions"
+
+    /**
+     * Only these plugins will be auto-downloaded. null = allow all.
+     */
+    val ALLOWED_PLUGIN_INTERNAL_NAMES: Set<String> = setOf(
+        "CastleTvProvider",
+        "CNC Verse",
+        "CricifyProvider",
+        "MovieBoxProvider",
+        "PikashowProvider",
+        "AllMovieLandProvider",
+        "Animeav1",
+        "Aniworld",
+        "Coflix",
+        "FourKHDHub",
+        "StreamPlay",
+        "Topstreamfilm",
+        "UHDmoviesProvider",
+    )
+
+    /** Display name overrides applied when fetching plugin lists. */
+    val PLUGIN_NAME_OVERRIDES: Map<String, String> = mapOf(
+        "CricifyProvider" to "Live TV/Football",
+    )
+
     val PREBUILT_REPOSITORIES: Array<RepositoryData> = arrayOf(
         RepositoryData(
             name = "Velcuri Repository",
@@ -83,11 +108,15 @@ object RepositoryManager {
         ),
         RepositoryData(
             name = "CNCVerse",
-            url = "https://repo.velcuri.io/cncverse/index.json"
+            url = "https://raw.githubusercontent.com/NivinCNC/CNCVerse-Cloud-Stream-Extension/builds/plugins.json"
         ),
         RepositoryData(
             name = "Mega Repository",
-            url = "https://repo.velcuri.io/mega/index.json"
+            url = "https://raw.githubusercontent.com/self-similarity/MegaRepo/builds/plugins.json"
+        ),
+        RepositoryData(
+            name = "Phisher Extensions",
+            url = "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/builds/plugins.json"
         )
     )
     private val GH_REGEX =
@@ -163,15 +192,26 @@ object RepositoryManager {
     }
 
     /**
-     * Gets all plugins from repositories and pairs them with the repository url
+     * Gets all plugins from repositories and pairs them with the repository url.
+     * Supports both index.json (with pluginLists) and direct plugins.json formats.
+     * Applies PLUGIN_NAME_OVERRIDES to display names.
      * */
     suspend fun getRepoPlugins(repositoryUrl: String): List<Pair<String, SitePlugin>>? {
-        val repo = parseRepository(repositoryUrl) ?: return null
-        return repo.pluginLists.amap { url ->
-            parsePlugins(url).map {
-                repositoryUrl to it
-            }
-        }.flatten()
+        val raw: List<Pair<String, SitePlugin>>?
+        val repo = parseRepository(repositoryUrl)
+        raw = if (repo != null) {
+            repo.pluginLists.amap { url ->
+                parsePlugins(url).map { repositoryUrl to it }
+            }.flatten()
+        } else {
+            val direct = parsePlugins(repositoryUrl)
+            if (direct.isNotEmpty()) direct.map { repositoryUrl to it } else null
+        }
+        return raw?.map { (repoUrl, plugin) ->
+            val override = PLUGIN_NAME_OVERRIDES[plugin.internalName]
+            if (override != null) repoUrl to plugin.copy(name = override)
+            else repoUrl to plugin
+        }
     }
 
 
