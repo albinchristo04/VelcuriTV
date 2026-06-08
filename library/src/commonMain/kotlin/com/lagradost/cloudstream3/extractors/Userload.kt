@@ -1,8 +1,8 @@
-package com.velcuri.cobaltvpn.extractors
+package com.lagradost.cloudstream3.extractors
 
-import com.velcuri.cobaltvpn.utils.ExtractorLink
-import com.velcuri.cobaltvpn.app
-import com.velcuri.cobaltvpn.utils.*
+import com.lagradost.cloudstream3.utils.ExtractorLink
+import com.lagradost.cloudstream3.app
+import com.lagradost.cloudstream3.utils.*
 import org.mozilla.javascript.Context
 import org.mozilla.javascript.EvaluatorException
 import org.mozilla.javascript.Scriptable

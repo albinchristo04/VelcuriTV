@@ -1,18 +1,18 @@
 // ! Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
 
-package com.velcuri.cobaltvpn.extractors
+package com.lagradost.cloudstream3.extractors
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.velcuri.cobaltvpn.ErrorLoadingException
-import com.velcuri.cobaltvpn.SubtitleFile
-import com.velcuri.cobaltvpn.USER_AGENT
-import com.velcuri.cobaltvpn.app
-import com.velcuri.cobaltvpn.utils.AppUtils
-import com.velcuri.cobaltvpn.utils.ExtractorApi
-import com.velcuri.cobaltvpn.utils.ExtractorLink
-import com.velcuri.cobaltvpn.utils.INFER_TYPE
-import com.velcuri.cobaltvpn.utils.getQualityFromName
-import com.velcuri.cobaltvpn.utils.newExtractorLink
+import com.lagradost.cloudstream3.ErrorLoadingException
+import com.lagradost.cloudstream3.SubtitleFile
+import com.lagradost.cloudstream3.USER_AGENT
+import com.lagradost.cloudstream3.app
+import com.lagradost.cloudstream3.utils.AppUtils
+import com.lagradost.cloudstream3.utils.ExtractorApi
+import com.lagradost.cloudstream3.utils.ExtractorLink
+import com.lagradost.cloudstream3.utils.INFER_TYPE
+import com.lagradost.cloudstream3.utils.getQualityFromName
+import com.lagradost.cloudstream3.utils.newExtractorLink
 
 open class Odnoklassniki : ExtractorApi() {
     override val name            = "Odnoklassniki"

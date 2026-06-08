@@ -1,9 +1,9 @@
-package com.velcuri.cobaltvpn.extractors
+package com.lagradost.cloudstream3.extractors
 
-import com.velcuri.cobaltvpn.SubtitleFile
-import com.velcuri.cobaltvpn.USER_AGENT
-import com.velcuri.cobaltvpn.app
-import com.velcuri.cobaltvpn.utils.*
+import com.lagradost.cloudstream3.SubtitleFile
+import com.lagradost.cloudstream3.USER_AGENT
+import com.lagradost.cloudstream3.app
+import com.lagradost.cloudstream3.utils.*
 
 open class StreamSilk : ExtractorApi() {
     override val name = "StreamSilk"

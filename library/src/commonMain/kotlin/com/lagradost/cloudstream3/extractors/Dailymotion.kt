@@ -1,12 +1,12 @@
-package com.velcuri.cobaltvpn.extractors
+package com.lagradost.cloudstream3.extractors
 
 import com.google.gson.Gson
-import com.velcuri.cobaltvpn.SubtitleFile
-import com.velcuri.cobaltvpn.app
-import com.velcuri.cobaltvpn.newSubtitleFile
-import com.velcuri.cobaltvpn.utils.ExtractorApi
-import com.velcuri.cobaltvpn.utils.ExtractorLink
-import com.velcuri.cobaltvpn.utils.M3u8Helper.Companion.generateM3u8
+import com.lagradost.cloudstream3.SubtitleFile
+import com.lagradost.cloudstream3.app
+import com.lagradost.cloudstream3.newSubtitleFile
+import com.lagradost.cloudstream3.utils.ExtractorApi
+import com.lagradost.cloudstream3.utils.ExtractorLink
+import com.lagradost.cloudstream3.utils.M3u8Helper.Companion.generateM3u8
 import java.net.URI
 
 

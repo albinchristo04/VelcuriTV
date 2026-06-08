@@ -1,7 +1,7 @@
-package com.velcuri.cobaltvpn.network
+package com.lagradost.cloudstream3.network
 
-import com.velcuri.cobaltvpn.mvvm.debugException
-import com.velcuri.cobaltvpn.mvvm.logError
+import com.lagradost.cloudstream3.mvvm.debugException
+import com.lagradost.cloudstream3.mvvm.logError
 import com.lagradost.nicehttp.requestCreator
 import okhttp3.Interceptor
 import okhttp3.Request

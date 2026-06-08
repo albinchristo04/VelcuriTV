@@ -1,9 +1,9 @@
-package com.velcuri.cobaltvpn.extractors.helper
+package com.lagradost.cloudstream3.extractors.helper
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.velcuri.cobaltvpn.base64DecodeArray
-import com.velcuri.cobaltvpn.base64Encode
-import com.velcuri.cobaltvpn.utils.AppUtils
+import com.lagradost.cloudstream3.base64DecodeArray
+import com.lagradost.cloudstream3.base64Encode
+import com.lagradost.cloudstream3.utils.AppUtils
 import java.security.DigestException
 import java.security.MessageDigest
 import javax.crypto.Cipher

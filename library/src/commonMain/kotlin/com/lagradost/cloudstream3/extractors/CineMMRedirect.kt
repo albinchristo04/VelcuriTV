@@ -1,9 +1,9 @@
-package com.velcuri.cobaltvpn.extractors
+package com.lagradost.cloudstream3.extractors
 
-import com.velcuri.cobaltvpn.SubtitleFile
-import com.velcuri.cobaltvpn.utils.ExtractorApi
-import com.velcuri.cobaltvpn.utils.ExtractorLink
-import com.velcuri.cobaltvpn.utils.loadExtractor
+import com.lagradost.cloudstream3.SubtitleFile
+import com.lagradost.cloudstream3.utils.ExtractorApi
+import com.lagradost.cloudstream3.utils.ExtractorLink
+import com.lagradost.cloudstream3.utils.loadExtractor
 import okhttp3.HttpUrl.Companion.toHttpUrl
 
 // deobfuscated from https://hglink.to/main.js?v=1.1.3 using https://deobfuscate.io/

@@ -1,12 +1,12 @@
 // ! Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
 
-package com.velcuri.cobaltvpn.extractors
+package com.lagradost.cloudstream3.extractors
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.lagradost.api.Log
-import com.velcuri.cobaltvpn.*
-import com.velcuri.cobaltvpn.utils.*
-import com.velcuri.cobaltvpn.utils.AppUtils.tryParseJson
+import com.lagradost.cloudstream3.*
+import com.lagradost.cloudstream3.utils.*
+import com.lagradost.cloudstream3.utils.AppUtils.tryParseJson
 
 open class VideoSeyred : ExtractorApi() {
     override val name            = "VideoSeyred"

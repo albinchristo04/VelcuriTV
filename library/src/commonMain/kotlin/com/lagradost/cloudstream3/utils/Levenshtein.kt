@@ -22,9 +22,9 @@
  * SOFTWARE.
  */
 
-package com.velcuri.cobaltvpn.utils
+package com.lagradost.cloudstream3.utils
 
-import com.velcuri.cobaltvpn.Prerelease
+import com.lagradost.cloudstream3.Prerelease
 import kotlin.math.round
 
 // Taken from https://github.com/terrakok/FuzzyKot/blob/f794d43/fuzzykot/src/commonMain/kotlin/com/github/terrakok/fuzzykot/Levenshtein.kt

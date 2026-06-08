@@ -1,13 +1,13 @@
-package com.velcuri.cobaltvpn.extractors
+package com.lagradost.cloudstream3.extractors
 
-import com.velcuri.cobaltvpn.app
-import com.velcuri.cobaltvpn.utils.ExtractorApi
-import com.velcuri.cobaltvpn.utils.ExtractorLink
-import com.velcuri.cobaltvpn.utils.ExtractorLinkType
-import com.velcuri.cobaltvpn.utils.INFER_TYPE
-import com.velcuri.cobaltvpn.utils.JsUnpacker
-import com.velcuri.cobaltvpn.utils.Qualities
-import com.velcuri.cobaltvpn.utils.newExtractorLink
+import com.lagradost.cloudstream3.app
+import com.lagradost.cloudstream3.utils.ExtractorApi
+import com.lagradost.cloudstream3.utils.ExtractorLink
+import com.lagradost.cloudstream3.utils.ExtractorLinkType
+import com.lagradost.cloudstream3.utils.INFER_TYPE
+import com.lagradost.cloudstream3.utils.JsUnpacker
+import com.lagradost.cloudstream3.utils.Qualities
+import com.lagradost.cloudstream3.utils.newExtractorLink
 
 open class Streamhub : ExtractorApi() {
     override var mainUrl = "https://streamhub.to"

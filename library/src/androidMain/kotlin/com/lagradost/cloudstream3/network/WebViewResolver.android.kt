@@ -1,4 +1,4 @@
-package com.velcuri.cobaltvpn.network
+package com.lagradost.cloudstream3.network
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -6,14 +6,14 @@ import android.net.http.SslError
 import android.webkit.*
 import com.lagradost.api.Log
 import com.lagradost.api.getContext
-import com.velcuri.cobaltvpn.app
-import com.velcuri.cobaltvpn.mvvm.debugException
-import com.velcuri.cobaltvpn.mvvm.logError
-import com.velcuri.cobaltvpn.mvvm.safe
-import com.velcuri.cobaltvpn.utils.Coroutines.atomicListOf
-import com.velcuri.cobaltvpn.utils.Coroutines.main
-import com.velcuri.cobaltvpn.utils.Coroutines.mainWork
-import com.velcuri.cobaltvpn.utils.Coroutines.runOnMainThread
+import com.lagradost.cloudstream3.app
+import com.lagradost.cloudstream3.mvvm.debugException
+import com.lagradost.cloudstream3.mvvm.logError
+import com.lagradost.cloudstream3.mvvm.safe
+import com.lagradost.cloudstream3.utils.Coroutines.atomicListOf
+import com.lagradost.cloudstream3.utils.Coroutines.main
+import com.lagradost.cloudstream3.utils.Coroutines.mainWork
+import com.lagradost.cloudstream3.utils.Coroutines.runOnMainThread
 import com.lagradost.nicehttp.requestCreator
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking

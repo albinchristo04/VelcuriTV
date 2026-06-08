@@ -1,4 +1,4 @@
-package com.velcuri.cobaltvpn.utils
+package com.lagradost.cloudstream3.utils
 
 import kotlinx.atomicfu.locks.SynchronizedObject
 import kotlinx.atomicfu.locks.synchronized

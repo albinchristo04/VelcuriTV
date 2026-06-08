@@ -1,14 +1,14 @@
-package com.velcuri.cobaltvpn.extractors
+package com.lagradost.cloudstream3.extractors
 
 import com.lagradost.api.Log
-import com.velcuri.cobaltvpn.SubtitleFile
-import com.velcuri.cobaltvpn.amap
-import com.velcuri.cobaltvpn.app
-import com.velcuri.cobaltvpn.utils.ExtractorApi
-import com.velcuri.cobaltvpn.utils.ExtractorLink
-import com.velcuri.cobaltvpn.utils.Qualities
-import com.velcuri.cobaltvpn.utils.loadExtractor
-import com.velcuri.cobaltvpn.utils.newExtractorLink
+import com.lagradost.cloudstream3.SubtitleFile
+import com.lagradost.cloudstream3.amap
+import com.lagradost.cloudstream3.app
+import com.lagradost.cloudstream3.utils.ExtractorApi
+import com.lagradost.cloudstream3.utils.ExtractorLink
+import com.lagradost.cloudstream3.utils.Qualities
+import com.lagradost.cloudstream3.utils.loadExtractor
+import com.lagradost.cloudstream3.utils.newExtractorLink
 import java.net.URI
 
 class HubCloud : ExtractorApi() {

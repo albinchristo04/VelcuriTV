@@ -1,6 +1,6 @@
-package com.velcuri.cobaltvpn.utils.serializers
+package com.lagradost.cloudstream3.utils.serializers
 
-import com.velcuri.cobaltvpn.Prerelease
+import com.lagradost.cloudstream3.Prerelease
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.json.JsonElement
 import kotlinx.serialization.json.JsonObject

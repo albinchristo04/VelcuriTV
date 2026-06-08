@@ -4,23 +4,23 @@
     "MemberVisibilityCanBePrivate"
 )
 
-package com.velcuri.cobaltvpn
+package com.lagradost.cloudstream3
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.databind.DeserializationFeature
 import com.fasterxml.jackson.databind.json.JsonMapper
 import com.fasterxml.jackson.module.kotlin.kotlinModule
-import com.velcuri.cobaltvpn.mvvm.logError
-import com.velcuri.cobaltvpn.mvvm.safe
-import com.velcuri.cobaltvpn.syncproviders.SyncIdName
-import com.velcuri.cobaltvpn.utils.*
-import com.velcuri.cobaltvpn.utils.AppUtils.toJson
-import com.velcuri.cobaltvpn.utils.AppUtils.tryParseJson
-import com.velcuri.cobaltvpn.utils.Coroutines.atomicListOf
-import com.velcuri.cobaltvpn.utils.Coroutines.mainWork
-import com.velcuri.cobaltvpn.utils.SubtitleHelper.fromCodeToLangTagIETF
-import com.velcuri.cobaltvpn.utils.SubtitleHelper.fromLanguageToTagIETF
+import com.lagradost.cloudstream3.mvvm.logError
+import com.lagradost.cloudstream3.mvvm.safe
+import com.lagradost.cloudstream3.syncproviders.SyncIdName
+import com.lagradost.cloudstream3.utils.*
+import com.lagradost.cloudstream3.utils.AppUtils.toJson
+import com.lagradost.cloudstream3.utils.AppUtils.tryParseJson
+import com.lagradost.cloudstream3.utils.Coroutines.atomicListOf
+import com.lagradost.cloudstream3.utils.Coroutines.mainWork
+import com.lagradost.cloudstream3.utils.SubtitleHelper.fromCodeToLangTagIETF
+import com.lagradost.cloudstream3.utils.SubtitleHelper.fromLanguageToTagIETF
 import com.lagradost.nicehttp.RequestBodyTypes
 import okhttp3.Interceptor
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
@@ -524,7 +524,7 @@ abstract class MainAPI {
 
     /**
      * The language as an IETF BCP 47 conformant tag.
-     * Check [com.velcuri.cobaltvpn.utils.SubtitleHelper].
+     * Check [com.lagradost.cloudstream3.utils.SubtitleHelper].
      *
      * See locales on:
      * https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-core/availableLocales.json

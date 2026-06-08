@@ -1,6 +1,6 @@
-package com.velcuri.cobaltvpn.network
+package com.lagradost.cloudstream3.network
 
-import com.velcuri.cobaltvpn.USER_AGENT
+import com.lagradost.cloudstream3.USER_AGENT
 import okhttp3.Interceptor
 import okhttp3.Request
 

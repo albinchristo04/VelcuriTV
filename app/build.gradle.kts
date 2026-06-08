@@ -96,12 +96,32 @@ android {
                 keyPassword = System.getenv("SIGNING_KEY_PASSWORD")
             }
         }
+
+        // Production release signing using the in-repo release.keystore.
+        // Credentials come from env vars (CI) or local.properties (local), never committed.
+        // local.properties keys: release.storePassword, release.keyAlias, release.keyPassword
+        val signingProps = gradleLocalProperties(rootDir, project.providers)
+        val releaseStorePassword =
+            System.getenv("RELEASE_STORE_PASSWORD") ?: signingProps["release.storePassword"] as String?
+        val releaseKeyAlias =
+            System.getenv("RELEASE_KEY_ALIAS") ?: signingProps["release.keyAlias"] as String? ?: "rojakey"
+        val releaseKeyPassword =
+            System.getenv("RELEASE_KEY_PASSWORD") ?: signingProps["release.keyPassword"] as String?
+        val releaseStoreFile = rootProject.file("release.keystore")
+        if (releaseStorePassword != null && releaseKeyPassword != null && releaseStoreFile.exists()) {
+            create("release") {
+                storeFile = releaseStoreFile
+                storePassword = releaseStorePassword
+                keyAlias = releaseKeyAlias
+                keyPassword = releaseKeyPassword
+            }
+        }
     }
 
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "com.velcuri.cobaltvpn"
+        applicationId = "com.lagradost.cloudstream3"
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
         versionCode = libs.versions.versionCode.get().toInt()
@@ -135,6 +155,11 @@ android {
             isDebuggable = false
             isMinifyEnabled = false
             isShrinkResources = false
+            if (signingConfigs.names.contains("release")) {
+                signingConfig = signingConfigs.getByName("release")
+            } else {
+                logger.warn("No release signing config! Set release.* in local.properties or RELEASE_* env vars to sign the production build.")
+            }
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -199,7 +224,7 @@ android {
         }
     }
 
-    namespace = "com.velcuri.cobaltvpn"
+    namespace = "com.lagradost.cloudstream3"
 }
 
 dependencies {
@@ -315,8 +340,8 @@ tasks.withType<KotlinJvmCompile> {
         jvmDefault.set(JvmDefaultMode.ENABLE)
         freeCompilerArgs.add("-Xannotation-default-target=param-property")
         optIn.addAll(
-            "com.velcuri.cobaltvpn.InternalAPI",
-            "com.velcuri.cobaltvpn.Prerelease",
+            "com.lagradost.cloudstream3.InternalAPI",
+            "com.lagradost.cloudstream3.Prerelease",
             "kotlin.uuid.ExperimentalUuidApi",
         )
     }

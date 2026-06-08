@@ -1,6 +1,6 @@
-package com.velcuri.cobaltvpn.utils
+package com.lagradost.cloudstream3.utils
 
-import com.velcuri.cobaltvpn.InternalAPI
+import com.lagradost.cloudstream3.InternalAPI
 import kotlin.concurrent.Volatile
 
 @InternalAPI

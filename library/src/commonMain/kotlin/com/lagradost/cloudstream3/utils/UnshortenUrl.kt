@@ -1,8 +1,8 @@
-package com.velcuri.cobaltvpn.utils
+package com.lagradost.cloudstream3.utils
 
-import com.velcuri.cobaltvpn.app
-import com.velcuri.cobaltvpn.base64Decode
-import com.velcuri.cobaltvpn.utils.StringUtils.decodeUri
+import com.lagradost.cloudstream3.app
+import com.lagradost.cloudstream3.base64Decode
+import com.lagradost.cloudstream3.utils.StringUtils.decodeUri
 import com.lagradost.nicehttp.NiceResponse
 import java.net.URI
 

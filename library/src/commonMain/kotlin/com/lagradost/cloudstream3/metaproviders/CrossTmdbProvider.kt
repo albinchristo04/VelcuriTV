@@ -1,21 +1,21 @@
-package com.velcuri.cobaltvpn.metaproviders
+package com.lagradost.cloudstream3.metaproviders
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.velcuri.cobaltvpn.APIHolder.apis
-import com.velcuri.cobaltvpn.APIHolder.getApiFromNameNull
-import com.velcuri.cobaltvpn.ErrorLoadingException
-import com.velcuri.cobaltvpn.LoadResponse
-import com.velcuri.cobaltvpn.MovieLoadResponse
-import com.velcuri.cobaltvpn.MovieSearchResponse
-import com.velcuri.cobaltvpn.SearchResponseList
-import com.velcuri.cobaltvpn.SubtitleFile
-import com.velcuri.cobaltvpn.TvType
-import com.velcuri.cobaltvpn.amap
-import com.velcuri.cobaltvpn.mvvm.logError
-import com.velcuri.cobaltvpn.toNewSearchResponseList
-import com.velcuri.cobaltvpn.utils.AppUtils.toJson
-import com.velcuri.cobaltvpn.utils.AppUtils.tryParseJson
-import com.velcuri.cobaltvpn.utils.ExtractorLink
+import com.lagradost.cloudstream3.APIHolder.apis
+import com.lagradost.cloudstream3.APIHolder.getApiFromNameNull
+import com.lagradost.cloudstream3.ErrorLoadingException
+import com.lagradost.cloudstream3.LoadResponse
+import com.lagradost.cloudstream3.MovieLoadResponse
+import com.lagradost.cloudstream3.MovieSearchResponse
+import com.lagradost.cloudstream3.SearchResponseList
+import com.lagradost.cloudstream3.SubtitleFile
+import com.lagradost.cloudstream3.TvType
+import com.lagradost.cloudstream3.amap
+import com.lagradost.cloudstream3.mvvm.logError
+import com.lagradost.cloudstream3.toNewSearchResponseList
+import com.lagradost.cloudstream3.utils.AppUtils.toJson
+import com.lagradost.cloudstream3.utils.AppUtils.tryParseJson
+import com.lagradost.cloudstream3.utils.ExtractorLink
 
 class CrossTmdbProvider : TmdbProvider() {
     override var name = "MultiMovie"

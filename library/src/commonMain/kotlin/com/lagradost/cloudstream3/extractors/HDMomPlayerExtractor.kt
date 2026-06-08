@@ -1,13 +1,13 @@
 // ! Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
 
-package com.velcuri.cobaltvpn.extractors
+package com.lagradost.cloudstream3.extractors
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.lagradost.api.Log
-import com.velcuri.cobaltvpn.*
-import com.velcuri.cobaltvpn.extractors.helper.AesHelper
-import com.velcuri.cobaltvpn.utils.*
-import com.velcuri.cobaltvpn.utils.AppUtils.parseJson
+import com.lagradost.cloudstream3.*
+import com.lagradost.cloudstream3.extractors.helper.AesHelper
+import com.lagradost.cloudstream3.utils.*
+import com.lagradost.cloudstream3.utils.AppUtils.parseJson
 
 open class HDMomPlayer : ExtractorApi() {
     override val name            = "HDMomPlayer"

@@ -1,4 +1,4 @@
-package com.velcuri.cobaltvpn.utils
+package com.lagradost.cloudstream3.utils
 
 import androidx.annotation.AnyThread
 import androidx.annotation.MainThread

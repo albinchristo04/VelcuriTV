@@ -1,11 +1,11 @@
-package com.velcuri.cobaltvpn.utils
+package com.lagradost.cloudstream3.utils
 
 import androidx.annotation.AnyThread
 import androidx.annotation.MainThread
 import androidx.annotation.WorkerThread
-import com.velcuri.cobaltvpn.Prerelease
-import com.velcuri.cobaltvpn.mvvm.launchSafe
-import com.velcuri.cobaltvpn.mvvm.logError
+import com.lagradost.cloudstream3.Prerelease
+import com.lagradost.cloudstream3.mvvm.launchSafe
+import com.lagradost.cloudstream3.mvvm.logError
 import kotlinx.coroutines.*
 
 @AnyThread

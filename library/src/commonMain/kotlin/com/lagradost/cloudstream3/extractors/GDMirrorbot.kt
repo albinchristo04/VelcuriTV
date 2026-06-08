@@ -1,13 +1,13 @@
-package com.velcuri.cobaltvpn.extractors
+package com.lagradost.cloudstream3.extractors
 
 import com.google.gson.JsonParser
 import com.lagradost.api.Log
-import com.velcuri.cobaltvpn.SubtitleFile
-import com.velcuri.cobaltvpn.app
-import com.velcuri.cobaltvpn.base64Decode
-import com.velcuri.cobaltvpn.utils.ExtractorApi
-import com.velcuri.cobaltvpn.utils.ExtractorLink
-import com.velcuri.cobaltvpn.utils.loadExtractor
+import com.lagradost.cloudstream3.SubtitleFile
+import com.lagradost.cloudstream3.app
+import com.lagradost.cloudstream3.base64Decode
+import com.lagradost.cloudstream3.utils.ExtractorApi
+import com.lagradost.cloudstream3.utils.ExtractorLink
+import com.lagradost.cloudstream3.utils.loadExtractor
 import java.net.URI
 
 class Techinmind: GDMirrorbot() {

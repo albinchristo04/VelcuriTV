@@ -1,4 +1,4 @@
-package com.velcuri.cobaltvpn
+package com.lagradost.cloudstream3
 
 import kotlinx.datetime.LocalDate
 import kotlinx.datetime.LocalDateTime

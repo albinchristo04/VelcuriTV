@@ -1,12 +1,12 @@
-package com.velcuri.cobaltvpn.extractors.helper
+package com.lagradost.cloudstream3.extractors.helper
 
-import com.velcuri.cobaltvpn.SubtitleFile
-import com.velcuri.cobaltvpn.app
-import com.velcuri.cobaltvpn.utils.ExtractorLink
-import com.velcuri.cobaltvpn.utils.ExtractorLinkType
-import com.velcuri.cobaltvpn.utils.Qualities
-import com.velcuri.cobaltvpn.utils.loadExtractor
-import com.velcuri.cobaltvpn.utils.newExtractorLink
+import com.lagradost.cloudstream3.SubtitleFile
+import com.lagradost.cloudstream3.app
+import com.lagradost.cloudstream3.utils.ExtractorLink
+import com.lagradost.cloudstream3.utils.ExtractorLinkType
+import com.lagradost.cloudstream3.utils.Qualities
+import com.lagradost.cloudstream3.utils.loadExtractor
+import com.lagradost.cloudstream3.utils.newExtractorLink
 
 class VstreamhubHelper {
     companion object {

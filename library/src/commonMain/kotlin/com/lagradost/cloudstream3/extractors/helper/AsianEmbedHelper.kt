@@ -1,11 +1,11 @@
-package com.velcuri.cobaltvpn.extractors.helper
+package com.lagradost.cloudstream3.extractors.helper
 
 import com.lagradost.api.Log
-import com.velcuri.cobaltvpn.SubtitleFile
-import com.velcuri.cobaltvpn.amap
-import com.velcuri.cobaltvpn.app
-import com.velcuri.cobaltvpn.utils.ExtractorLink
-import com.velcuri.cobaltvpn.utils.loadExtractor
+import com.lagradost.cloudstream3.SubtitleFile
+import com.lagradost.cloudstream3.amap
+import com.lagradost.cloudstream3.app
+import com.lagradost.cloudstream3.utils.ExtractorLink
+import com.lagradost.cloudstream3.utils.loadExtractor
 
 class AsianEmbedHelper {
     companion object {

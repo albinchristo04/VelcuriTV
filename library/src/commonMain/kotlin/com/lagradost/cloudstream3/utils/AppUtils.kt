@@ -1,10 +1,10 @@
-package com.velcuri.cobaltvpn.utils
+package com.lagradost.cloudstream3.utils
 
 import com.fasterxml.jackson.module.kotlin.readValue
-import com.velcuri.cobaltvpn.InternalAPI
-import com.velcuri.cobaltvpn.json
-import com.velcuri.cobaltvpn.mapper
-import com.velcuri.cobaltvpn.mvvm.logError
+import com.lagradost.cloudstream3.InternalAPI
+import com.lagradost.cloudstream3.json
+import com.lagradost.cloudstream3.mapper
+import com.lagradost.cloudstream3.mvvm.logError
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.InternalSerializationApi
 import kotlinx.serialization.KSerializer

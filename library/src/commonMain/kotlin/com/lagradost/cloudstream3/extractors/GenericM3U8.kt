@@ -1,10 +1,10 @@
-package com.velcuri.cobaltvpn.extractors
+package com.lagradost.cloudstream3.extractors
 
-import com.velcuri.cobaltvpn.app
-import com.velcuri.cobaltvpn.network.WebViewResolver
-import com.velcuri.cobaltvpn.utils.ExtractorApi
-import com.velcuri.cobaltvpn.utils.ExtractorLink
-import com.velcuri.cobaltvpn.utils.M3u8Helper
+import com.lagradost.cloudstream3.app
+import com.lagradost.cloudstream3.network.WebViewResolver
+import com.lagradost.cloudstream3.utils.ExtractorApi
+import com.lagradost.cloudstream3.utils.ExtractorLink
+import com.lagradost.cloudstream3.utils.M3u8Helper
 
 
 open class GenericM3U8 : ExtractorApi() {

@@ -1,4 +1,4 @@
-package com.velcuri.cobaltvpn.utils
+package com.lagradost.cloudstream3.utils
 
 import java.net.URLDecoder
 import java.net.URLEncoder

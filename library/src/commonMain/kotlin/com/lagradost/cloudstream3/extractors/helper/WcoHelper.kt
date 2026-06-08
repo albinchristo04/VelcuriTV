@@ -1,7 +1,7 @@
-package com.velcuri.cobaltvpn.extractors.helper
+package com.lagradost.cloudstream3.extractors.helper
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.velcuri.cobaltvpn.app
+import com.lagradost.cloudstream3.app
 
 class WcoHelper {
     companion object {

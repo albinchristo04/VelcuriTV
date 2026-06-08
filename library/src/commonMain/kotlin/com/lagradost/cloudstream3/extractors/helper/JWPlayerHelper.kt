@@ -1,14 +1,14 @@
-package com.velcuri.cobaltvpn.extractors.helper
+package com.lagradost.cloudstream3.extractors.helper
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.lagradost.api.Log
-import com.velcuri.cobaltvpn.Prerelease
-import com.velcuri.cobaltvpn.SubtitleFile
-import com.velcuri.cobaltvpn.newSubtitleFile
-import com.velcuri.cobaltvpn.utils.AppUtils.tryParseJson
-import com.velcuri.cobaltvpn.utils.ExtractorLink
-import com.velcuri.cobaltvpn.utils.M3u8Helper
-import com.velcuri.cobaltvpn.utils.newExtractorLink
+import com.lagradost.cloudstream3.Prerelease
+import com.lagradost.cloudstream3.SubtitleFile
+import com.lagradost.cloudstream3.newSubtitleFile
+import com.lagradost.cloudstream3.utils.AppUtils.tryParseJson
+import com.lagradost.cloudstream3.utils.ExtractorLink
+import com.lagradost.cloudstream3.utils.M3u8Helper
+import com.lagradost.cloudstream3.utils.newExtractorLink
 import kotlin.collections.orEmpty
 
 @Prerelease

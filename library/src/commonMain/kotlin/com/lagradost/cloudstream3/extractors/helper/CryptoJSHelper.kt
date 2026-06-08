@@ -1,7 +1,7 @@
-package com.velcuri.cobaltvpn.extractors.helper
+package com.lagradost.cloudstream3.extractors.helper
 
-import com.velcuri.cobaltvpn.base64DecodeArray
-import com.velcuri.cobaltvpn.base64Encode
+import com.lagradost.cloudstream3.base64DecodeArray
+import com.lagradost.cloudstream3.base64Encode
 import java.security.MessageDigest
 import java.security.SecureRandom
 import javax.crypto.Cipher

@@ -1,10 +1,10 @@
-package com.velcuri.cobaltvpn.extractors
+package com.lagradost.cloudstream3.extractors
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.velcuri.cobaltvpn.*
-import com.velcuri.cobaltvpn.extractors.helper.AesHelper.cryptoAESHandler
-import com.velcuri.cobaltvpn.utils.*
-import com.velcuri.cobaltvpn.utils.AppUtils.tryParseJson
+import com.lagradost.cloudstream3.*
+import com.lagradost.cloudstream3.extractors.helper.AesHelper.cryptoAESHandler
+import com.lagradost.cloudstream3.utils.*
+import com.lagradost.cloudstream3.utils.AppUtils.tryParseJson
 import org.jsoup.nodes.Element
 
 class DatabaseGdrive2 : Gdriveplayer() {

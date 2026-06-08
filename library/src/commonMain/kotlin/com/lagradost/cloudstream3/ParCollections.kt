@@ -1,6 +1,6 @@
-package com.velcuri.cobaltvpn
+package com.lagradost.cloudstream3
 
-import com.velcuri.cobaltvpn.mvvm.logError
+import com.lagradost.cloudstream3.mvvm.logError
 import kotlinx.coroutines.*
 import kotlin.coroutines.cancellation.CancellationException
 
@@ -20,7 +20,7 @@ suspend fun <K, V, R> Map<out K, V>.amap(f: suspend (Map.Entry<K, V>) -> R): Lis
  */
 @Deprecated(
     "This blocks with runBlocking, and should not be used inside a suspended context",
-    replaceWith = ReplaceWith("amap(f)", "com.velcuri.cobaltvpn.amap"),
+    replaceWith = ReplaceWith("amap(f)", "com.lagradost.cloudstream3.amap"),
     level = DeprecationLevel.ERROR
 )
 @Throws(CancellationException::class)
@@ -44,7 +44,7 @@ suspend fun <A, B> List<A>.amap(f: suspend (A) -> B): List<B> =
  */
 @Deprecated(
     "This blocks with runBlocking, and should not be used inside a suspended context",
-    replaceWith = ReplaceWith("amap(f)", "com.velcuri.cobaltvpn.amap"),
+    replaceWith = ReplaceWith("amap(f)", "com.lagradost.cloudstream3.amap"),
     level = DeprecationLevel.ERROR
 )
 @Throws(CancellationException::class)
@@ -57,7 +57,7 @@ fun <A, B> List<A>.apmap(f: suspend (A) -> B): List<B> = runBlocking {
  */
 @Deprecated(
     "This blocks with runBlocking, and should not be used inside a suspended context",
-    replaceWith = ReplaceWith("amapIndexed(f)", "com.velcuri.cobaltvpn.amapIndexed"),
+    replaceWith = ReplaceWith("amapIndexed(f)", "com.lagradost.cloudstream3.amapIndexed"),
     level = DeprecationLevel.ERROR
 )
 @Throws(CancellationException::class)
@@ -84,7 +84,7 @@ suspend fun <A, B> List<A>.amapIndexed(f: suspend (index: Int, A) -> B): List<B>
  */
 @Deprecated(
     "This blocks with runBlocking, and should not be used inside a suspended context",
-    replaceWith = ReplaceWith("runAllAsync(transforms)", "com.velcuri.cobaltvpn.runAllAsync"),
+    replaceWith = ReplaceWith("runAllAsync(transforms)", "com.lagradost.cloudstream3.runAllAsync"),
     level = DeprecationLevel.ERROR
 )
 @Throws(CancellationException::class)

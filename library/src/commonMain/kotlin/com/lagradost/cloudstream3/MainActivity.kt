@@ -1,7 +1,7 @@
-package com.velcuri.cobaltvpn
+package com.lagradost.cloudstream3
 
-import com.velcuri.cobaltvpn.utils.AppUtils.parseJson
-import com.velcuri.cobaltvpn.utils.AppUtils.toJson
+import com.lagradost.cloudstream3.utils.AppUtils.parseJson
+import com.lagradost.cloudstream3.utils.AppUtils.toJson
 import com.lagradost.nicehttp.Requests
 import com.lagradost.nicehttp.ResponseParser
 import kotlin.reflect.KClass

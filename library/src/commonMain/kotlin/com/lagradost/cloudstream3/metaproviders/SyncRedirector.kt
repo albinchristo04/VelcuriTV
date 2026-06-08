@@ -1,8 +1,8 @@
-package com.velcuri.cobaltvpn.metaproviders
+package com.lagradost.cloudstream3.metaproviders
 
-import com.velcuri.cobaltvpn.MainAPI
-import com.velcuri.cobaltvpn.mvvm.safeAsync
-import com.velcuri.cobaltvpn.syncproviders.SyncIdName
+import com.lagradost.cloudstream3.MainAPI
+import com.lagradost.cloudstream3.mvvm.safeAsync
+import com.lagradost.cloudstream3.syncproviders.SyncIdName
 
 object SyncRedirector {
     private val syncIds =

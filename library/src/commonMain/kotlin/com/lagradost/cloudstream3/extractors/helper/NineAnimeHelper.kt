@@ -1,7 +1,7 @@
-package com.velcuri.cobaltvpn.extractors.helper
+package com.lagradost.cloudstream3.extractors.helper
 
-import com.velcuri.cobaltvpn.utils.StringUtils.decodeUri
-import com.velcuri.cobaltvpn.utils.StringUtils.encodeUri
+import com.lagradost.cloudstream3.utils.StringUtils.decodeUri
+import com.lagradost.cloudstream3.utils.StringUtils.encodeUri
 
 // Taken from https://github.com/saikou-app/saikou/blob/b35364c8c2a00364178a472fccf1ab72f09815b4/app/src/main/java/ani/saikou/parsers/anime/NineAnime.kt
 // GNU General Public License v3.0 https://github.com/saikou-app/saikou/blob/main/LICENSE.md

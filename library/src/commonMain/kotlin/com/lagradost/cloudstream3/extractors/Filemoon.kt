@@ -1,14 +1,14 @@
-package com.velcuri.cobaltvpn.extractors
+package com.lagradost.cloudstream3.extractors
 
 import com.lagradost.api.Log
-import com.velcuri.cobaltvpn.SubtitleFile
-import com.velcuri.cobaltvpn.app
-import com.velcuri.cobaltvpn.extractors.helper.JwPlayerHelper
-import com.velcuri.cobaltvpn.network.WebViewResolver
-import com.velcuri.cobaltvpn.utils.ExtractorApi
-import com.velcuri.cobaltvpn.utils.ExtractorLink
-import com.velcuri.cobaltvpn.utils.JsUnpacker
-import com.velcuri.cobaltvpn.utils.M3u8Helper
+import com.lagradost.cloudstream3.SubtitleFile
+import com.lagradost.cloudstream3.app
+import com.lagradost.cloudstream3.extractors.helper.JwPlayerHelper
+import com.lagradost.cloudstream3.network.WebViewResolver
+import com.lagradost.cloudstream3.utils.ExtractorApi
+import com.lagradost.cloudstream3.utils.ExtractorLink
+import com.lagradost.cloudstream3.utils.JsUnpacker
+import com.lagradost.cloudstream3.utils.M3u8Helper
 
 
 class FileMoon : FilemoonV2() {

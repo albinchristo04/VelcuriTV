@@ -1,4 +1,4 @@
-package com.velcuri.cobaltvpn.extractors
+package com.lagradost.cloudstream3.extractors
 
 open class VidhideExtractor : VidHidePro() {
     override var name = "VidHide"

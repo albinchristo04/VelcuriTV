@@ -1,8 +1,8 @@
-package com.velcuri.cobaltvpn.mvvm
+package com.lagradost.cloudstream3.mvvm
 
 import com.lagradost.api.Log
-import com.velcuri.cobaltvpn.ErrorLoadingException
-import com.velcuri.cobaltvpn.utils.AppDebug
+import com.lagradost.cloudstream3.ErrorLoadingException
+import com.lagradost.cloudstream3.utils.AppDebug
 import kotlinx.coroutines.*
 import java.io.InterruptedIOException
 import java.net.SocketTimeoutException

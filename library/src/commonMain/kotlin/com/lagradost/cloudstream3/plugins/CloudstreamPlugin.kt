@@ -1,4 +1,4 @@
-package com.velcuri.cobaltvpn.plugins
+package com.lagradost.cloudstream3.plugins
 
 @Suppress("unused")
 @Target(AnnotationTarget.CLASS)

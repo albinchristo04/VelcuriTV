@@ -1,9 +1,9 @@
-package com.velcuri.cobaltvpn.extractors
+package com.lagradost.cloudstream3.extractors
 
-import com.velcuri.cobaltvpn.SubtitleFile
-import com.velcuri.cobaltvpn.app
-import com.velcuri.cobaltvpn.extractors.helper.JwPlayerHelper
-import com.velcuri.cobaltvpn.utils.*
+import com.lagradost.cloudstream3.SubtitleFile
+import com.lagradost.cloudstream3.app
+import com.lagradost.cloudstream3.extractors.helper.JwPlayerHelper
+import com.lagradost.cloudstream3.utils.*
 
 class Neonime7n : Hxfile() {
     override val name = "Neonime7n"

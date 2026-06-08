@@ -1,11 +1,11 @@
-package com.velcuri.cobaltvpn.plugins
+package com.lagradost.cloudstream3.plugins
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.velcuri.cobaltvpn.APIHolder
-import com.velcuri.cobaltvpn.MainAPI
-import com.velcuri.cobaltvpn.utils.ExtractorApi
+import com.lagradost.cloudstream3.APIHolder
+import com.lagradost.cloudstream3.MainAPI
+import com.lagradost.cloudstream3.utils.ExtractorApi
 import com.lagradost.api.Log
-import com.velcuri.cobaltvpn.utils.extractorApis
+import com.lagradost.cloudstream3.utils.extractorApis
 
 const val PLUGIN_TAG = "PluginInstance"
 

@@ -1,6 +1,6 @@
-package com.velcuri.cobaltvpn.utils
+package com.lagradost.cloudstream3.utils
 
-import com.velcuri.cobaltvpn.mvvm.logError
+import com.lagradost.cloudstream3.mvvm.logError
 import kotlin.math.pow
 
 // https://github.com/cylonu87/JsUnpacker
