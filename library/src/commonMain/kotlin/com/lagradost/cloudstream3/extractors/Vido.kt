@@ -1,11 +1,11 @@
-package io.velcuri.tv.extractors
-import io.velcuri.tv.app
-import io.velcuri.tv.utils.ExtractorApi
-import io.velcuri.tv.utils.ExtractorLink
-import io.velcuri.tv.utils.ExtractorLinkType
-import io.velcuri.tv.utils.Qualities
-import io.velcuri.tv.utils.getAndUnpack
-import io.velcuri.tv.utils.newExtractorLink
+package com.velcuri.tv.extractors
+import com.velcuri.tv.app
+import com.velcuri.tv.utils.ExtractorApi
+import com.velcuri.tv.utils.ExtractorLink
+import com.velcuri.tv.utils.ExtractorLinkType
+import com.velcuri.tv.utils.Qualities
+import com.velcuri.tv.utils.getAndUnpack
+import com.velcuri.tv.utils.newExtractorLink
 
 class Vido : ExtractorApi() {
     override var name = "Vido"

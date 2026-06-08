@@ -1,9 +1,9 @@
-package io.velcuri.tv.extractors
+package com.velcuri.tv.extractors
 
-import io.velcuri.tv.SubtitleFile
-import io.velcuri.tv.utils.*
-import io.velcuri.tv.app
-import io.velcuri.tv.utils.M3u8Helper.Companion.generateM3u8
+import com.velcuri.tv.SubtitleFile
+import com.velcuri.tv.utils.*
+import com.velcuri.tv.app
+import com.velcuri.tv.utils.M3u8Helper.Companion.generateM3u8
 
 open class Sendvid : ExtractorApi() {
     override var name = "Sendvid"

@@ -1,6 +1,6 @@
-package io.velcuri.tv.utils
+package com.velcuri.tv.utils
 
-import io.velcuri.tv.InternalAPI
+import com.velcuri.tv.InternalAPI
 import kotlin.concurrent.Volatile
 
 @InternalAPI

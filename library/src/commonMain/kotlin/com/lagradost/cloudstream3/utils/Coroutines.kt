@@ -1,11 +1,11 @@
-package io.velcuri.tv.utils
+package com.velcuri.tv.utils
 
 import androidx.annotation.AnyThread
 import androidx.annotation.MainThread
 import androidx.annotation.WorkerThread
-import io.velcuri.tv.Prerelease
-import io.velcuri.tv.mvvm.launchSafe
-import io.velcuri.tv.mvvm.logError
+import com.velcuri.tv.Prerelease
+import com.velcuri.tv.mvvm.launchSafe
+import com.velcuri.tv.mvvm.logError
 import kotlinx.coroutines.*
 
 @AnyThread

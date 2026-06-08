@@ -1,8 +1,8 @@
-package io.velcuri.tv.mvvm
+package com.velcuri.tv.mvvm
 
 import com.lagradost.api.Log
-import io.velcuri.tv.ErrorLoadingException
-import io.velcuri.tv.utils.AppDebug
+import com.velcuri.tv.ErrorLoadingException
+import com.velcuri.tv.utils.AppDebug
 import kotlinx.coroutines.*
 import java.io.InterruptedIOException
 import java.net.SocketTimeoutException

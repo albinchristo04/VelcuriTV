@@ -1,6 +1,6 @@
 // ! Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
 
-package io.velcuri.tv.extractors
+package com.velcuri.tv.extractors
 
 class Hotlinger : ContentX() {
     override var name    = "Hotlinger"

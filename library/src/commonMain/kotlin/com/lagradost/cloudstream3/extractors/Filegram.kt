@@ -1,12 +1,12 @@
-package io.velcuri.tv.extractors
+package com.velcuri.tv.extractors
 
-import io.velcuri.tv.SubtitleFile
-import io.velcuri.tv.USER_AGENT
-import io.velcuri.tv.app
-import io.velcuri.tv.extractors.helper.JwPlayerHelper
-import io.velcuri.tv.utils.ExtractorApi
-import io.velcuri.tv.utils.ExtractorLink
-import io.velcuri.tv.utils.getAndUnpack
+import com.velcuri.tv.SubtitleFile
+import com.velcuri.tv.USER_AGENT
+import com.velcuri.tv.app
+import com.velcuri.tv.extractors.helper.JwPlayerHelper
+import com.velcuri.tv.utils.ExtractorApi
+import com.velcuri.tv.utils.ExtractorLink
+import com.velcuri.tv.utils.getAndUnpack
 import org.jsoup.nodes.Element
 
 open class Filegram : ExtractorApi() {

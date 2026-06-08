@@ -1,6 +1,6 @@
-package io.velcuri.tv.utils.serializers
+package com.velcuri.tv.utils.serializers
 
-import io.velcuri.tv.Prerelease
+import com.velcuri.tv.Prerelease
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.json.JsonElement
 import kotlinx.serialization.json.JsonObject

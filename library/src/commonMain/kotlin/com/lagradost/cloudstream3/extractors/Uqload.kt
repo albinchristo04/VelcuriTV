@@ -1,11 +1,11 @@
-package io.velcuri.tv.extractors
+package com.velcuri.tv.extractors
 
-import io.velcuri.tv.utils.*
-import io.velcuri.tv.app
-import io.velcuri.tv.SubtitleFile
-import io.velcuri.tv.USER_AGENT
-import io.velcuri.tv.newSubtitleFile
-import io.velcuri.tv.utils.*
+import com.velcuri.tv.utils.*
+import com.velcuri.tv.app
+import com.velcuri.tv.SubtitleFile
+import com.velcuri.tv.USER_AGENT
+import com.velcuri.tv.newSubtitleFile
+import com.velcuri.tv.utils.*
 
 // import android.util.Log
 

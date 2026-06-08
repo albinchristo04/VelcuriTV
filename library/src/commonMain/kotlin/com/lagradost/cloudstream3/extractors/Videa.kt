@@ -1,10 +1,10 @@
 // Adapted for CloudStream - taken from https://github.com/vargalex/ResolveURL/blob/fix/videa-resolver-add-cookie/script.module.resolveurl/lib/resolveurl/plugins/videa.py
-package io.velcuri.tv.extractors
+package com.velcuri.tv.extractors
 
-import io.velcuri.tv.app
-import io.velcuri.tv.SubtitleFile
-import io.velcuri.tv.utils.*
-import io.velcuri.tv.base64DecodeArray
+import com.velcuri.tv.app
+import com.velcuri.tv.SubtitleFile
+import com.velcuri.tv.utils.*
+import com.velcuri.tv.base64DecodeArray
 
 /**
  * Extractor for Videa.hu video hosting service

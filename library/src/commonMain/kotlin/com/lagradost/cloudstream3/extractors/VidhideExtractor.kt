@@ -1,4 +1,4 @@
-package io.velcuri.tv.extractors
+package com.velcuri.tv.extractors
 
 open class VidhideExtractor : VidHidePro() {
     override var name = "VidHide"

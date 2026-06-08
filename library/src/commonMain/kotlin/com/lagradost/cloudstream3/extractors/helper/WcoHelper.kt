@@ -1,7 +1,7 @@
-package io.velcuri.tv.extractors.helper
+package com.velcuri.tv.extractors.helper
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import io.velcuri.tv.app
+import com.velcuri.tv.app
 
 class WcoHelper {
     companion object {

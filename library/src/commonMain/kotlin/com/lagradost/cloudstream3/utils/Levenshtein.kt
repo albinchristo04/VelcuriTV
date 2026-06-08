@@ -22,9 +22,9 @@
  * SOFTWARE.
  */
 
-package io.velcuri.tv.utils
+package com.velcuri.tv.utils
 
-import io.velcuri.tv.Prerelease
+import com.velcuri.tv.Prerelease
 import kotlin.math.round
 
 // Taken from https://github.com/terrakok/FuzzyKot/blob/f794d43/fuzzykot/src/commonMain/kotlin/com/github/terrakok/fuzzykot/Levenshtein.kt

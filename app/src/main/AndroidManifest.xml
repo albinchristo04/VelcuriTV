@@ -92,7 +92,7 @@
 
         <meta-data
             android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
-            android:value="io.velcuri.tv.utils.CastOptionsProvider" />
+            android:value="com.velcuri.tv.utils.CastOptionsProvider" />
 
         <profileable
             android:shell="true"
@@ -105,7 +105,7 @@
             android:resizeableActivity="true"
             android:screenOrientation="userLandscape"
             android:supportsPictureInPicture="true"
-            android:taskAffinity="io.velcuri.tv.downloadedplayer"
+            android:taskAffinity="com.velcuri.tv.downloadedplayer"
             android:launchMode="singleTask"
             tools:ignore="DiscouragedApi">
             <intent-filter>

@@ -1,10 +1,10 @@
-package io.velcuri.tv.extractors
+package com.velcuri.tv.extractors
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import io.velcuri.tv.*
-import io.velcuri.tv.extractors.helper.AesHelper.cryptoAESHandler
-import io.velcuri.tv.utils.*
-import io.velcuri.tv.utils.AppUtils.tryParseJson
+import com.velcuri.tv.*
+import com.velcuri.tv.extractors.helper.AesHelper.cryptoAESHandler
+import com.velcuri.tv.utils.*
+import com.velcuri.tv.utils.AppUtils.tryParseJson
 import org.jsoup.nodes.Element
 
 class DatabaseGdrive2 : Gdriveplayer() {

@@ -1,4 +1,4 @@
-package io.velcuri.tv.utils
+package com.velcuri.tv.utils
 
 import java.net.URLDecoder
 import java.net.URLEncoder

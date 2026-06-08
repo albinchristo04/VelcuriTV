@@ -1,14 +1,14 @@
-package io.velcuri.tv.extractors
+package com.velcuri.tv.extractors
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import io.velcuri.tv.SubtitleFile
-import io.velcuri.tv.app
-import io.velcuri.tv.base64Decode
-import io.velcuri.tv.utils.AppUtils
-import io.velcuri.tv.utils.ExtractorApi
-import io.velcuri.tv.utils.ExtractorLink
-import io.velcuri.tv.utils.getQualityFromName
-import io.velcuri.tv.utils.newExtractorLink
+import com.velcuri.tv.SubtitleFile
+import com.velcuri.tv.app
+import com.velcuri.tv.base64Decode
+import com.velcuri.tv.utils.AppUtils
+import com.velcuri.tv.utils.ExtractorApi
+import com.velcuri.tv.utils.ExtractorLink
+import com.velcuri.tv.utils.getQualityFromName
+import com.velcuri.tv.utils.newExtractorLink
 
 open class GUpload: ExtractorApi() {
     override val name: String = "GUpload"

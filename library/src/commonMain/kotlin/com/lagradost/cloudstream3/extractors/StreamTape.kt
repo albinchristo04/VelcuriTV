@@ -1,10 +1,10 @@
-package io.velcuri.tv.extractors
+package com.velcuri.tv.extractors
 
-import io.velcuri.tv.app
-import io.velcuri.tv.utils.ExtractorApi
-import io.velcuri.tv.utils.ExtractorLink
-import io.velcuri.tv.utils.Qualities
-import io.velcuri.tv.utils.newExtractorLink
+import com.velcuri.tv.app
+import com.velcuri.tv.utils.ExtractorApi
+import com.velcuri.tv.utils.ExtractorLink
+import com.velcuri.tv.utils.Qualities
+import com.velcuri.tv.utils.newExtractorLink
 import org.mozilla.javascript.Context
 
 class Watchadsontape : StreamTape() {

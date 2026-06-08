@@ -1,11 +1,11 @@
-package io.velcuri.tv.plugins
+package com.velcuri.tv.plugins
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import io.velcuri.tv.APIHolder
-import io.velcuri.tv.MainAPI
-import io.velcuri.tv.utils.ExtractorApi
+import com.velcuri.tv.APIHolder
+import com.velcuri.tv.MainAPI
+import com.velcuri.tv.utils.ExtractorApi
 import com.lagradost.api.Log
-import io.velcuri.tv.utils.extractorApis
+import com.velcuri.tv.utils.extractorApis
 
 const val PLUGIN_TAG = "PluginInstance"
 

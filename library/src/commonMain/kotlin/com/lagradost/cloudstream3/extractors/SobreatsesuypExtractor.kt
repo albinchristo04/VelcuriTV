@@ -1,9 +1,9 @@
 // ! Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
 
-package io.velcuri.tv.extractors
+package com.velcuri.tv.extractors
 
-import io.velcuri.tv.*
-import io.velcuri.tv.utils.*
+import com.velcuri.tv.*
+import com.velcuri.tv.utils.*
 import com.fasterxml.jackson.annotation.JsonProperty
 
 open class Sobreatsesuyp : ExtractorApi() {

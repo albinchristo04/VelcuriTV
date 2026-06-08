@@ -1,17 +1,17 @@
-package io.velcuri.tv.extractors
+package com.velcuri.tv.extractors
 
 import com.lagradost.api.Log
-import io.velcuri.tv.Prerelease
-import io.velcuri.tv.SubtitleFile
-import io.velcuri.tv.USER_AGENT
-import io.velcuri.tv.app
-import io.velcuri.tv.extractors.helper.JwPlayerHelper
-import io.velcuri.tv.utils.ExtractorApi
-import io.velcuri.tv.utils.ExtractorLink
-import io.velcuri.tv.utils.M3u8Helper
-import io.velcuri.tv.utils.getAndUnpack
-import io.velcuri.tv.utils.getPacked
-import io.velcuri.tv.network.WebViewResolver
+import com.velcuri.tv.Prerelease
+import com.velcuri.tv.SubtitleFile
+import com.velcuri.tv.USER_AGENT
+import com.velcuri.tv.app
+import com.velcuri.tv.extractors.helper.JwPlayerHelper
+import com.velcuri.tv.utils.ExtractorApi
+import com.velcuri.tv.utils.ExtractorLink
+import com.velcuri.tv.utils.M3u8Helper
+import com.velcuri.tv.utils.getAndUnpack
+import com.velcuri.tv.utils.getPacked
+import com.velcuri.tv.network.WebViewResolver
 
 class Mwish : StreamWishExtractor() {
     override val name = "Mwish"

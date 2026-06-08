@@ -1,7 +1,7 @@
-package io.velcuri.tv
+package com.velcuri.tv
 
-import io.velcuri.tv.utils.AppUtils.parseJson
-import io.velcuri.tv.utils.AppUtils.toJson
+import com.velcuri.tv.utils.AppUtils.parseJson
+import com.velcuri.tv.utils.AppUtils.toJson
 import com.lagradost.nicehttp.Requests
 import com.lagradost.nicehttp.ResponseParser
 import kotlin.reflect.KClass

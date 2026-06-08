@@ -1,9 +1,9 @@
-package io.velcuri.tv.extractors
+package com.velcuri.tv.extractors
 
-import io.velcuri.tv.SubtitleFile
-import io.velcuri.tv.utils.ExtractorApi
-import io.velcuri.tv.utils.ExtractorLink
-import io.velcuri.tv.utils.loadExtractor
+import com.velcuri.tv.SubtitleFile
+import com.velcuri.tv.utils.ExtractorApi
+import com.velcuri.tv.utils.ExtractorLink
+import com.velcuri.tv.utils.loadExtractor
 import okhttp3.HttpUrl.Companion.toHttpUrl
 
 // deobfuscated from https://hglink.to/main.js?v=1.1.3 using https://deobfuscate.io/

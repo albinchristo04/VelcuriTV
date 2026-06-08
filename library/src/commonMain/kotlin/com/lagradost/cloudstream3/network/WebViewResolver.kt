@@ -1,6 +1,6 @@
-package io.velcuri.tv.network
+package com.velcuri.tv.network
 
-import io.velcuri.tv.USER_AGENT
+import com.velcuri.tv.USER_AGENT
 import okhttp3.Interceptor
 import okhttp3.Request
 

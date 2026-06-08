@@ -1,10 +1,10 @@
-package io.velcuri.tv.extractors
+package com.velcuri.tv.extractors
 
-import io.velcuri.tv.SubtitleFile
-import io.velcuri.tv.app
-import io.velcuri.tv.extractors.helper.JwPlayerHelper
-import io.velcuri.tv.utils.ExtractorApi
-import io.velcuri.tv.utils.ExtractorLink
+import com.velcuri.tv.SubtitleFile
+import com.velcuri.tv.app
+import com.velcuri.tv.extractors.helper.JwPlayerHelper
+import com.velcuri.tv.utils.ExtractorApi
+import com.velcuri.tv.utils.ExtractorLink
 
 class Meownime : JWPlayer() {
     override val name = "Meownime"

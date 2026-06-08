@@ -1,8 +1,8 @@
-package io.velcuri.tv.extractors
+package com.velcuri.tv.extractors
 
-import io.velcuri.tv.SubtitleFile
-import io.velcuri.tv.utils.ExtractorApi
-import io.velcuri.tv.utils.ExtractorLink
+import com.velcuri.tv.SubtitleFile
+import com.velcuri.tv.utils.ExtractorApi
+import com.velcuri.tv.utils.ExtractorLink
 
 expect open class YoutubeExtractor() : ExtractorApi {
     override val mainUrl: String

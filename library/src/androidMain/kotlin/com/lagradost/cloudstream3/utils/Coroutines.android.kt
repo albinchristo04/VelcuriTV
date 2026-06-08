@@ -1,4 +1,4 @@
-package io.velcuri.tv.utils
+package com.velcuri.tv.utils
 
 import android.os.Handler
 import android.os.Looper

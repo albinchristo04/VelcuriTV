@@ -1,8 +1,8 @@
-package io.velcuri.tv.utils
+package com.velcuri.tv.utils
 
 import com.lagradost.api.Log
-import io.velcuri.tv.ErrorLoadingException
-import io.velcuri.tv.app
+import com.velcuri.tv.ErrorLoadingException
+import com.velcuri.tv.app
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.delay
 import javax.crypto.Cipher

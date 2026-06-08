@@ -1,9 +1,9 @@
-package io.velcuri.tv.extractors.helper
+package com.velcuri.tv.extractors.helper
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import io.velcuri.tv.base64DecodeArray
-import io.velcuri.tv.base64Encode
-import io.velcuri.tv.utils.AppUtils
+import com.velcuri.tv.base64DecodeArray
+import com.velcuri.tv.base64Encode
+import com.velcuri.tv.utils.AppUtils
 import java.security.DigestException
 import java.security.MessageDigest
 import javax.crypto.Cipher

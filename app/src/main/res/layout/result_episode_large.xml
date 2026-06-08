@@ -144,7 +144,7 @@
 
             </LinearLayout>
 
-            <io.velcuri.tv.ui.download.button.PieFetchButton
+            <com.velcuri.tv.ui.download.button.PieFetchButton
                 android:id="@+id/download_button"
                 android:layout_width="@dimen/download_size"
                 android:layout_height="@dimen/download_size"

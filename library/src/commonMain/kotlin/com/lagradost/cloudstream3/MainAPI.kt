@@ -4,23 +4,23 @@
     "MemberVisibilityCanBePrivate"
 )
 
-package io.velcuri.tv
+package com.velcuri.tv
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.databind.DeserializationFeature
 import com.fasterxml.jackson.databind.json.JsonMapper
 import com.fasterxml.jackson.module.kotlin.kotlinModule
-import io.velcuri.tv.mvvm.logError
-import io.velcuri.tv.mvvm.safe
-import io.velcuri.tv.syncproviders.SyncIdName
-import io.velcuri.tv.utils.*
-import io.velcuri.tv.utils.AppUtils.toJson
-import io.velcuri.tv.utils.AppUtils.tryParseJson
-import io.velcuri.tv.utils.Coroutines.atomicListOf
-import io.velcuri.tv.utils.Coroutines.mainWork
-import io.velcuri.tv.utils.SubtitleHelper.fromCodeToLangTagIETF
-import io.velcuri.tv.utils.SubtitleHelper.fromLanguageToTagIETF
+import com.velcuri.tv.mvvm.logError
+import com.velcuri.tv.mvvm.safe
+import com.velcuri.tv.syncproviders.SyncIdName
+import com.velcuri.tv.utils.*
+import com.velcuri.tv.utils.AppUtils.toJson
+import com.velcuri.tv.utils.AppUtils.tryParseJson
+import com.velcuri.tv.utils.Coroutines.atomicListOf
+import com.velcuri.tv.utils.Coroutines.mainWork
+import com.velcuri.tv.utils.SubtitleHelper.fromCodeToLangTagIETF
+import com.velcuri.tv.utils.SubtitleHelper.fromLanguageToTagIETF
 import com.lagradost.nicehttp.RequestBodyTypes
 import okhttp3.Interceptor
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
@@ -524,7 +524,7 @@ abstract class MainAPI {
 
     /**
      * The language as an IETF BCP 47 conformant tag.
-     * Check [io.velcuri.tv.utils.SubtitleHelper].
+     * Check [com.velcuri.tv.utils.SubtitleHelper].
      *
      * See locales on:
      * https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-core/availableLocales.json

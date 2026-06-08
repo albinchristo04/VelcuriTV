@@ -1,6 +1,6 @@
 // ! Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
 
-package io.velcuri.tv.extractors
+package com.velcuri.tv.extractors
 
 open class OkRuSSL : Odnoklassniki() {
     override var name    = "OkRuSSL"

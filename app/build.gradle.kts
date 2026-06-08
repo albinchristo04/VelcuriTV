@@ -101,7 +101,7 @@ android {
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "io.velcuri.tv"
+        applicationId = "com.velcuri.tv"
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
         versionCode = libs.versions.versionCode.get().toInt()
@@ -199,7 +199,7 @@ android {
         }
     }
 
-    namespace = "io.velcuri.tv"
+    namespace = "com.velcuri.tv"
 }
 
 dependencies {
@@ -315,8 +315,8 @@ tasks.withType<KotlinJvmCompile> {
         jvmDefault.set(JvmDefaultMode.ENABLE)
         freeCompilerArgs.add("-Xannotation-default-target=param-property")
         optIn.addAll(
-            "io.velcuri.tv.InternalAPI",
-            "io.velcuri.tv.Prerelease",
+            "com.velcuri.tv.InternalAPI",
+            "com.velcuri.tv.Prerelease",
             "kotlin.uuid.ExperimentalUuidApi",
         )
     }

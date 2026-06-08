@@ -1,8 +1,8 @@
-package io.velcuri.tv.metaproviders
+package com.velcuri.tv.metaproviders
 
-import io.velcuri.tv.MainAPI
-import io.velcuri.tv.mvvm.safeAsync
-import io.velcuri.tv.syncproviders.SyncIdName
+import com.velcuri.tv.MainAPI
+import com.velcuri.tv.mvvm.safeAsync
+import com.velcuri.tv.syncproviders.SyncIdName
 
 object SyncRedirector {
     private val syncIds =

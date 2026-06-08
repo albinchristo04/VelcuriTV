@@ -1,4 +1,4 @@
-package io.velcuri.tv.network
+package com.velcuri.tv.network
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -6,14 +6,14 @@ import android.net.http.SslError
 import android.webkit.*
 import com.lagradost.api.Log
 import com.lagradost.api.getContext
-import io.velcuri.tv.app
-import io.velcuri.tv.mvvm.debugException
-import io.velcuri.tv.mvvm.logError
-import io.velcuri.tv.mvvm.safe
-import io.velcuri.tv.utils.Coroutines.atomicListOf
-import io.velcuri.tv.utils.Coroutines.main
-import io.velcuri.tv.utils.Coroutines.mainWork
-import io.velcuri.tv.utils.Coroutines.runOnMainThread
+import com.velcuri.tv.app
+import com.velcuri.tv.mvvm.debugException
+import com.velcuri.tv.mvvm.logError
+import com.velcuri.tv.mvvm.safe
+import com.velcuri.tv.utils.Coroutines.atomicListOf
+import com.velcuri.tv.utils.Coroutines.main
+import com.velcuri.tv.utils.Coroutines.mainWork
+import com.velcuri.tv.utils.Coroutines.runOnMainThread
 import com.lagradost.nicehttp.requestCreator
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking

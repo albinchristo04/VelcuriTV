@@ -72,7 +72,7 @@
             <!--com.google.android.gms.cast.framework.media.widget.MiniControllerFragment-->
             <fragment
                 android:id="@+id/cast_mini_controller"
-                class="io.velcuri.tv.ui.MyMiniControllerFragment"
+                class="com.velcuri.tv.ui.MyMiniControllerFragment"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:visibility="gone"

@@ -1,8 +1,8 @@
-package io.velcuri.tv.extractors
+package com.velcuri.tv.extractors
 
-import io.velcuri.tv.utils.ExtractorLink
-import io.velcuri.tv.app
-import io.velcuri.tv.utils.*
+import com.velcuri.tv.utils.ExtractorLink
+import com.velcuri.tv.app
+import com.velcuri.tv.utils.*
 import org.mozilla.javascript.Context
 import org.mozilla.javascript.EvaluatorException
 import org.mozilla.javascript.Scriptable

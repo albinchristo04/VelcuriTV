@@ -1,12 +1,12 @@
-package io.velcuri.tv.extractors.helper
+package com.velcuri.tv.extractors.helper
 
-import io.velcuri.tv.SubtitleFile
-import io.velcuri.tv.app
-import io.velcuri.tv.utils.ExtractorLink
-import io.velcuri.tv.utils.ExtractorLinkType
-import io.velcuri.tv.utils.Qualities
-import io.velcuri.tv.utils.loadExtractor
-import io.velcuri.tv.utils.newExtractorLink
+import com.velcuri.tv.SubtitleFile
+import com.velcuri.tv.app
+import com.velcuri.tv.utils.ExtractorLink
+import com.velcuri.tv.utils.ExtractorLinkType
+import com.velcuri.tv.utils.Qualities
+import com.velcuri.tv.utils.loadExtractor
+import com.velcuri.tv.utils.newExtractorLink
 
 class VstreamhubHelper {
     companion object {

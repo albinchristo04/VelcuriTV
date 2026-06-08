@@ -1,6 +1,6 @@
-package io.velcuri.tv.utils
+package com.velcuri.tv.utils
 
-import io.velcuri.tv.mvvm.logError
+import com.velcuri.tv.mvvm.logError
 import kotlin.math.pow
 
 // author: https://github.com/daarkdemon

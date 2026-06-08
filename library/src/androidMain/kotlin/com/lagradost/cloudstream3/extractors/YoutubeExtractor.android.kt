@@ -1,12 +1,12 @@
-package io.velcuri.tv.extractors
+package com.velcuri.tv.extractors
 
-import io.velcuri.tv.SubtitleFile
-import io.velcuri.tv.newAudioFile
-import io.velcuri.tv.newSubtitleFile
-import io.velcuri.tv.utils.ExtractorApi
-import io.velcuri.tv.utils.ExtractorLink
-import io.velcuri.tv.utils.ExtractorLinkType
-import io.velcuri.tv.utils.newExtractorLink
+import com.velcuri.tv.SubtitleFile
+import com.velcuri.tv.newAudioFile
+import com.velcuri.tv.newSubtitleFile
+import com.velcuri.tv.utils.ExtractorApi
+import com.velcuri.tv.utils.ExtractorLink
+import com.velcuri.tv.utils.ExtractorLinkType
+import com.velcuri.tv.utils.newExtractorLink
 import org.schabi.newpipe.extractor.stream.StreamInfo
 import org.schabi.newpipe.extractor.stream.StreamType
 

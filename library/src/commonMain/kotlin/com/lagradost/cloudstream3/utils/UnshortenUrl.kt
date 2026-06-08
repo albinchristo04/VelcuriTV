@@ -1,8 +1,8 @@
-package io.velcuri.tv.utils
+package com.velcuri.tv.utils
 
-import io.velcuri.tv.app
-import io.velcuri.tv.base64Decode
-import io.velcuri.tv.utils.StringUtils.decodeUri
+import com.velcuri.tv.app
+import com.velcuri.tv.base64Decode
+import com.velcuri.tv.utils.StringUtils.decodeUri
 import com.lagradost.nicehttp.NiceResponse
 import java.net.URI
 

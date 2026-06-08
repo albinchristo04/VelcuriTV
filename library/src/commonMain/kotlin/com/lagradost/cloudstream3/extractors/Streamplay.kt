@@ -1,12 +1,12 @@
-package io.velcuri.tv.extractors
+package com.velcuri.tv.extractors
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import io.velcuri.tv.APIHolder.getCaptchaToken
-import io.velcuri.tv.ErrorLoadingException
-import io.velcuri.tv.SubtitleFile
-import io.velcuri.tv.app
-import io.velcuri.tv.utils.*
-import io.velcuri.tv.utils.AppUtils.tryParseJson
+import com.velcuri.tv.APIHolder.getCaptchaToken
+import com.velcuri.tv.ErrorLoadingException
+import com.velcuri.tv.SubtitleFile
+import com.velcuri.tv.app
+import com.velcuri.tv.utils.*
+import com.velcuri.tv.utils.AppUtils.tryParseJson
 import java.net.URI
 
 open class Streamplay : ExtractorApi() {

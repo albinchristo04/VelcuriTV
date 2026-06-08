@@ -1,11 +1,11 @@
-package io.velcuri.tv.extractors.helper
+package com.velcuri.tv.extractors.helper
 
 import com.lagradost.api.Log
-import io.velcuri.tv.SubtitleFile
-import io.velcuri.tv.amap
-import io.velcuri.tv.app
-import io.velcuri.tv.utils.ExtractorLink
-import io.velcuri.tv.utils.loadExtractor
+import com.velcuri.tv.SubtitleFile
+import com.velcuri.tv.amap
+import com.velcuri.tv.app
+import com.velcuri.tv.utils.ExtractorLink
+import com.velcuri.tv.utils.loadExtractor
 
 class AsianEmbedHelper {
     companion object {

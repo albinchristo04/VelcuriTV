@@ -1,4 +1,4 @@
-package io.velcuri.tv.syncproviders
+package com.velcuri.tv.syncproviders
 
 enum class SyncIdName {
     Anilist,

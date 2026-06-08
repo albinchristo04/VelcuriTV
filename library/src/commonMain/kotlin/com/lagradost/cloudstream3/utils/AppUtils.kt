@@ -1,10 +1,10 @@
-package io.velcuri.tv.utils
+package com.velcuri.tv.utils
 
 import com.fasterxml.jackson.module.kotlin.readValue
-import io.velcuri.tv.InternalAPI
-import io.velcuri.tv.json
-import io.velcuri.tv.mapper
-import io.velcuri.tv.mvvm.logError
+import com.velcuri.tv.InternalAPI
+import com.velcuri.tv.json
+import com.velcuri.tv.mapper
+import com.velcuri.tv.mvvm.logError
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.InternalSerializationApi
 import kotlinx.serialization.KSerializer

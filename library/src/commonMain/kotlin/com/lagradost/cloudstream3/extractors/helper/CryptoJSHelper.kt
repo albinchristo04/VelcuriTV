@@ -1,7 +1,7 @@
-package io.velcuri.tv.extractors.helper
+package com.velcuri.tv.extractors.helper
 
-import io.velcuri.tv.base64DecodeArray
-import io.velcuri.tv.base64Encode
+import com.velcuri.tv.base64DecodeArray
+import com.velcuri.tv.base64Encode
 import java.security.MessageDigest
 import java.security.SecureRandom
 import javax.crypto.Cipher

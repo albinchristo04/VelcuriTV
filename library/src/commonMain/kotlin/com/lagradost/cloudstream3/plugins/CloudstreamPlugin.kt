@@ -1,4 +1,4 @@
-package io.velcuri.tv.plugins
+package com.velcuri.tv.plugins
 
 @Suppress("unused")
 @Target(AnnotationTarget.CLASS)

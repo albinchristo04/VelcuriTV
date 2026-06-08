@@ -1,11 +1,11 @@
-package io.velcuri.tv.extractors
+package com.velcuri.tv.extractors
 
-import io.velcuri.tv.amap
-import io.velcuri.tv.app
-import io.velcuri.tv.utils.ExtractorApi
-import io.velcuri.tv.utils.ExtractorLink
-import io.velcuri.tv.utils.M3u8Helper
-import io.velcuri.tv.utils.getAndUnpack
+import com.velcuri.tv.amap
+import com.velcuri.tv.app
+import com.velcuri.tv.utils.ExtractorApi
+import com.velcuri.tv.utils.ExtractorLink
+import com.velcuri.tv.utils.M3u8Helper
+import com.velcuri.tv.utils.getAndUnpack
 
 class Zplayer: ZplayerV2() {
     override var name: String = "Zplayer"

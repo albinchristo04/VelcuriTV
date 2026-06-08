@@ -1,13 +1,13 @@
-package io.velcuri.tv.extractors
+package com.velcuri.tv.extractors
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import io.velcuri.tv.SubtitleFile
-import io.velcuri.tv.app
-import io.velcuri.tv.base64DecodeArray
-import io.velcuri.tv.utils.AppUtils.tryParseJson
-import io.velcuri.tv.utils.ExtractorApi
-import io.velcuri.tv.utils.ExtractorLink
-import io.velcuri.tv.utils.M3u8Helper
+import com.velcuri.tv.SubtitleFile
+import com.velcuri.tv.app
+import com.velcuri.tv.base64DecodeArray
+import com.velcuri.tv.utils.AppUtils.tryParseJson
+import com.velcuri.tv.utils.ExtractorApi
+import com.velcuri.tv.utils.ExtractorLink
+import com.velcuri.tv.utils.M3u8Helper
 import java.net.URI
 import javax.crypto.Cipher
 import javax.crypto.spec.GCMParameterSpec

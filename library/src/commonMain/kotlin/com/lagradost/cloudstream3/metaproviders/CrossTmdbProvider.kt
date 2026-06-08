@@ -1,21 +1,21 @@
-package io.velcuri.tv.metaproviders
+package com.velcuri.tv.metaproviders
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import io.velcuri.tv.APIHolder.apis
-import io.velcuri.tv.APIHolder.getApiFromNameNull
-import io.velcuri.tv.ErrorLoadingException
-import io.velcuri.tv.LoadResponse
-import io.velcuri.tv.MovieLoadResponse
-import io.velcuri.tv.MovieSearchResponse
-import io.velcuri.tv.SearchResponseList
-import io.velcuri.tv.SubtitleFile
-import io.velcuri.tv.TvType
-import io.velcuri.tv.amap
-import io.velcuri.tv.mvvm.logError
-import io.velcuri.tv.toNewSearchResponseList
-import io.velcuri.tv.utils.AppUtils.toJson
-import io.velcuri.tv.utils.AppUtils.tryParseJson
-import io.velcuri.tv.utils.ExtractorLink
+import com.velcuri.tv.APIHolder.apis
+import com.velcuri.tv.APIHolder.getApiFromNameNull
+import com.velcuri.tv.ErrorLoadingException
+import com.velcuri.tv.LoadResponse
+import com.velcuri.tv.MovieLoadResponse
+import com.velcuri.tv.MovieSearchResponse
+import com.velcuri.tv.SearchResponseList
+import com.velcuri.tv.SubtitleFile
+import com.velcuri.tv.TvType
+import com.velcuri.tv.amap
+import com.velcuri.tv.mvvm.logError
+import com.velcuri.tv.toNewSearchResponseList
+import com.velcuri.tv.utils.AppUtils.toJson
+import com.velcuri.tv.utils.AppUtils.tryParseJson
+import com.velcuri.tv.utils.ExtractorLink
 
 class CrossTmdbProvider : TmdbProvider() {
     override var name = "MultiMovie"

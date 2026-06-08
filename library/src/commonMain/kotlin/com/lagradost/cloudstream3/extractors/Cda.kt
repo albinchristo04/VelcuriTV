@@ -1,13 +1,13 @@
-package io.velcuri.tv.extractors
+package com.velcuri.tv.extractors
 
-import io.velcuri.tv.USER_AGENT
-import io.velcuri.tv.app
-import io.velcuri.tv.utils.AppUtils.tryParseJson
-import io.velcuri.tv.utils.ExtractorApi
-import io.velcuri.tv.utils.ExtractorLink
-import io.velcuri.tv.utils.Qualities
-import io.velcuri.tv.utils.StringUtils.decodeUri
-import io.velcuri.tv.utils.newExtractorLink
+import com.velcuri.tv.USER_AGENT
+import com.velcuri.tv.app
+import com.velcuri.tv.utils.AppUtils.tryParseJson
+import com.velcuri.tv.utils.ExtractorApi
+import com.velcuri.tv.utils.ExtractorLink
+import com.velcuri.tv.utils.Qualities
+import com.velcuri.tv.utils.StringUtils.decodeUri
+import com.velcuri.tv.utils.newExtractorLink
 
 open class Cda : ExtractorApi() {
     override var mainUrl = "https://ebd.cda.pl"

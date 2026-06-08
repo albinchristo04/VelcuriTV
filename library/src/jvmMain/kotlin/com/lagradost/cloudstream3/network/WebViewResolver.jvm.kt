@@ -1,7 +1,7 @@
-package io.velcuri.tv.network
+package com.velcuri.tv.network
 
-import io.velcuri.tv.mvvm.debugException
-import io.velcuri.tv.mvvm.logError
+import com.velcuri.tv.mvvm.debugException
+import com.velcuri.tv.mvvm.logError
 import com.lagradost.nicehttp.requestCreator
 import okhttp3.Interceptor
 import okhttp3.Request

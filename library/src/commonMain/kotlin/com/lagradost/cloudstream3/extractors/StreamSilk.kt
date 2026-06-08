@@ -1,9 +1,9 @@
-package io.velcuri.tv.extractors
+package com.velcuri.tv.extractors
 
-import io.velcuri.tv.SubtitleFile
-import io.velcuri.tv.USER_AGENT
-import io.velcuri.tv.app
-import io.velcuri.tv.utils.*
+import com.velcuri.tv.SubtitleFile
+import com.velcuri.tv.USER_AGENT
+import com.velcuri.tv.app
+import com.velcuri.tv.utils.*
 
 open class StreamSilk : ExtractorApi() {
     override val name = "StreamSilk"

@@ -1,13 +1,13 @@
-package io.velcuri.tv.extractors
+package com.velcuri.tv.extractors
 
-import io.velcuri.tv.APIHolder.unixTimeMS
-import io.velcuri.tv.app
-import io.velcuri.tv.mvvm.logError
-import io.velcuri.tv.utils.ExtractorApi
-import io.velcuri.tv.utils.ExtractorLink
-import io.velcuri.tv.utils.Qualities
-import io.velcuri.tv.utils.getPostForm
-import io.velcuri.tv.utils.newExtractorLink
+import com.velcuri.tv.APIHolder.unixTimeMS
+import com.velcuri.tv.app
+import com.velcuri.tv.mvvm.logError
+import com.velcuri.tv.utils.ExtractorApi
+import com.velcuri.tv.utils.ExtractorLink
+import com.velcuri.tv.utils.Qualities
+import com.velcuri.tv.utils.getPostForm
+import com.velcuri.tv.utils.newExtractorLink
 import org.jsoup.Jsoup
 
 //class SBPlay1 : SBPlay() {

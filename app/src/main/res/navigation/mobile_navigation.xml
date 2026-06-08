@@ -137,7 +137,7 @@
 
     <fragment
         android:id="@+id/navigation_settings_player"
-        android:name="io.velcuri.tv.ui.settings.SettingsPlayer"
+        android:name="com.velcuri.tv.ui.settings.SettingsPlayer"
         android:label="@string/title_settings"
         app:enterAnim="@anim/enter_anim"
         app:exitAnim="@anim/exit_anim"
@@ -161,7 +161,7 @@
 
     <fragment
         android:id="@+id/navigation_settings_ui"
-        android:name="io.velcuri.tv.ui.settings.SettingsUI"
+        android:name="com.velcuri.tv.ui.settings.SettingsUI"
         android:label="@string/title_settings"
         app:enterAnim="@anim/enter_anim"
         app:exitAnim="@anim/exit_anim"
@@ -170,7 +170,7 @@
 
     <fragment
         android:id="@+id/navigation_library"
-        android:name="io.velcuri.tv.ui.library.LibraryFragment"
+        android:name="com.velcuri.tv.ui.library.LibraryFragment"
         android:label="@string/library"
         app:enterAnim="@anim/enter_anim"
         app:exitAnim="@anim/exit_anim"
@@ -179,7 +179,7 @@
 
     <fragment
         android:id="@+id/navigation_settings_general"
-        android:name="io.velcuri.tv.ui.settings.SettingsGeneral"
+        android:name="com.velcuri.tv.ui.settings.SettingsGeneral"
         android:label="@string/title_settings"
         app:enterAnim="@anim/enter_anim"
         app:exitAnim="@anim/exit_anim"
@@ -196,7 +196,7 @@
 
     <fragment
         android:id="@+id/navigation_settings_extensions"
-        android:name="io.velcuri.tv.ui.settings.extensions.ExtensionsFragment"
+        android:name="com.velcuri.tv.ui.settings.extensions.ExtensionsFragment"
         android:label="@string/title_settings"
         app:enterAnim="@anim/enter_anim"
         app:exitAnim="@anim/exit_anim"
@@ -227,7 +227,7 @@
 
     <fragment
         android:id="@+id/navigation_settings_plugins"
-        android:name="io.velcuri.tv.ui.settings.extensions.PluginsFragment"
+        android:name="com.velcuri.tv.ui.settings.extensions.PluginsFragment"
         android:label="@string/title_settings"
         app:enterAnim="@anim/enter_anim"
         app:exitAnim="@anim/exit_anim"
@@ -237,7 +237,7 @@
 
     <fragment
         android:id="@+id/navigation_webview"
-        android:name="io.velcuri.tv.ui.WebviewFragment"
+        android:name="com.velcuri.tv.ui.WebviewFragment"
         android:label="@string/title_settings"
         app:enterAnim="@anim/enter_anim"
         app:exitAnim="@anim/exit_anim"
@@ -247,7 +247,7 @@
 
     <fragment
         android:id="@+id/navigation_settings_providers"
-        android:name="io.velcuri.tv.ui.settings.SettingsProviders"
+        android:name="com.velcuri.tv.ui.settings.SettingsProviders"
         android:label="@string/title_settings"
         app:enterAnim="@anim/enter_anim"
         app:exitAnim="@anim/exit_anim"
@@ -256,7 +256,7 @@
 
     <fragment
         android:id="@+id/navigation_settings_updates"
-        android:name="io.velcuri.tv.ui.settings.SettingsUpdates"
+        android:name="com.velcuri.tv.ui.settings.SettingsUpdates"
         android:label="@string/title_settings"
         app:enterAnim="@anim/enter_anim"
         app:exitAnim="@anim/exit_anim"
@@ -265,7 +265,7 @@
 
     <fragment
         android:id="@+id/navigation_settings_account"
-        android:name="io.velcuri.tv.ui.settings.SettingsAccount"
+        android:name="com.velcuri.tv.ui.settings.SettingsAccount"
         android:label="@string/title_settings"
         app:enterAnim="@anim/enter_anim"
         app:exitAnim="@anim/exit_anim"
@@ -291,7 +291,7 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="io.velcuri.tv.ui.home.HomeFragment"
+        android:name="com.velcuri.tv.ui.home.HomeFragment"
         android:label="@string/title_home"
         app:enterAnim="@anim/enter_anim"
         app:exitAnim="@anim/exit_anim"
@@ -309,7 +309,7 @@
 
     <fragment
         android:id="@+id/navigation_search"
-        android:name="io.velcuri.tv.ui.search.SearchFragment"
+        android:name="com.velcuri.tv.ui.search.SearchFragment"
         android:label="@string/title_search"
         app:enterAnim="@anim/enter_anim"
         app:exitAnim="@anim/exit_anim"
@@ -324,7 +324,7 @@
 
     <fragment
         android:id="@+id/navigation_downloads"
-        android:name="io.velcuri.tv.ui.download.DownloadFragment"
+        android:name="com.velcuri.tv.ui.download.DownloadFragment"
         android:label="@string/title_downloads"
         app:enterAnim="@anim/enter_anim"
         app:exitAnim="@anim/exit_anim"
@@ -356,7 +356,7 @@
     </fragment>
     <fragment
         android:id="@+id/navigation_settings"
-        android:name="io.velcuri.tv.ui.settings.SettingsFragment"
+        android:name="com.velcuri.tv.ui.settings.SettingsFragment"
         android:layout_height="match_parent"
         android:label="@string/title_settings"
         app:enterAnim="@anim/enter_anim"
@@ -416,7 +416,7 @@
 
     <fragment
         android:id="@+id/navigation_subtitles"
-        android:name="io.velcuri.tv.ui.subtitles.SubtitlesFragment"
+        android:name="com.velcuri.tv.ui.subtitles.SubtitlesFragment"
         android:layout_height="match_parent"
         android:label="@string/subtitles_settings"
         app:enterAnim="@anim/enter_anim"
@@ -427,7 +427,7 @@
 
     <fragment
         android:id="@+id/navigation_chrome_subtitles"
-        android:name="io.velcuri.tv.ui.subtitles.ChromecastSubtitlesFragment"
+        android:name="com.velcuri.tv.ui.subtitles.ChromecastSubtitlesFragment"
         android:layout_height="match_parent"
         android:label="@string/chromecast_subtitles_settings"
         app:enterAnim="@anim/enter_anim"
@@ -438,7 +438,7 @@
 
     <fragment
         android:id="@+id/navigation_quick_search"
-        android:name="io.velcuri.tv.ui.quicksearch.QuickSearchFragment"
+        android:name="com.velcuri.tv.ui.quicksearch.QuickSearchFragment"
         android:layout_height="match_parent"
         android:label="@string/search"
         app:enterAnim="@anim/enter_anim"
@@ -449,7 +449,7 @@
 
     <fragment
         android:id="@+id/navigation_download_child"
-        android:name="io.velcuri.tv.ui.download.DownloadChildFragment"
+        android:name="com.velcuri.tv.ui.download.DownloadChildFragment"
         android:layout_height="match_parent"
         app:enterAnim="@anim/enter_anim"
         app:exitAnim="@anim/exit_anim"
@@ -467,7 +467,7 @@
 
     <fragment
         android:id="@+id/navigation_download_queue"
-        android:name="io.velcuri.tv.ui.download.queue.DownloadQueueFragment"
+        android:name="com.velcuri.tv.ui.download.queue.DownloadQueueFragment"
         android:layout_height="match_parent"
         app:enterAnim="@anim/enter_anim"
         app:exitAnim="@anim/exit_anim"
@@ -486,7 +486,7 @@
 
     <fragment
         android:id="@+id/navigation_results_phone"
-        android:name="io.velcuri.tv.ui.result.ResultTrailerPlayer"
+        android:name="com.velcuri.tv.ui.result.ResultTrailerPlayer"
         android:layout_height="match_parent"
         app:enterAnim="@anim/enter_anim"
         app:exitAnim="@anim/exit_anim"
@@ -511,7 +511,7 @@
 
     <fragment
         android:id="@+id/navigation_results_tv"
-        android:name="io.velcuri.tv.ui.result.ResultFragmentTv"
+        android:name="com.velcuri.tv.ui.result.ResultFragmentTv"
         android:layout_height="match_parent"
         app:enterAnim="@anim/enter_anim"
         app:exitAnim="@anim/exit_anim"
@@ -536,7 +536,7 @@
 
     <!--<fragment
         android:id="@+id/navigation_results"
-        android:name="io.velcuri.tv.ui.result.ResultFragment"
+        android:name="com.velcuri.tv.ui.result.ResultFragment"
         android:layout_height="match_parent"
         app:enterAnim="@anim/enter_anim"
         app:exitAnim="@anim/exit_anim"
@@ -561,7 +561,7 @@
 
     <fragment
         android:id="@+id/navigation_player"
-        android:name="io.velcuri.tv.ui.player.GeneratorPlayer"
+        android:name="com.velcuri.tv.ui.player.GeneratorPlayer"
         android:layout_height="match_parent"
         app:enterAnim="@anim/enter_anim"
         app:exitAnim="@anim/exit_anim"
@@ -571,7 +571,7 @@
 
     <fragment
         android:id="@+id/navigation_test_providers"
-        android:name="io.velcuri.tv.ui.settings.testing.TestFragment"
+        android:name="com.velcuri.tv.ui.settings.testing.TestFragment"
         android:layout_height="match_parent"
         app:enterAnim="@anim/enter_anim"
         app:exitAnim="@anim/exit_anim"
@@ -589,7 +589,7 @@
 
     <fragment
         android:id="@+id/navigation_activation"
-        android:name="io.velcuri.tv.activation.ActivationFragment"
+        android:name="com.velcuri.tv.activation.ActivationFragment"
         android:label="Activation"
         tools:layout="@layout/fragment_activation">
         <action
@@ -599,7 +599,7 @@
 
     <fragment
         android:id="@+id/navigation_setup_language"
-        android:name="io.velcuri.tv.ui.setup.SetupFragmentLanguage"
+        android:name="com.velcuri.tv.ui.setup.SetupFragmentLanguage"
         android:layout_height="match_parent"
         app:enterAnim="@anim/enter_anim"
         app:exitAnim="@anim/exit_anim"
@@ -630,7 +630,7 @@
 
     <fragment
         android:id="@+id/navigation_setup_extensions"
-        android:name="io.velcuri.tv.ui.setup.SetupFragmentExtensions"
+        android:name="com.velcuri.tv.ui.setup.SetupFragmentExtensions"
         android:layout_height="match_parent"
         app:enterAnim="@anim/enter_anim"
         app:exitAnim="@anim/exit_anim"
@@ -655,7 +655,7 @@
 
     <fragment
         android:id="@+id/navigation_setup_provider_languages"
-        android:name="io.velcuri.tv.ui.setup.SetupFragmentProviderLanguage"
+        android:name="com.velcuri.tv.ui.setup.SetupFragmentProviderLanguage"
         android:layout_height="match_parent"
         app:enterAnim="@anim/enter_anim"
         app:exitAnim="@anim/exit_anim"
@@ -673,7 +673,7 @@
 
     <fragment
         android:id="@+id/navigation_setup_media"
-        android:name="io.velcuri.tv.ui.setup.SetupFragmentMedia"
+        android:name="com.velcuri.tv.ui.setup.SetupFragmentMedia"
         android:layout_height="match_parent"
         app:enterAnim="@anim/enter_anim"
         app:exitAnim="@anim/exit_anim"
@@ -691,7 +691,7 @@
 
     <fragment
         android:id="@+id/navigation_setup_layout"
-        android:name="io.velcuri.tv.ui.setup.SetupFragmentLayout"
+        android:name="com.velcuri.tv.ui.setup.SetupFragmentLayout"
         android:layout_height="match_parent"
         app:enterAnim="@anim/enter_anim"
         app:exitAnim="@anim/exit_anim"
@@ -701,13 +701,13 @@
 
     <activity
         android:id="@+id/accountSelectActivity"
-        android:name="io.velcuri.tv.ui.account.AccountSelectActivity"
+        android:name="com.velcuri.tv.ui.account.AccountSelectActivity"
         android:label="AccountSelectActivity"
         tools:layout="@layout/activity_account_select" />
 
     <fragment
         android:id="@+id/easterEggMonkeFragment"
-        android:name="io.velcuri.tv.ui.EasterEggMonkeFragment"
+        android:name="com.velcuri.tv.ui.EasterEggMonkeFragment"
         android:label="EasterEggMonkeFragment"
         tools:layout="@layout/fragment_easter_egg_monke" />
 </navigation>

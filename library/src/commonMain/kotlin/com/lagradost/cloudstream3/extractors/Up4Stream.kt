@@ -1,13 +1,13 @@
-package io.velcuri.tv.extractors
+package com.velcuri.tv.extractors
 
 import com.lagradost.api.Log
-import io.velcuri.tv.SubtitleFile
-import io.velcuri.tv.app
-import io.velcuri.tv.extractors.helper.JwPlayerHelper
-import io.velcuri.tv.utils.ExtractorApi
-import io.velcuri.tv.utils.ExtractorLink
-import io.velcuri.tv.utils.JsUnpacker
-import io.velcuri.tv.utils.fixUrl
+import com.velcuri.tv.SubtitleFile
+import com.velcuri.tv.app
+import com.velcuri.tv.extractors.helper.JwPlayerHelper
+import com.velcuri.tv.utils.ExtractorApi
+import com.velcuri.tv.utils.ExtractorLink
+import com.velcuri.tv.utils.JsUnpacker
+import com.velcuri.tv.utils.fixUrl
 import kotlinx.coroutines.delay
 
 class Up4FunTop : Up4Stream() {

@@ -1,10 +1,10 @@
 // ! Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
 
-package io.velcuri.tv.extractors
+package com.velcuri.tv.extractors
 
 import com.lagradost.api.Log
-import io.velcuri.tv.*
-import io.velcuri.tv.utils.*
+import com.velcuri.tv.*
+import com.velcuri.tv.utils.*
 
 open class VidMoxy : ExtractorApi() {
     override val name            = "VidMoxy"
