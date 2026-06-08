@@ -98,7 +98,7 @@ object RepositoryManager {
 
     /** Display name overrides applied when fetching plugin lists. */
     val PLUGIN_NAME_OVERRIDES: Map<String, String> = mapOf(
-        "CricifyProvider" to "Live TV/Football",
+        "CricifyProvider" to "Live Events/Channels",
     )
 
     val PREBUILT_REPOSITORIES: Array<RepositoryData> = arrayOf(

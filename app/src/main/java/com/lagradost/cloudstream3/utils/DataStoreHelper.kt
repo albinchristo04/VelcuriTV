@@ -111,7 +111,8 @@ object DataStoreHelper {
 
     private var searchPreferenceTagsStrings: List<String> by UserPreferenceDelegate(
         "search_pref_tags",
-        listOf(TvType.Movie, TvType.TvSeries).map { it.name })
+        // Velcuri: search across every content type by default (NSFW stays gated separately)
+        TvType.values().filter { it != TvType.NSFW }.map { it.name })
     var searchPreferenceTags: List<TvType>
         get() = deserializeTv(searchPreferenceTagsStrings)
         set(value) {
@@ -121,7 +122,8 @@ object DataStoreHelper {
 
     private var homePreferenceStrings: List<String> by UserPreferenceDelegate(
         "home_pref_homepage",
-        listOf(TvType.Movie, TvType.TvSeries).map { it.name })
+        // Velcuri: enable every content type on the home filter by default (NSFW stays gated separately)
+        TvType.values().filter { it != TvType.NSFW }.map { it.name })
     var homePreference: List<TvType>
         get() = deserializeTv(homePreferenceStrings)
         set(value) {

@@ -2018,6 +2018,13 @@ class MainActivity : AppCompatActivity(), ColorPickerDialogListener, BiometricCa
             removeKey(USER_SELECTED_HOMEPAGE_API)
         }
 
+        // Velcuri: default the home provider to StreamPlay on first run.
+        // Only applied when the user hasn't chosen one yet, so manual changes persist.
+        // Resolves once the StreamPlay plugin finishes loading.
+        if (DataStoreHelper.currentHomePage == null) {
+            DataStoreHelper.currentHomePage = "StreamPlay"
+        }
+
         try {
             if (!ActivationHelper.isActivated()) {
                 // First priority: activation gate
